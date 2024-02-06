@@ -1,8 +1,9 @@
 package bvg
 
-// Station types
-type BVGStationResponse struct {
+type ApiResponse struct {
 	SvcResL []SvcRes `json:"svcResL"`
+	Err     string   `json:"err,omitempty"`
+	ErrTxt  string   `json:"errTxt,omitempty"`
 }
 
 type SvcRes struct {
@@ -51,13 +52,10 @@ type Journey struct {
 			Txt  string `json:"txt"`
 		} `json:"dPltfS"`
 		DTimeS  string `json:"dTimeS"`           // Planned Departure time
-		DTimeR  string `json:"dTimeR,omitempty"` // Prognosed Departure time
-		DTimeFS struct {
-			StyleX int `json:"styleX"`
-		} `json:"dTimeFS"`
-		DTimeFC struct {
-			StyleX int `json:"styleX"`
-		} `json:"dTimeFC"`
+		DTimeR  string `json:"dTimeR,omitempty"` // Prognosed Departure time delay = DTimeR - DTimeS
+		DTimeFR struct {
+			TxtA string // "txtA": "3 minutes late"
+		} `json:"dTimeFR,omitempty"`
 		Type string `json:"type"`
 	} `json:"stbStop"`
 	ProdL []struct {
@@ -81,14 +79,10 @@ type Product struct {
 type ProductCtx struct {
 	Name    string `json:"name"`
 	Line    string `json:"line"`
-	LineId  string `json:"lineId"`
+	LineId  string `json:"lineId,omitempty"`
 	CatOut  string `json:"catOut"`
 	CatOutS string `json:"catOutS"`
 	CatOutL string `json:"catOutL"`
-}
-
-type BVGDepartureResponse struct {
-	SvcResL []SvcRes `json:"svcResL"`
 }
 
 type HimMessage struct {

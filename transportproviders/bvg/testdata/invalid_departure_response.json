@@ -1,0 +1,7 @@
+{
+  "ver": "1.44",
+  "ext": "BVG.1",
+  "lang": "eng",
+  "err": "PARSE",
+  "errTxt": "HCI Core: Parse fail : Parser error: root.svcReqL.svcReqL.req.date(202402021)"
+}

@@ -1,0 +1,28 @@
+{
+  "ver": "1.44",
+  "ext": "BVG.1",
+  "lang": "eng",
+  "id": "3s2uwj8cki269gwg",
+  "err": "OK",
+  "graph": {
+    "id": "standard",
+    "index": 0
+  },
+  "subGraph": {
+    "id": "global",
+    "index": 0
+  },
+  "view": {
+    "id": "standard",
+    "index": 0,
+    "type": "WGS84"
+  },
+  "svcResL": [
+    {
+      "meth": "LocDetails",
+      "err": "LOCATION",
+      "errTxt": "HCI Service: location missing or invalid",
+      "errTxtOut": "An internal error occurred during the search"
+    }
+  ]
+}
