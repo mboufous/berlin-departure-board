@@ -13,7 +13,6 @@ import (
 
 func (p *Provider) NewDepartureRequest(params *hafas.DepartureParams) (*http.Request, error) {
 	payload := CreateDepartureRequestPayload(DepartureRequestPayloadParams{
-		when:           params.When,
 		stationID:      params.Station.ID,
 		duration:       params.DurationMinutes,
 		productsFilter: params.ProductsFilter,
@@ -24,6 +23,8 @@ func (p *Provider) NewDepartureRequest(params *hafas.DepartureParams) (*http.Req
 // TODO: process canceled departures
 func (p *Provider) ParseDepartureResponse(body io.ReadCloser, showRemarks bool) (*hafas.DepartureBoard, error) {
 	defer body.Close()
+
+	d := &hafas.DepartureBoard{}
 	apiResult, err := p.ParseBaseResponse(body)
 	if err != nil {
 		return nil, err
@@ -33,15 +34,12 @@ func (p *Provider) ParseDepartureResponse(body io.ReadCloser, showRemarks bool) 
 		return nil, errors.New("wrong api call for departures")
 	}
 
-	var remarks []hafas.Remark
 	if showRemarks {
-		remarks = p.convertRemarks(apiResult.Res.Common.HimL)
+		d.Remarks = p.convertRemarks(apiResult.Res.Common.HimL)
 	}
+	d.Departures = p.convertDeparture(apiResult.Res)
 
-	return &hafas.DepartureBoard{
-		Departures: p.convertDeparture(apiResult.Res),
-		Remarks:    remarks,
-	}, nil
+	return d, nil
 }
 
 func (p *Provider) convertRemarks(source []HimMessage) []hafas.Remark {

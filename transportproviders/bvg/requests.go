@@ -1,9 +1,5 @@
 package bvg
 
-import (
-	"time"
-)
-
 type baseRequest struct {
 	Lang   string `json:"lang"`
 	Ext    string `json:"ext"`
@@ -55,8 +51,6 @@ type LocationReq struct {
 
 type StationBoardReq struct {
 	Type     string      `json:"type"`
-	Date     string      `json:"date"`
-	Time     string      `json:"time"`
 	StbLoc   LocationReq `json:"stbLoc"`
 	JnyFltrL []JnyFltr   `json:"jnyFltrL"`
 	Dur      int         `json:"dur"` // Duration for which to return departures
@@ -69,7 +63,6 @@ type JnyFltr struct {
 }
 
 type DepartureRequestPayloadParams struct {
-	when           time.Time
 	stationID      string
 	productsFilter uint8
 	duration       int
@@ -128,8 +121,6 @@ func CreateDepartureRequestPayload(params DepartureRequestPayloadParams) Departu
 				Meth: "StationBoard",
 				Req: StationBoardReq{
 					Type: "DEP",
-					Date: params.when.Format(dateLayout),
-					Time: params.when.Format(timeLayout),
 					StbLoc: LocationReq{
 						Type: "S",
 						Lid:  "A=1@L=" + params.stationID + "@",

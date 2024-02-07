@@ -39,7 +39,6 @@ type Line struct {
 
 type DepartureParams struct {
 	Station         *Station
-	When            time.Time
 	ProductsFilter  uint8
 	DurationMinutes int
 	ShowRemarks     bool
@@ -84,10 +83,7 @@ func validateDepartureRequestParams(params any) (*DepartureParams, error) {
 
 	if departureParams, ok := params.(DepartureParams); ok {
 		if departureParams.Station == nil {
-			return nil, errors.New("validation error: invalide station")
-		}
-		if departureParams.When.Before(time.Now().Add(-time.Hour)) {
-			return nil, errors.New("validation error: cannot use a date in the past")
+			return nil, errors.New("validation error: invalid station")
 		}
 		if departureParams.ProductsFilter <= 0 || departureParams.ProductsFilter > MaxProductsFilterBitmask {
 			departureParams.ProductsFilter = MaxProductsFilterBitmask

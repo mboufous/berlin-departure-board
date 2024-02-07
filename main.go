@@ -8,7 +8,6 @@ import (
 	"log"
 	"log/slog"
 	"os"
-	"time"
 )
 
 func main() {
@@ -34,8 +33,7 @@ func main() {
 
 	departureBoard, err := client.Departure.Get(ctx, hafas.DepartureParams{
 		Station:         station,
-		When:            time.Now(),
-		ProductsFilter:  hafas.NewProductFilter().AddProduct(hafas.ProductSubway).Build(),
+		ProductsFilter:  hafas.NewProductFilter().AddProduct(hafas.ProductBus).AddProduct(hafas.ProductSubway).Build(),
 		ShowRemarks:     true,
 		DurationMinutes: 20,
 	})

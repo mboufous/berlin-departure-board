@@ -47,7 +47,7 @@ type ProductsFilter struct {
 
 func NewProductFilter() *ProductsFilter {
 	return &ProductsFilter{
-		bitmask: 127,
+		bitmask: 0,
 	}
 }
 
