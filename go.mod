@@ -2,7 +2,10 @@ module github.com/mboufous/berlin-departure-board
 
 go 1.21.3
 
-require github.com/stretchr/testify v1.8.4
+require (
+	github.com/patrickmn/go-cache v2.1.0+incompatible
+	github.com/stretchr/testify v1.8.4
+)
 
 require (
 	github.com/davecgh/go-spew v1.1.1 // indirect

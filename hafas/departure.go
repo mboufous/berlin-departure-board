@@ -6,11 +6,12 @@ import (
 	"fmt"
 	"io"
 	"net/http"
+	"strconv"
 	"time"
 )
 
 const (
-	DefaultDurationMinutes = 10
+	defaultMaxDeparturesDurationMinutes = 10
 )
 
 type DepartureService Service
@@ -25,7 +26,7 @@ type Departure struct {
 	Direction string
 	When      time.Time
 	Delay     int
-	Line      Line
+	Line      string
 }
 
 type Remark struct {
@@ -33,12 +34,8 @@ type Remark struct {
 	Body   string
 }
 
-type Line struct {
-	Name string
-}
-
 type DepartureParams struct {
-	Station         *Station
+	Station         string
 	ProductsFilter  uint8
 	DurationMinutes int
 	ShowRemarks     bool
@@ -59,7 +56,15 @@ func (s *DepartureService) Get(ctx context.Context, params any) (*DepartureBoard
 		return nil, fmt.Errorf("params validation failed: %w", err)
 	}
 
-	req, err := s.client.provider.NewDepartureRequest(departureParams)
+	return s.getDepartureBoard(ctx, departureParams)
+
+}
+
+func (s *DepartureService) getDepartureBoard(ctx context.Context, params *DepartureParams) (*DepartureBoard, error) {
+	if s.client.cache != nil {
+
+	}
+	req, err := s.client.provider.NewDepartureRequest(params)
 	if err != nil {
 		return nil, err
 	}
@@ -71,7 +76,7 @@ func (s *DepartureService) Get(ctx context.Context, params any) (*DepartureBoard
 		return nil, fmt.Errorf("failed to get departureBoard: %w", err)
 	}
 
-	departureBoard, err := s.client.provider.ParseDepartureResponse(resp.Body, departureParams.ShowRemarks)
+	departureBoard, err := s.client.provider.ParseDepartureResponse(resp.Body, params.ShowRemarks)
 	if err != nil {
 		return nil, fmt.Errorf("failed to parse departureBoard: %w", err)
 	}
@@ -82,14 +87,14 @@ func (s *DepartureService) Get(ctx context.Context, params any) (*DepartureBoard
 func validateDepartureRequestParams(params any) (*DepartureParams, error) {
 
 	if departureParams, ok := params.(DepartureParams); ok {
-		if departureParams.Station == nil {
-			return nil, errors.New("validation error: invalid station")
+		if _, err := strconv.Atoi(departureParams.Station); err != nil {
+			return nil, fmt.Errorf("departure params validation failed: %w", err)
 		}
 		if departureParams.ProductsFilter <= 0 || departureParams.ProductsFilter > MaxProductsFilterBitmask {
 			departureParams.ProductsFilter = MaxProductsFilterBitmask
 		}
 		if departureParams.DurationMinutes <= 0 {
-			departureParams.DurationMinutes = DefaultDurationMinutes
+			departureParams.DurationMinutes = defaultMaxDeparturesDurationMinutes
 		}
 		return &departureParams, nil
 	}

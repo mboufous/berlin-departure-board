@@ -13,7 +13,7 @@ import (
 
 func (p *Provider) NewDepartureRequest(params *hafas.DepartureParams) (*http.Request, error) {
 	payload := CreateDepartureRequestPayload(DepartureRequestPayloadParams{
-		stationID:      params.Station.ID,
+		stationID:      params.Station,
 		duration:       params.DurationMinutes,
 		productsFilter: params.ProductsFilter,
 	})
@@ -73,9 +73,7 @@ func (p *Provider) convertDeparture(source *SvcResData) []hafas.Departure {
 			Direction: journey.DirTxt,
 			When:      when,
 			Delay:     delay,
-			Line: hafas.Line{
-				Name: line,
-			},
+			Line:      line,
 		})
 	}
 	return departures

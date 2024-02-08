@@ -3,22 +3,33 @@ package main
 import (
 	"context"
 	"fmt"
+	"github.com/mboufous/berlin-departure-board/cache"
+	"github.com/mboufous/berlin-departure-board/cache/encoders"
+	"github.com/mboufous/berlin-departure-board/cache/stores"
 	"github.com/mboufous/berlin-departure-board/hafas"
 	"github.com/mboufous/berlin-departure-board/transportproviders/bvg"
 	"log"
 	"log/slog"
 	"os"
+	"time"
+)
+
+const (
+	defaultExpirationTime  = 2 * time.Minute
+	defaultCleanupInterval = 10 * time.Minute
 )
 
 func main() {
-
 	logger := slog.New(slog.NewTextHandler(os.Stdout, &slog.HandlerOptions{
-		Level:     slog.LevelInfo,
+		Level:     slog.LevelDebug,
 		AddSource: false,
 	}))
 	slog.SetDefault(logger)
 
-	client := hafas.NewClient(&bvg.Provider{})
+	store := stores.NewMemoryStore[[]byte](defaultExpirationTime, defaultCleanupInterval)
+	appCache := cache.NewCache(store, encoders.NewGobEncoder())
+
+	client := hafas.NewClient(&bvg.Provider{}, hafas.WithCache(appCache))
 
 	ctx := context.WithValue(context.Background(), "User-Agent", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36")
 
@@ -29,10 +40,10 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
-	fmt.Println("Station:", station.Name)
+	fmt.Printf("Station: %s\n", station.Name)
 
 	departureBoard, err := client.Departure.Get(ctx, hafas.DepartureParams{
-		Station:         station,
+		Station:         station.ID,
 		ProductsFilter:  hafas.NewProductFilter().AddProduct(hafas.ProductBus).AddProduct(hafas.ProductSubway).Build(),
 		ShowRemarks:     true,
 		DurationMinutes: 20,

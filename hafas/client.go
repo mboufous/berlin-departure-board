@@ -4,14 +4,14 @@ import (
 	"context"
 	"errors"
 	"fmt"
+	"github.com/mboufous/berlin-departure-board/cache"
 	"github.com/mboufous/berlin-departure-board/util"
 	"net/http"
 )
 
 var errNilContext = errors.New("context must be non-nil")
 
-type Provider interface {
-	//ServerInfo() bool
+type TransportProvider interface {
 	StationProvider
 	DepartureProvider
 }
@@ -23,15 +23,15 @@ type Service struct {
 type ClientOpt func(*Client)
 
 type Client struct {
-	userAgent  string
 	httpClient *http.Client
-	provider   Provider
+	provider   TransportProvider
 	Station    *StationService
 	Departure  *DepartureService
 	debug      bool
+	cache      *cache.Cache
 }
 
-func NewClient(provider Provider, opts ...ClientOpt) *Client {
+func NewClient(provider TransportProvider, opts ...ClientOpt) *Client {
 	c := &Client{
 		httpClient: http.DefaultClient,
 		provider:   provider,
@@ -51,6 +51,7 @@ func NewClient(provider Provider, opts ...ClientOpt) *Client {
 }
 
 func (c *Client) initialize() {
+
 	c.Station = &StationService{
 		client: c,
 	}
@@ -94,5 +95,11 @@ func WithEnableDebugMode() ClientOpt {
 func WithHTTPClient(httpClient *http.Client) ClientOpt {
 	return func(c *Client) {
 		c.httpClient = httpClient
+	}
+}
+
+func WithCache(cache *cache.Cache) ClientOpt {
+	return func(c *Client) {
+		c.cache = cache
 	}
 }
