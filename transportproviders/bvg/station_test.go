@@ -6,9 +6,9 @@ import (
 )
 
 func TestParseStationResponse_ValidResponse(t *testing.T) {
-	bvgProvider := &Provider{}
+	bvgProvider := &APIProvider{}
 
-	body := loadMockedBVGResponse(t, "valid_station_response.json")
+	body, _ := loadMockedBVGResponse("valid_station_response.json")
 	defer body.Close()
 
 	station, err := bvgProvider.ParseStationResponse(body)
@@ -23,9 +23,9 @@ func TestParseStationResponse_ValidResponse(t *testing.T) {
 }
 
 func TestParseStationResponse_InvalidResponse(t *testing.T) {
-	bvgProvider := &Provider{}
+	bvgProvider := &APIProvider{}
 
-	body := loadMockedBVGResponse(t, "invalid_station_response.json")
+	body, _ := loadMockedBVGResponse("invalid_station_response.json")
 	defer body.Close()
 
 	station, err := bvgProvider.ParseStationResponse(body)

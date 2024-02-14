@@ -2,7 +2,7 @@
   "ver": "1.44",
   "ext": "BVG.1",
   "lang": "eng",
-  "id": "w9i4xz8446x3gg4s",
+  "id": "xu6w6hmg48439w8g",
   "err": "OK",
   "graph": {
     "id": "standard",
@@ -51,42 +51,6 @@
               "chgTime": "000300"
             },
             {
-              "lid": "A=1@O=Wilhelmsruher Damm (Berlin)@X=13366726@Y=52597278@U=86@L=900096307@",
-              "type": "S",
-              "name": "Wilhelmsruher Damm (Berlin)",
-              "icoX": 0,
-              "extId": "900096307",
-              "state": "F",
-              "crd": {
-                "x": 13366726,
-                "y": 52597278,
-                "floor": 0
-              },
-              "pCls": 8,
-              "gidL": [
-                "A×de:11000:900096307"
-              ],
-              "chgTime": "000300"
-            },
-            {
-              "lid": "A=1@O=S+U Jungfernheide Bhf (Berlin)@X=13300125@Y=52530452@U=86@L=900020201@",
-              "type": "S",
-              "name": "S+U Jungfernheide Bhf (Berlin)",
-              "icoX": 4,
-              "extId": "900020201",
-              "state": "F",
-              "crd": {
-                "x": 13300125,
-                "y": 52530452,
-                "floor": 0
-              },
-              "pCls": 75,
-              "gidL": [
-                "A×de:11000:900020201"
-              ],
-              "chgTime": "000300"
-            },
-            {
               "lid": "A=1@O=Hadlichstr. (Berlin)@X=13414369@Y=52568854@U=86@L=900130005@",
               "type": "S",
               "name": "Hadlichstr. (Berlin)",
@@ -101,60 +65,6 @@
               "pCls": 8,
               "gidL": [
                 "A×de:11000:900130005"
-              ],
-              "chgTime": "000300"
-            },
-            {
-              "lid": "A=1@O=S+U Tempelhof (Berlin)@X=13385900@Y=52470575@U=86@L=900068201@",
-              "type": "S",
-              "name": "S+U Tempelhof (Berlin)",
-              "icoX": 4,
-              "extId": "900068201",
-              "state": "F",
-              "crd": {
-                "x": 13385900,
-                "y": 52470575,
-                "floor": 0
-              },
-              "pCls": 11,
-              "gidL": [
-                "A×de:11000:900068201"
-              ],
-              "chgTime": "000300"
-            },
-            {
-              "lid": "A=1@O=S+U Berlin Hauptbahnhof@X=13369072@Y=52525607@U=86@L=900003201@",
-              "type": "S",
-              "name": "S+U Berlin Hauptbahnhof",
-              "icoX": 4,
-              "extId": "900003201",
-              "state": "F",
-              "crd": {
-                "x": 13369072,
-                "y": 52525607,
-                "floor": 0
-              },
-              "pCls": 111,
-              "gidL": [
-                "A×de:11000:900003201"
-              ],
-              "chgTime": "001000"
-            },
-            {
-              "lid": "A=1@O=U Alt-Mariendorf (Berlin)@X=13387922@Y=52438610@U=86@L=900070301@",
-              "type": "S",
-              "name": "U Alt-Mariendorf (Berlin)",
-              "icoX": 2,
-              "extId": "900070301",
-              "state": "F",
-              "crd": {
-                "x": 13387922,
-                "y": 52438610,
-                "floor": 0
-              },
-              "pCls": 2,
-              "gidL": [
-                "A×de:11000:900070301"
               ],
               "chgTime": "000300"
             },
@@ -175,22 +85,94 @@
                 "A×de:11000:900086102"
               ],
               "chgTime": "000300"
+            },
+            {
+              "lid": "A=1@O=U Alt-Mariendorf (Berlin)@X=13387922@Y=52438610@U=86@L=900070301@",
+              "type": "S",
+              "name": "U Alt-Mariendorf (Berlin)",
+              "icoX": 2,
+              "extId": "900070301",
+              "state": "F",
+              "crd": {
+                "x": 13387922,
+                "y": 52438610,
+                "floor": 0
+              },
+              "pCls": 2,
+              "gidL": [
+                "A×de:11000:900070301"
+              ],
+              "chgTime": "000300"
+            },
+            {
+              "lid": "A=1@O=S+U Berlin Hauptbahnhof@X=13369072@Y=52525607@U=86@L=900003201@",
+              "type": "S",
+              "name": "S+U Berlin Hauptbahnhof",
+              "icoX": 7,
+              "extId": "900003201",
+              "state": "F",
+              "crd": {
+                "x": 13369072,
+                "y": 52525607,
+                "floor": 0
+              },
+              "pCls": 111,
+              "gidL": [
+                "A×de:11000:900003201"
+              ],
+              "chgTime": "001000"
+            },
+            {
+              "lid": "A=1@O=Hainbuchenstr. (Berlin)@X=13274820@Y=52634251@U=86@L=900092202@",
+              "type": "S",
+              "name": "Hainbuchenstr. (Berlin)",
+              "icoX": 0,
+              "extId": "900092202",
+              "state": "F",
+              "crd": {
+                "x": 13274820,
+                "y": 52634251,
+                "floor": 0
+              },
+              "pCls": 8,
+              "gidL": [
+                "A×de:11000:900092202"
+              ],
+              "chgTime": "000300"
+            },
+            {
+              "lid": "A=1@O=S+U Jungfernheide Bhf (Berlin)@X=13300125@Y=52530452@U=86@L=900020201@",
+              "type": "S",
+              "name": "S+U Jungfernheide Bhf (Berlin)",
+              "icoX": 7,
+              "extId": "900020201",
+              "state": "F",
+              "crd": {
+                "x": 13300125,
+                "y": 52530452,
+                "floor": 0
+              },
+              "pCls": 75,
+              "gidL": [
+                "A×de:11000:900020201"
+              ],
+              "chgTime": "000300"
             }
           ],
           "prodL": [
             {
-              "pid": "L::3::Bus::B3041857784::Bus_3041857784_120::*",
-              "name": "120",
-              "nameS": "120",
-              "number": "120",
+              "pid": "L::3::Bus::B3041857784::Bus_3041857784_M27::*",
+              "name": "M27",
+              "nameS": "M27",
+              "number": "M27",
               "icoX": 0,
               "cls": 8,
               "oprX": 0,
               "prodCtx": {
-                "name": "     120",
-                "num": "33153",
-                "line": "120",
-                "matchId": "120",
+                "name": "     M27",
+                "num": "26618",
+                "line": "M27",
+                "matchId": "M27",
                 "catOut": "Bus     ",
                 "catOutS": "B",
                 "catOutL": "Bus     ",
@@ -284,48 +266,6 @@
               }
             },
             {
-              "pid": "L::3::Bus::B3041857784::Bus_3041857784_M27::*",
-              "name": "M27",
-              "nameS": "M27",
-              "number": "M27",
-              "icoX": 0,
-              "cls": 8,
-              "oprX": 0,
-              "prodCtx": {
-                "name": "     M27",
-                "num": "28532",
-                "line": "M27",
-                "matchId": "M27",
-                "catOut": "Bus     ",
-                "catOutS": "B",
-                "catOutL": "Bus     ",
-                "catIn": "B",
-                "catCode": "3",
-                "admin": "BVB---"
-              }
-            },
-            {
-              "pid": "L::3::Bus::B3041857784::Bus_3041857784_M27::*",
-              "name": "M27",
-              "nameS": "M27",
-              "number": "M27",
-              "icoX": 0,
-              "cls": 8,
-              "oprX": 0,
-              "prodCtx": {
-                "name": "     M27",
-                "num": "27352",
-                "line": "M27",
-                "matchId": "M27",
-                "catOut": "Bus     ",
-                "catOutS": "B",
-                "catOutL": "Bus     ",
-                "catIn": "B",
-                "catCode": "3",
-                "admin": "BVB---"
-              }
-            },
-            {
               "pid": "L::1::U::B3041857784::U_3041857784_U6::*",
               "name": "U6",
               "nameS": "U6",
@@ -335,49 +275,7 @@
               "oprX": 0,
               "prodCtx": {
                 "name": "      U6",
-                "num": "16687",
-                "line": "U6",
-                "matchId": "U6",
-                "catOut": "U       ",
-                "catOutS": "U",
-                "catOutL": "U       ",
-                "catIn": "U",
-                "catCode": "1",
-                "admin": "BVU---"
-              }
-            },
-            {
-              "pid": "L::3::Bus::B3041857784::Bus_3041857784_120::*",
-              "name": "120",
-              "nameS": "120",
-              "number": "120",
-              "icoX": 0,
-              "cls": 8,
-              "oprX": 0,
-              "prodCtx": {
-                "name": "     120",
-                "num": "33061",
-                "line": "120",
-                "matchId": "120",
-                "catOut": "Bus     ",
-                "catOutS": "B",
-                "catOutL": "Bus     ",
-                "catIn": "B",
-                "catCode": "3",
-                "admin": "BVB---"
-              }
-            },
-            {
-              "pid": "L::1::U::B3041857784::U_3041857784_U6::*",
-              "name": "U6",
-              "nameS": "U6",
-              "number": "U6",
-              "icoX": 2,
-              "cls": 2,
-              "oprX": 0,
-              "prodCtx": {
-                "name": "      U6",
-                "num": "16750",
+                "num": "16023",
                 "line": "U6",
                 "matchId": "U6",
                 "catOut": "U       ",
@@ -398,7 +296,868 @@
               "oprX": 0,
               "prodCtx": {
                 "name": "      U6",
-                "num": "16369",
+                "num": "16498",
+                "line": "U6",
+                "matchId": "U6",
+                "catOut": "U       ",
+                "catOutS": "U",
+                "catOutL": "U       ",
+                "catIn": "U",
+                "catCode": "1",
+                "admin": "BVU---"
+              }
+            },
+            {
+              "pid": "L::3::Bus::B3041857784::Bus_3041857784_N20::*",
+              "name": "N20",
+              "nameS": "N20",
+              "number": "N20",
+              "icoX": 0,
+              "cls": 8,
+              "oprX": 0,
+              "prodCtx": {
+                "name": "     N20",
+                "num": "54745",
+                "line": "N20",
+                "matchId": "N20",
+                "catOut": "Bus     ",
+                "catOutS": "B",
+                "catOutL": "Bus     ",
+                "catIn": "B",
+                "catCode": "3",
+                "admin": "BVB---"
+              }
+            },
+            {
+              "pid": "L::3::Bus::B3041857784::Bus_3041857784_N20::*",
+              "name": "N20",
+              "nameS": "N20",
+              "number": "N20",
+              "icoX": 0,
+              "cls": 8,
+              "oprX": 0,
+              "prodCtx": {
+                "name": "     N20",
+                "num": "54755",
+                "line": "N20",
+                "matchId": "N20",
+                "catOut": "Bus     ",
+                "catOutS": "B",
+                "catOutL": "Bus     ",
+                "catIn": "B",
+                "catCode": "3",
+                "admin": "BVB---"
+              }
+            },
+            {
+              "pid": "L::3::Bus::B3041857784::Bus_3041857784_M27::*",
+              "name": "M27",
+              "nameS": "M27",
+              "number": "M27",
+              "icoX": 0,
+              "cls": 8,
+              "oprX": 0,
+              "prodCtx": {
+                "name": "     M27",
+                "num": "27375",
+                "line": "M27",
+                "matchId": "M27",
+                "catOut": "Bus     ",
+                "catOutS": "B",
+                "catOutL": "Bus     ",
+                "catIn": "B",
+                "catCode": "3",
+                "admin": "BVB---"
+              }
+            },
+            {
+              "pid": "L::1::U::B3041857784::U_3041857784_U6::*",
+              "name": "U6",
+              "nameS": "U6",
+              "number": "U6",
+              "icoX": 2,
+              "cls": 2,
+              "oprX": 0,
+              "prodCtx": {
+                "name": "      U6",
+                "num": "16024",
+                "line": "U6",
+                "matchId": "U6",
+                "catOut": "U       ",
+                "catOutS": "U",
+                "catOutL": "U       ",
+                "catIn": "U",
+                "catCode": "1",
+                "admin": "BVU---"
+              }
+            },
+            {
+              "pid": "L::1::U::B3041857784::U_3041857784_U6::*",
+              "name": "U6",
+              "nameS": "U6",
+              "number": "U6",
+              "icoX": 2,
+              "cls": 2,
+              "oprX": 0,
+              "prodCtx": {
+                "name": "      U6",
+                "num": "16499",
+                "line": "U6",
+                "matchId": "U6",
+                "catOut": "U       ",
+                "catOutS": "U",
+                "catOutL": "U       ",
+                "catIn": "U",
+                "catCode": "1",
+                "admin": "BVU---"
+              }
+            },
+            {
+              "pid": "L::3::Bus::B3041857784::Bus_3041857784_M27::*",
+              "name": "M27",
+              "nameS": "M27",
+              "number": "M27",
+              "icoX": 0,
+              "cls": 8,
+              "oprX": 0,
+              "prodCtx": {
+                "name": "     M27",
+                "num": "26617",
+                "line": "M27",
+                "matchId": "M27",
+                "catOut": "Bus     ",
+                "catOutS": "B",
+                "catOutL": "Bus     ",
+                "catIn": "B",
+                "catCode": "3",
+                "admin": "BVB---"
+              }
+            },
+            {
+              "pid": "L::1::U::B3041857784::U_3041857784_U6::*",
+              "name": "U6",
+              "nameS": "U6",
+              "number": "U6",
+              "icoX": 2,
+              "cls": 2,
+              "oprX": 0,
+              "prodCtx": {
+                "name": "      U6",
+                "num": "16025",
+                "line": "U6",
+                "matchId": "U6",
+                "catOut": "U       ",
+                "catOutS": "U",
+                "catOutL": "U       ",
+                "catIn": "U",
+                "catCode": "1",
+                "admin": "BVU---"
+              }
+            },
+            {
+              "pid": "L::1::U::B3041857784::U_3041857784_U6::*",
+              "name": "U6",
+              "nameS": "U6",
+              "number": "U6",
+              "icoX": 2,
+              "cls": 2,
+              "oprX": 0,
+              "prodCtx": {
+                "name": "      U6",
+                "num": "16500",
+                "line": "U6",
+                "matchId": "U6",
+                "catOut": "U       ",
+                "catOutS": "U",
+                "catOutL": "U       ",
+                "catIn": "U",
+                "catCode": "1",
+                "admin": "BVU---"
+              }
+            },
+            {
+              "pid": "L::3::Bus::B3041857784::Bus_3041857784_M27::*",
+              "name": "M27",
+              "nameS": "M27",
+              "number": "M27",
+              "icoX": 0,
+              "cls": 8,
+              "oprX": 0,
+              "prodCtx": {
+                "name": "     M27",
+                "num": "27374",
+                "line": "M27",
+                "matchId": "M27",
+                "catOut": "Bus     ",
+                "catOutS": "B",
+                "catOutL": "Bus     ",
+                "catIn": "B",
+                "catCode": "3",
+                "admin": "BVB---"
+              }
+            },
+            {
+              "pid": "L::1::U::B3041857784::U_3041857784_U6::*",
+              "name": "U6",
+              "nameS": "U6",
+              "number": "U6",
+              "icoX": 2,
+              "cls": 2,
+              "oprX": 0,
+              "prodCtx": {
+                "name": "      U6",
+                "num": "16026",
+                "line": "U6",
+                "matchId": "U6",
+                "catOut": "U       ",
+                "catOutS": "U",
+                "catOutL": "U       ",
+                "catIn": "U",
+                "catCode": "1",
+                "admin": "BVU---"
+              }
+            },
+            {
+              "pid": "L::1::U::B3041857784::U_3041857784_U6::*",
+              "name": "U6",
+              "nameS": "U6",
+              "number": "U6",
+              "icoX": 2,
+              "cls": 2,
+              "oprX": 0,
+              "prodCtx": {
+                "name": "      U6",
+                "num": "16501",
+                "line": "U6",
+                "matchId": "U6",
+                "catOut": "U       ",
+                "catOutS": "U",
+                "catOutL": "U       ",
+                "catIn": "U",
+                "catCode": "1",
+                "admin": "BVU---"
+              }
+            },
+            {
+              "pid": "L::3::Bus::B3041857784::Bus_3041857784_M27::*",
+              "name": "M27",
+              "nameS": "M27",
+              "number": "M27",
+              "icoX": 0,
+              "cls": 8,
+              "oprX": 0,
+              "prodCtx": {
+                "name": "     M27",
+                "num": "26616",
+                "line": "M27",
+                "matchId": "M27",
+                "catOut": "Bus     ",
+                "catOutS": "B",
+                "catOutL": "Bus     ",
+                "catIn": "B",
+                "catCode": "3",
+                "admin": "BVB---"
+              }
+            },
+            {
+              "pid": "L::1::U::B3041857784::U_3041857784_U6::*",
+              "name": "U6",
+              "nameS": "U6",
+              "number": "U6",
+              "icoX": 2,
+              "cls": 2,
+              "oprX": 0,
+              "prodCtx": {
+                "name": "      U6",
+                "num": "16027",
+                "line": "U6",
+                "matchId": "U6",
+                "catOut": "U       ",
+                "catOutS": "U",
+                "catOutL": "U       ",
+                "catIn": "U",
+                "catCode": "1",
+                "admin": "BVU---"
+              }
+            },
+            {
+              "pid": "L::1::U::B3041857784::U_3041857784_U6::*",
+              "name": "U6",
+              "nameS": "U6",
+              "number": "U6",
+              "icoX": 2,
+              "cls": 2,
+              "oprX": 0,
+              "prodCtx": {
+                "name": "      U6",
+                "num": "16502",
+                "line": "U6",
+                "matchId": "U6",
+                "catOut": "U       ",
+                "catOutS": "U",
+                "catOutL": "U       ",
+                "catIn": "U",
+                "catCode": "1",
+                "admin": "BVU---"
+              }
+            },
+            {
+              "pid": "L::3::Bus::B3041857784::Bus_3041857784_M27::*",
+              "name": "M27",
+              "nameS": "M27",
+              "number": "M27",
+              "icoX": 0,
+              "cls": 8,
+              "oprX": 0,
+              "prodCtx": {
+                "name": "     M27",
+                "num": "27373",
+                "line": "M27",
+                "matchId": "M27",
+                "catOut": "Bus     ",
+                "catOutS": "B",
+                "catOutL": "Bus     ",
+                "catIn": "B",
+                "catCode": "3",
+                "admin": "BVB---"
+              }
+            },
+            {
+              "pid": "L::1::U::B3041857784::U_3041857784_U6::*",
+              "name": "U6",
+              "nameS": "U6",
+              "number": "U6",
+              "icoX": 2,
+              "cls": 2,
+              "oprX": 0,
+              "prodCtx": {
+                "name": "      U6",
+                "num": "16028",
+                "line": "U6",
+                "matchId": "U6",
+                "catOut": "U       ",
+                "catOutS": "U",
+                "catOutL": "U       ",
+                "catIn": "U",
+                "catCode": "1",
+                "admin": "BVU---"
+              }
+            },
+            {
+              "pid": "L::1::U::B3041857784::U_3041857784_U6::*",
+              "name": "U6",
+              "nameS": "U6",
+              "number": "U6",
+              "icoX": 2,
+              "cls": 2,
+              "oprX": 0,
+              "prodCtx": {
+                "name": "      U6",
+                "num": "16503",
+                "line": "U6",
+                "matchId": "U6",
+                "catOut": "U       ",
+                "catOutS": "U",
+                "catOutL": "U       ",
+                "catIn": "U",
+                "catCode": "1",
+                "admin": "BVU---"
+              }
+            },
+            {
+              "pid": "L::3::Bus::B3041857784::Bus_3041857784_M27::*",
+              "name": "M27",
+              "nameS": "M27",
+              "number": "M27",
+              "icoX": 0,
+              "cls": 8,
+              "oprX": 0,
+              "prodCtx": {
+                "name": "     M27",
+                "num": "26615",
+                "line": "M27",
+                "matchId": "M27",
+                "catOut": "Bus     ",
+                "catOutS": "B",
+                "catOutL": "Bus     ",
+                "catIn": "B",
+                "catCode": "3",
+                "admin": "BVB---"
+              }
+            },
+            {
+              "pid": "L::1::U::B3041857784::U_3041857784_U6::*",
+              "name": "U6",
+              "nameS": "U6",
+              "number": "U6",
+              "icoX": 2,
+              "cls": 2,
+              "oprX": 0,
+              "prodCtx": {
+                "name": "      U6",
+                "num": "16029",
+                "line": "U6",
+                "matchId": "U6",
+                "catOut": "U       ",
+                "catOutS": "U",
+                "catOutL": "U       ",
+                "catIn": "U",
+                "catCode": "1",
+                "admin": "BVU---"
+              }
+            },
+            {
+              "pid": "L::1::U::B3041857784::U_3041857784_U6::*",
+              "name": "U6",
+              "nameS": "U6",
+              "number": "U6",
+              "icoX": 2,
+              "cls": 2,
+              "oprX": 0,
+              "prodCtx": {
+                "name": "      U6",
+                "num": "16504",
+                "line": "U6",
+                "matchId": "U6",
+                "catOut": "U       ",
+                "catOutS": "U",
+                "catOutL": "U       ",
+                "catIn": "U",
+                "catCode": "1",
+                "admin": "BVU---"
+              }
+            },
+            {
+              "pid": "L::3::Bus::B3041857784::Bus_3041857784_M27::*",
+              "name": "M27",
+              "nameS": "M27",
+              "number": "M27",
+              "icoX": 0,
+              "cls": 8,
+              "oprX": 0,
+              "prodCtx": {
+                "name": "     M27",
+                "num": "27372",
+                "line": "M27",
+                "matchId": "M27",
+                "catOut": "Bus     ",
+                "catOutS": "B",
+                "catOutL": "Bus     ",
+                "catIn": "B",
+                "catCode": "3",
+                "admin": "BVB---"
+              }
+            },
+            {
+              "pid": "L::1::U::B3041857784::U_3041857784_U6::*",
+              "name": "U6",
+              "nameS": "U6",
+              "number": "U6",
+              "icoX": 2,
+              "cls": 2,
+              "oprX": 0,
+              "prodCtx": {
+                "name": "      U6",
+                "num": "16030",
+                "line": "U6",
+                "matchId": "U6",
+                "catOut": "U       ",
+                "catOutS": "U",
+                "catOutL": "U       ",
+                "catIn": "U",
+                "catCode": "1",
+                "admin": "BVU---"
+              }
+            },
+            {
+              "pid": "L::1::U::B3041857784::U_3041857784_U6::*",
+              "name": "U6",
+              "nameS": "U6",
+              "number": "U6",
+              "icoX": 2,
+              "cls": 2,
+              "oprX": 0,
+              "prodCtx": {
+                "name": "      U6",
+                "num": "16505",
+                "line": "U6",
+                "matchId": "U6",
+                "catOut": "U       ",
+                "catOutS": "U",
+                "catOutL": "U       ",
+                "catIn": "U",
+                "catCode": "1",
+                "admin": "BVU---"
+              }
+            },
+            {
+              "pid": "L::3::Bus::B3041857784::Bus_3041857784_M27::*",
+              "name": "M27",
+              "nameS": "M27",
+              "number": "M27",
+              "icoX": 0,
+              "cls": 8,
+              "oprX": 0,
+              "prodCtx": {
+                "name": "     M27",
+                "num": "26614",
+                "line": "M27",
+                "matchId": "M27",
+                "catOut": "Bus     ",
+                "catOutS": "B",
+                "catOutL": "Bus     ",
+                "catIn": "B",
+                "catCode": "3",
+                "admin": "BVB---"
+              }
+            },
+            {
+              "pid": "L::1::U::B3041857784::U_3041857784_U6::*",
+              "name": "U6",
+              "nameS": "U6",
+              "number": "U6",
+              "icoX": 2,
+              "cls": 2,
+              "oprX": 0,
+              "prodCtx": {
+                "name": "      U6",
+                "num": "16031",
+                "line": "U6",
+                "matchId": "U6",
+                "catOut": "U       ",
+                "catOutS": "U",
+                "catOutL": "U       ",
+                "catIn": "U",
+                "catCode": "1",
+                "admin": "BVU---"
+              }
+            },
+            {
+              "pid": "L::1::U::B3041857784::U_3041857784_U6::*",
+              "name": "U6",
+              "nameS": "U6",
+              "number": "U6",
+              "icoX": 2,
+              "cls": 2,
+              "oprX": 0,
+              "prodCtx": {
+                "name": "      U6",
+                "num": "16506",
+                "line": "U6",
+                "matchId": "U6",
+                "catOut": "U       ",
+                "catOutS": "U",
+                "catOutL": "U       ",
+                "catIn": "U",
+                "catCode": "1",
+                "admin": "BVU---"
+              }
+            },
+            {
+              "pid": "L::3::Bus::B3041857784::Bus_3041857784_N20::*",
+              "name": "N20",
+              "nameS": "N20",
+              "number": "N20",
+              "icoX": 0,
+              "cls": 8,
+              "oprX": 0,
+              "prodCtx": {
+                "name": "     N20",
+                "num": "54743",
+                "line": "N20",
+                "matchId": "N20",
+                "catOut": "Bus     ",
+                "catOutS": "B",
+                "catOutL": "Bus     ",
+                "catIn": "B",
+                "catCode": "3",
+                "admin": "BVB---"
+              }
+            },
+            {
+              "pid": "L::3::Bus::B3041857784::Bus_3041857784_N20::*",
+              "name": "N20",
+              "nameS": "N20",
+              "number": "N20",
+              "icoX": 0,
+              "cls": 8,
+              "oprX": 0,
+              "prodCtx": {
+                "name": "     N20",
+                "num": "54753",
+                "line": "N20",
+                "matchId": "N20",
+                "catOut": "Bus     ",
+                "catOutS": "B",
+                "catOutL": "Bus     ",
+                "catIn": "B",
+                "catCode": "3",
+                "admin": "BVB---"
+              }
+            },
+            {
+              "pid": "L::3::Bus::B3041857784::Bus_3041857784_M27::*",
+              "name": "M27",
+              "nameS": "M27",
+              "number": "M27",
+              "icoX": 0,
+              "cls": 8,
+              "oprX": 0,
+              "prodCtx": {
+                "name": "     M27",
+                "num": "27378",
+                "line": "M27",
+                "matchId": "M27",
+                "catOut": "Bus     ",
+                "catOutS": "B",
+                "catOutL": "Bus     ",
+                "catIn": "B",
+                "catCode": "3",
+                "admin": "BVB---"
+              }
+            },
+            {
+              "pid": "L::1::U::B3041857784::U_3041857784_U6::*",
+              "name": "U6",
+              "nameS": "U6",
+              "number": "U6",
+              "icoX": 2,
+              "cls": 2,
+              "oprX": 0,
+              "prodCtx": {
+                "name": "      U6",
+                "num": "16032",
+                "line": "U6",
+                "matchId": "U6",
+                "catOut": "U       ",
+                "catOutS": "U",
+                "catOutL": "U       ",
+                "catIn": "U",
+                "catCode": "1",
+                "admin": "BVU---"
+              }
+            },
+            {
+              "pid": "L::1::U::B3041857784::U_3041857784_U6::*",
+              "name": "U6",
+              "nameS": "U6",
+              "number": "U6",
+              "icoX": 2,
+              "cls": 2,
+              "oprX": 0,
+              "prodCtx": {
+                "name": "      U6",
+                "num": "16507",
+                "line": "U6",
+                "matchId": "U6",
+                "catOut": "U       ",
+                "catOutS": "U",
+                "catOutL": "U       ",
+                "catIn": "U",
+                "catCode": "1",
+                "admin": "BVU---"
+              }
+            },
+            {
+              "pid": "L::3::Bus::B3041857784::Bus_3041857784_M27::*",
+              "name": "M27",
+              "nameS": "M27",
+              "number": "M27",
+              "icoX": 0,
+              "cls": 8,
+              "oprX": 0,
+              "prodCtx": {
+                "name": "     M27",
+                "num": "27103",
+                "line": "M27",
+                "matchId": "M27",
+                "catOut": "Bus     ",
+                "catOutS": "B",
+                "catOutL": "Bus     ",
+                "catIn": "B",
+                "catCode": "3",
+                "admin": "BVB---"
+              }
+            },
+            {
+              "pid": "L::1::U::B3041857784::U_3041857784_U6::*",
+              "name": "U6",
+              "nameS": "U6",
+              "number": "U6",
+              "icoX": 2,
+              "cls": 2,
+              "oprX": 0,
+              "prodCtx": {
+                "name": "      U6",
+                "num": "16033",
+                "line": "U6",
+                "matchId": "U6",
+                "catOut": "U       ",
+                "catOutS": "U",
+                "catOutL": "U       ",
+                "catIn": "U",
+                "catCode": "1",
+                "admin": "BVU---"
+              }
+            },
+            {
+              "pid": "L::1::U::B3041857784::U_3041857784_U6::*",
+              "name": "U6",
+              "nameS": "U6",
+              "number": "U6",
+              "icoX": 2,
+              "cls": 2,
+              "oprX": 0,
+              "prodCtx": {
+                "name": "      U6",
+                "num": "16508",
+                "line": "U6",
+                "matchId": "U6",
+                "catOut": "U       ",
+                "catOutS": "U",
+                "catOutL": "U       ",
+                "catIn": "U",
+                "catCode": "1",
+                "admin": "BVU---"
+              }
+            },
+            {
+              "pid": "L::3::Bus::B3041857784::Bus_3041857784_N20::*",
+              "name": "N20",
+              "nameS": "N20",
+              "number": "N20",
+              "icoX": 0,
+              "cls": 8,
+              "oprX": 0,
+              "prodCtx": {
+                "name": "     N20",
+                "num": "54742",
+                "line": "N20",
+                "matchId": "N20",
+                "catOut": "Bus     ",
+                "catOutS": "B",
+                "catOutL": "Bus     ",
+                "catIn": "B",
+                "catCode": "3",
+                "admin": "BVB---"
+              }
+            },
+            {
+              "pid": "L::3::Bus::B3041857784::Bus_3041857784_N20::*",
+              "name": "N20",
+              "nameS": "N20",
+              "number": "N20",
+              "icoX": 0,
+              "cls": 8,
+              "oprX": 0,
+              "prodCtx": {
+                "name": "     N20",
+                "num": "54758",
+                "line": "N20",
+                "matchId": "N20",
+                "catOut": "Bus     ",
+                "catOutS": "B",
+                "catOutL": "Bus     ",
+                "catIn": "B",
+                "catCode": "3",
+                "admin": "BVB---"
+              }
+            },
+            {
+              "pid": "L::3::Bus::B3041857784::Bus_3041857784_M27::*",
+              "name": "M27",
+              "nameS": "M27",
+              "number": "M27",
+              "icoX": 0,
+              "cls": 8,
+              "oprX": 0,
+              "prodCtx": {
+                "name": "     M27",
+                "num": "27377",
+                "line": "M27",
+                "matchId": "M27",
+                "catOut": "Bus     ",
+                "catOutS": "B",
+                "catOutL": "Bus     ",
+                "catIn": "B",
+                "catCode": "3",
+                "admin": "BVB---"
+              }
+            },
+            {
+              "pid": "L::1::U::B3041857784::U_3041857784_U6::*",
+              "name": "U6",
+              "nameS": "U6",
+              "number": "U6",
+              "icoX": 2,
+              "cls": 2,
+              "oprX": 0,
+              "prodCtx": {
+                "name": "      U6",
+                "num": "16034",
+                "line": "U6",
+                "matchId": "U6",
+                "catOut": "U       ",
+                "catOutS": "U",
+                "catOutL": "U       ",
+                "catIn": "U",
+                "catCode": "1",
+                "admin": "BVU---"
+              }
+            },
+            {
+              "pid": "L::1::U::B3041857784::U_3041857784_U6::*",
+              "name": "U6",
+              "nameS": "U6",
+              "number": "U6",
+              "icoX": 2,
+              "cls": 2,
+              "oprX": 0,
+              "prodCtx": {
+                "name": "      U6",
+                "num": "16509",
+                "line": "U6",
+                "matchId": "U6",
+                "catOut": "U       ",
+                "catOutS": "U",
+                "catOutL": "U       ",
+                "catIn": "U",
+                "catCode": "1",
+                "admin": "BVU---"
+              }
+            },
+            {
+              "pid": "L::3::Bus::B3041857784::Bus_3041857784_M27::*",
+              "name": "M27",
+              "nameS": "M27",
+              "number": "M27",
+              "icoX": 0,
+              "cls": 8,
+              "oprX": 0,
+              "prodCtx": {
+                "name": "     M27",
+                "num": "27102",
+                "line": "M27",
+                "matchId": "M27",
+                "catOut": "Bus     ",
+                "catOutS": "B",
+                "catOutL": "Bus     ",
+                "catIn": "B",
+                "catCode": "3",
+                "admin": "BVB---"
+              }
+            },
+            {
+              "pid": "L::1::U::B3041857784::U_3041857784_U6::*",
+              "name": "U6",
+              "nameS": "U6",
+              "number": "U6",
+              "icoX": 2,
+              "cls": 2,
+              "oprX": 0,
+              "prodCtx": {
+                "name": "      U6",
+                "num": "16035",
                 "line": "U6",
                 "matchId": "U6",
                 "catOut": "U       ",
@@ -421,41 +1180,22 @@
           "remL": [
             {
               "type": "A",
+              "code": "text.occup.loc.max.12",
+              "icoX": 5,
+              "txtN": "medium occupancy expected"
+            },
+            {
+              "type": "A",
               "code": "FK",
               "prio": 260,
-              "icoX": 5,
+              "icoX": 6,
               "txtN": "Bicycle conveyance"
-            }
-          ],
-          "himL": [
+            },
             {
-              "hid": "213723",
-              "act": true,
-              "head": "Rail strike until Monday, 29 January, 6 p.m.",
-              "text": "Major restrictions on Deutsche Bahn railway services (S-Bahn, RE, RB, long-distance services). Underground trains, trams, buses and ferries are running.<br>",
-              "icoX": 3,
-              "prio": 100,
-              "prod": 16383,
-              "src": 50,
-              "sDate": "20240122",
-              "sTime": "020000",
-              "eDate": "20240129",
-              "eTime": "210000",
-              "sDaily": "000000",
-              "eDaily": "235900",
-              "comp": "VBB",
-              "catRefL": [
-                0
-              ],
-              "pubChL": [
-                {
-                  "name": "TIMETABLE",
-                  "fDate": "20240124",
-                  "fTime": "075000",
-                  "tDate": "20240129",
-                  "tTime": "210000"
-                }
-              ]
+              "type": "A",
+              "code": "text.occup.loc.max.11",
+              "icoX": 8,
+              "txtN": "low occupancy expected"
             }
           ],
           "icoL": [
@@ -490,7 +1230,17 @@
               }
             },
             {
-              "res": "HIM2"
+              "res": "rt_ont",
+              "txtA": "on time"
+            },
+            {
+              "res": "rt_cnf"
+            },
+            {
+              "res": "occup_fig_mid"
+            },
+            {
+              "res": "attr_info"
             },
             {
               "res": "prod_comm_t",
@@ -506,12 +1256,17 @@
               }
             },
             {
-              "res": "attr_info"
+              "res": "occup_fig_low"
             }
           ],
-          "himMsgCatL": [
+          "tcocL": [
             {
-              "id": 2
+              "c": "SECOND",
+              "r": 12
+            },
+            {
+              "c": "SECOND",
+              "r": 11
             }
           ],
           "lDrawStyleL": [
@@ -552,96 +1307,135 @@
           ],
           "timeStyleL": [
             {
+              "mode": "HIDE"
+            },
+            {
+              "mode": "ABS",
+              "icoX": 3
+            },
+            {
+              "mode": "CNT",
+              "icoX": 4
+            },
+            {
               "mode": "ABS"
             },
             {
               "mode": "CNT"
+            },
+            {
+              "mode": "DLT",
+              "fg": {
+                "r": 212,
+                "g": 12,
+                "b": 66
+              }
             }
           ]
         },
         "type": "DEP",
         "jnyL": [
           {
-            "jid": "1|18087|3|86|24012024",
-            "date": "20240124",
+            "jid": "1|32451|1|86|10022024",
+            "date": "20240210",
             "prodX": 0,
-            "dirTxt": "Märkisches Viertel, Wilhelmsruher Damm",
+            "dirTxt": "S+U Pankow",
             "dirFlg": "2",
             "status": "P",
             "isRchbl": true,
             "stbStop": {
               "locX": 0,
-              "idx": 6,
+              "idx": 15,
               "dProdX": 0,
-              "dTimeS": "210100",
-              "dTimeR": "210500",
+              "dTimeS": "01011900",
+              "dTimeR": "01011900",
               "dTimeFS": {
                 "styleX": 0
               },
-              "dTimeFC": {
-                "styleX": 1
+              "dTimeFR": {
+                "styleX": 1,
+                "txtA": "01:19 on time"
               },
+              "dTimeFC": {
+                "styleX": 2
+              },
+              "dProgType": "CALCULATED",
+              "dTrnCmpSX": {
+                "tcocX": [
+                  0
+                ]
+              },
+              "msgL": [
+                {
+                  "type": "REM",
+                  "remX": 0,
+                  "sty": "I",
+                  "tagL": [
+                    "RES_LOC_H3"
+                  ],
+                  "sort": 415760384
+                }
+              ],
               "type": "N"
             },
-            "msgL": [
-              {
-                "type": "HIM",
-                "himX": 0,
-                "sty": "M",
-                "fLocX": 0,
-                "tagL": [
-                  "RES_GLB_HDR_H3",
-                  "SUM_GLB_HDR_H3"
-                ],
-                "sort": 374341631
-              }
-            ],
+            "pos": {
+              "x": 13352829,
+              "y": 52533599
+            },
             "subscr": "F",
             "prodL": [
               {
                 "prodX": 0,
                 "fLocX": 0,
                 "tLocX": 1,
-                "fIdx": 6,
-                "tIdx": 39
+                "fIdx": 15,
+                "tIdx": 28
               }
             ],
             "sumLDrawStyleX": 0,
             "resLDrawStyleX": 1,
-            "trainStartDate": "20240124"
+            "trainStartDate": "20240210"
           },
           {
-            "jid": "1|31791|5|86|24012024",
-            "date": "20240123",
+            "jid": "1|46700|2|86|10022024",
+            "date": "20240210",
             "prodX": 7,
-            "dirTxt": "S+U Jungfernheide",
-            "dirFlg": "1",
+            "dirTxt": "Kurt-Schumacher-Platz",
+            "dirFlg": "2",
             "status": "P",
             "isRchbl": true,
             "stbStop": {
               "locX": 0,
-              "idx": 13,
+              "idx": 17,
               "dProdX": 7,
-              "dTimeS": "01010300",
+              "dPltfS": {
+                "type": "PL",
+                "txt": "2"
+              },
+              "dTimeS": "01012100",
               "dTimeFS": {
-                "styleX": 0
+                "styleX": 3
               },
               "dTimeFC": {
-                "styleX": 1
+                "styleX": 4
               },
               "type": "N"
             },
+            "pos": {
+              "x": 13390071,
+              "y": 52509606
+            },
             "msgL": [
               {
-                "type": "HIM",
-                "himX": 0,
-                "sty": "M",
+                "type": "REM",
+                "remX": 1,
+                "sty": "I",
                 "fLocX": 0,
+                "tLocX": 2,
                 "tagL": [
-                  "RES_GLB_HDR_H3",
-                  "SUM_GLB_HDR_H3"
+                  "RES_JNY_DTL"
                 ],
-                "sort": 374341631
+                "sort": 839385088
               }
             ],
             "subscr": "F",
@@ -650,46 +1444,54 @@
                 "prodX": 7,
                 "fLocX": 0,
                 "tLocX": 2,
-                "fIdx": 13,
-                "tIdx": 31
+                "fIdx": 17,
+                "tIdx": 23
               }
             ],
-            "sumLDrawStyleX": 0,
-            "resLDrawStyleX": 1,
-            "trainStartDate": "20240124"
+            "sumLDrawStyleX": 2,
+            "resLDrawStyleX": 3,
+            "trainStartDate": "20240210"
           },
           {
-            "jid": "1|31997|4|86|24012024",
-            "date": "20240124",
+            "jid": "1|46614|2|86|10022024",
+            "date": "20240210",
             "prodX": 8,
-            "dirTxt": "S+U Pankow",
-            "dirFlg": "2",
+            "dirTxt": "Alt-Mariendorf",
+            "dirFlg": "1",
             "status": "P",
             "isRchbl": true,
             "stbStop": {
               "locX": 0,
-              "idx": 18,
+              "idx": 6,
               "dProdX": 8,
-              "dTimeS": "210300",
+              "dPltfS": {
+                "type": "PL",
+                "txt": "1"
+              },
+              "dTimeS": "01012200",
               "dTimeFS": {
-                "styleX": 0
+                "styleX": 3
               },
               "dTimeFC": {
-                "styleX": 1
+                "styleX": 4
               },
               "type": "N"
             },
+            "pos": {
+              "x": 13333250,
+              "y": 52560962
+            },
             "msgL": [
               {
-                "type": "HIM",
-                "himX": 0,
-                "sty": "M",
+                "type": "REM",
+                "remX": 1,
+                "sty": "I",
                 "fLocX": 0,
+                "tLocX": 3,
                 "tagL": [
-                  "RES_GLB_HDR_H3",
-                  "SUM_GLB_HDR_H3"
+                  "RES_JNY_DTL"
                 ],
-                "sort": 374341631
+                "sort": 839385088
               }
             ],
             "subscr": "F",
@@ -698,191 +1500,148 @@
                 "prodX": 8,
                 "fLocX": 0,
                 "tLocX": 3,
-                "fIdx": 18,
-                "tIdx": 31
-              }
-            ],
-            "sumLDrawStyleX": 0,
-            "resLDrawStyleX": 1,
-            "trainStartDate": "20240124"
-          },
-          {
-            "jid": "1|46152|1|86|24012024",
-            "date": "20240124",
-            "prodX": 9,
-            "dirTxt": "Tempelhof",
-            "dirFlg": "1",
-            "status": "P",
-            "isRchbl": true,
-            "stbStop": {
-              "locX": 0,
-              "idx": 6,
-              "dProdX": 9,
-              "dPltfS": {
-                "type": "PL",
-                "txt": "1"
-              },
-              "dTimeS": "210300",
-              "dTimeFS": {
-                "styleX": 0
-              },
-              "dTimeFC": {
-                "styleX": 1
-              },
-              "type": "N"
-            },
-            "msgL": [
-              {
-                "type": "REM",
-                "remX": 0,
-                "sty": "I",
-                "fLocX": 0,
-                "tLocX": 4,
-                "tagL": [
-                  "RES_JNY_DTL"
-                ],
-                "sort": 839385088
-              },
-              {
-                "type": "HIM",
-                "himX": 0,
-                "sty": "M",
-                "fLocX": 0,
-                "tagL": [
-                  "RES_GLB_HDR_H3",
-                  "SUM_GLB_HDR_H3"
-                ],
-                "sort": 374341631
-              }
-            ],
-            "subscr": "F",
-            "prodL": [
-              {
-                "prodX": 9,
-                "fLocX": 0,
-                "tLocX": 4,
-                "fIdx": 6,
-                "tIdx": 18
-              }
-            ],
-            "sumLDrawStyleX": 2,
-            "resLDrawStyleX": 3,
-            "trainStartDate": "20240124"
-          },
-          {
-            "jid": "1|18000|1|86|24012024",
-            "date": "20240124",
-            "prodX": 10,
-            "dirTxt": "S+U Hauptbahnhof",
-            "dirFlg": "1",
-            "status": "P",
-            "isRchbl": true,
-            "stbStop": {
-              "locX": 0,
-              "idx": 33,
-              "dProdX": 10,
-              "dTimeS": "210400",
-              "dTimeFS": {
-                "styleX": 0
-              },
-              "dTimeFC": {
-                "styleX": 1
-              },
-              "type": "N"
-            },
-            "msgL": [
-              {
-                "type": "HIM",
-                "himX": 0,
-                "sty": "M",
-                "fLocX": 0,
-                "tagL": [
-                  "RES_GLB_HDR_H3",
-                  "SUM_GLB_HDR_H3"
-                ],
-                "sort": 374341631
-              }
-            ],
-            "subscr": "F",
-            "prodL": [
-              {
-                "prodX": 10,
-                "fLocX": 0,
-                "tLocX": 5,
-                "fIdx": 33,
-                "tIdx": 38
-              }
-            ],
-            "sumLDrawStyleX": 0,
-            "resLDrawStyleX": 1,
-            "trainStartDate": "20240124"
-          },
-          {
-            "jid": "1|46140|2|86|24012024",
-            "date": "20240124",
-            "prodX": 11,
-            "dirTxt": "Alt-Mariendorf",
-            "dirFlg": "1",
-            "status": "P",
-            "isRchbl": true,
-            "stbStop": {
-              "locX": 0,
-              "idx": 6,
-              "dProdX": 11,
-              "dPltfS": {
-                "type": "PL",
-                "txt": "1"
-              },
-              "dTimeS": "210800",
-              "dTimeFS": {
-                "styleX": 0
-              },
-              "dTimeFC": {
-                "styleX": 1
-              },
-              "type": "N"
-            },
-            "msgL": [
-              {
-                "type": "REM",
-                "remX": 0,
-                "sty": "I",
-                "fLocX": 0,
-                "tLocX": 6,
-                "tagL": [
-                  "RES_JNY_DTL"
-                ],
-                "sort": 839385088
-              },
-              {
-                "type": "HIM",
-                "himX": 0,
-                "sty": "M",
-                "fLocX": 0,
-                "tagL": [
-                  "RES_GLB_HDR_H3",
-                  "SUM_GLB_HDR_H3"
-                ],
-                "sort": 374341631
-              }
-            ],
-            "subscr": "F",
-            "prodL": [
-              {
-                "prodX": 11,
-                "fLocX": 0,
-                "tLocX": 6,
                 "fIdx": 6,
                 "tIdx": 23
               }
             ],
             "sumLDrawStyleX": 2,
             "resLDrawStyleX": 3,
-            "trainStartDate": "20240124"
+            "trainStartDate": "20240210"
           },
           {
-            "jid": "1|46200|1|86|24012024",
-            "date": "20240124",
+            "jid": "1|36929|0|86|10022024",
+            "date": "20240210",
+            "prodX": 9,
+            "dirTxt": "S+U Hauptbahnhof",
+            "dirFlg": "1",
+            "status": "P",
+            "isRchbl": true,
+            "stbStop": {
+              "locX": 0,
+              "idx": 40,
+              "dProdX": 9,
+              "dTimeS": "01012800",
+              "dTimeFS": {
+                "styleX": 3
+              },
+              "dTimeFC": {
+                "styleX": 4
+              },
+              "type": "N"
+            },
+            "pos": {
+              "x": 13344810,
+              "y": 52581637
+            },
+            "subscr": "F",
+            "prodL": [
+              {
+                "prodX": 9,
+                "fLocX": 0,
+                "tLocX": 4,
+                "fIdx": 40,
+                "tIdx": 45
+              }
+            ],
+            "sumLDrawStyleX": 0,
+            "resLDrawStyleX": 1,
+            "trainStartDate": "20240210"
+          },
+          {
+            "jid": "1|36936|1|86|10022024",
+            "date": "20240210",
+            "prodX": 10,
+            "dirTxt": "Frohnau, Hainbuchenstr.",
+            "dirFlg": "2",
+            "status": "P",
+            "isRchbl": true,
+            "stbStop": {
+              "locX": 0,
+              "idx": 6,
+              "dProdX": 10,
+              "dTimeS": "01012900",
+              "dTimeR": "01012900",
+              "dTimeFS": {
+                "styleX": 0
+              },
+              "dTimeFR": {
+                "styleX": 1,
+                "txtA": "01:29 on time"
+              },
+              "dTimeFC": {
+                "styleX": 2
+              },
+              "dProgType": "CALCULATED",
+              "type": "N"
+            },
+            "subscr": "F",
+            "prodL": [
+              {
+                "prodX": 10,
+                "fLocX": 0,
+                "tLocX": 5,
+                "fIdx": 6,
+                "tIdx": 48
+              }
+            ],
+            "sumLDrawStyleX": 0,
+            "resLDrawStyleX": 1,
+            "trainStartDate": "20240210"
+          },
+          {
+            "jid": "1|32319|1|86|10022024",
+            "date": "20240210",
+            "prodX": 11,
+            "dirTxt": "S+U Jungfernheide",
+            "dirFlg": "1",
+            "status": "P",
+            "isRchbl": true,
+            "stbStop": {
+              "locX": 0,
+              "idx": 13,
+              "dProdX": 11,
+              "dTimeS": "01013600",
+              "dTimeFS": {
+                "styleX": 3
+              },
+              "dTimeFC": {
+                "styleX": 4
+              },
+              "dTrnCmpSX": {
+                "tcocX": [
+                  0
+                ]
+              },
+              "msgL": [
+                {
+                  "type": "REM",
+                  "remX": 0,
+                  "sty": "I",
+                  "tagL": [
+                    "RES_LOC_H3"
+                  ],
+                  "sort": 415760384
+                }
+              ],
+              "type": "N"
+            },
+            "subscr": "F",
+            "prodL": [
+              {
+                "prodX": 11,
+                "fLocX": 0,
+                "tLocX": 6,
+                "fIdx": 13,
+                "tIdx": 31
+              }
+            ],
+            "sumLDrawStyleX": 0,
+            "resLDrawStyleX": 1,
+            "trainStartDate": "20240210"
+          },
+          {
+            "jid": "1|46700|3|86|10022024",
+            "date": "20240210",
             "prodX": 12,
             "dirTxt": "Kurt-Schumacher-Platz",
             "dirFlg": "2",
@@ -896,37 +1655,30 @@
                 "type": "PL",
                 "txt": "2"
               },
-              "dTimeS": "211000",
+              "dTimeS": "01013600",
               "dTimeFS": {
-                "styleX": 0
+                "styleX": 3
               },
               "dTimeFC": {
-                "styleX": 1
+                "styleX": 4
               },
               "type": "N"
+            },
+            "pos": {
+              "x": 13387033,
+              "y": 52441279
             },
             "msgL": [
               {
                 "type": "REM",
-                "remX": 0,
+                "remX": 1,
                 "sty": "I",
                 "fLocX": 0,
-                "tLocX": 7,
+                "tLocX": 2,
                 "tagL": [
                   "RES_JNY_DTL"
                 ],
                 "sort": 839385088
-              },
-              {
-                "type": "HIM",
-                "himX": 0,
-                "sty": "M",
-                "fLocX": 0,
-                "tagL": [
-                  "RES_GLB_HDR_H3",
-                  "SUM_GLB_HDR_H3"
-                ],
-                "sort": 374341631
               }
             ],
             "subscr": "F",
@@ -934,21 +1686,2264 @@
               {
                 "prodX": 12,
                 "fLocX": 0,
-                "tLocX": 7,
+                "tLocX": 2,
                 "fIdx": 17,
                 "tIdx": 23
               }
             ],
             "sumLDrawStyleX": 2,
             "resLDrawStyleX": 3,
-            "trainStartDate": "20240124"
+            "trainStartDate": "20240210"
+          },
+          {
+            "jid": "1|46614|3|86|10022024",
+            "date": "20240210",
+            "prodX": 13,
+            "dirTxt": "Alt-Mariendorf",
+            "dirFlg": "1",
+            "status": "P",
+            "isRchbl": true,
+            "stbStop": {
+              "locX": 0,
+              "idx": 6,
+              "dProdX": 13,
+              "dPltfS": {
+                "type": "PL",
+                "txt": "1"
+              },
+              "dTimeS": "01013700",
+              "dTimeFS": {
+                "styleX": 3
+              },
+              "dTimeFC": {
+                "styleX": 4
+              },
+              "type": "N"
+            },
+            "msgL": [
+              {
+                "type": "REM",
+                "remX": 1,
+                "sty": "I",
+                "fLocX": 0,
+                "tLocX": 3,
+                "tagL": [
+                  "RES_JNY_DTL"
+                ],
+                "sort": 839385088
+              }
+            ],
+            "subscr": "F",
+            "prodL": [
+              {
+                "prodX": 13,
+                "fLocX": 0,
+                "tLocX": 3,
+                "fIdx": 6,
+                "tIdx": 23
+              }
+            ],
+            "sumLDrawStyleX": 2,
+            "resLDrawStyleX": 3,
+            "trainStartDate": "20240210"
+          },
+          {
+            "jid": "1|32451|2|86|10022024",
+            "date": "20240210",
+            "prodX": 14,
+            "dirTxt": "S+U Pankow",
+            "dirFlg": "2",
+            "status": "P",
+            "isRchbl": true,
+            "stbStop": {
+              "locX": 0,
+              "idx": 15,
+              "dProdX": 14,
+              "dTimeS": "01014900",
+              "dTimeR": "01015400",
+              "dTimeFS": {
+                "styleX": 3
+              },
+              "dTimeFR": {
+                "styleX": 5,
+                "txtA": "5 minutes late"
+              },
+              "dTimeFC": {
+                "styleX": 2
+              },
+              "dProgType": "CALCULATED",
+              "dTrnCmpSX": {
+                "tcocX": [
+                  0
+                ]
+              },
+              "msgL": [
+                {
+                  "type": "REM",
+                  "remX": 0,
+                  "sty": "I",
+                  "tagL": [
+                    "RES_LOC_H3"
+                  ],
+                  "sort": 415760384
+                }
+              ],
+              "type": "N"
+            },
+            "subscr": "F",
+            "prodL": [
+              {
+                "prodX": 14,
+                "fLocX": 0,
+                "tLocX": 1,
+                "fIdx": 15,
+                "tIdx": 28
+              }
+            ],
+            "sumLDrawStyleX": 0,
+            "resLDrawStyleX": 1,
+            "trainStartDate": "20240210"
+          },
+          {
+            "jid": "1|46700|4|86|10022024",
+            "date": "20240210",
+            "prodX": 15,
+            "dirTxt": "Kurt-Schumacher-Platz",
+            "dirFlg": "2",
+            "status": "P",
+            "isRchbl": true,
+            "stbStop": {
+              "locX": 0,
+              "idx": 17,
+              "dProdX": 15,
+              "dPltfS": {
+                "type": "PL",
+                "txt": "2"
+              },
+              "dTimeS": "01015100",
+              "dTimeFS": {
+                "styleX": 3
+              },
+              "dTimeFC": {
+                "styleX": 4
+              },
+              "type": "N"
+            },
+            "msgL": [
+              {
+                "type": "REM",
+                "remX": 1,
+                "sty": "I",
+                "fLocX": 0,
+                "tLocX": 2,
+                "tagL": [
+                  "RES_JNY_DTL"
+                ],
+                "sort": 839385088
+              }
+            ],
+            "subscr": "F",
+            "prodL": [
+              {
+                "prodX": 15,
+                "fLocX": 0,
+                "tLocX": 2,
+                "fIdx": 17,
+                "tIdx": 23
+              }
+            ],
+            "sumLDrawStyleX": 2,
+            "resLDrawStyleX": 3,
+            "trainStartDate": "20240210"
+          },
+          {
+            "jid": "1|46614|4|86|10022024",
+            "date": "20240210",
+            "prodX": 16,
+            "dirTxt": "Alt-Mariendorf",
+            "dirFlg": "1",
+            "status": "P",
+            "isRchbl": true,
+            "stbStop": {
+              "locX": 0,
+              "idx": 6,
+              "dProdX": 16,
+              "dPltfS": {
+                "type": "PL",
+                "txt": "1"
+              },
+              "dTimeS": "01015200",
+              "dTimeFS": {
+                "styleX": 3
+              },
+              "dTimeFC": {
+                "styleX": 4
+              },
+              "type": "N"
+            },
+            "msgL": [
+              {
+                "type": "REM",
+                "remX": 1,
+                "sty": "I",
+                "fLocX": 0,
+                "tLocX": 3,
+                "tagL": [
+                  "RES_JNY_DTL"
+                ],
+                "sort": 839385088
+              }
+            ],
+            "subscr": "F",
+            "prodL": [
+              {
+                "prodX": 16,
+                "fLocX": 0,
+                "tLocX": 3,
+                "fIdx": 6,
+                "tIdx": 23
+              }
+            ],
+            "sumLDrawStyleX": 2,
+            "resLDrawStyleX": 3,
+            "trainStartDate": "20240210"
+          },
+          {
+            "jid": "1|36929|1|86|10022024",
+            "date": "20240210",
+            "prodX": 9,
+            "dirTxt": "S+U Hauptbahnhof",
+            "dirFlg": "1",
+            "status": "P",
+            "isRchbl": true,
+            "stbStop": {
+              "locX": 0,
+              "idx": 40,
+              "dProdX": 9,
+              "dTimeS": "01015800",
+              "dTimeFS": {
+                "styleX": 3
+              },
+              "dTimeFC": {
+                "styleX": 4
+              },
+              "type": "N"
+            },
+            "subscr": "F",
+            "prodL": [
+              {
+                "prodX": 9,
+                "fLocX": 0,
+                "tLocX": 4,
+                "fIdx": 40,
+                "tIdx": 45
+              }
+            ],
+            "sumLDrawStyleX": 0,
+            "resLDrawStyleX": 1,
+            "trainStartDate": "20240210"
+          },
+          {
+            "jid": "1|36936|2|86|10022024",
+            "date": "20240210",
+            "prodX": 10,
+            "dirTxt": "Frohnau, Hainbuchenstr.",
+            "dirFlg": "2",
+            "status": "P",
+            "isRchbl": true,
+            "stbStop": {
+              "locX": 0,
+              "idx": 6,
+              "dProdX": 10,
+              "dTimeS": "01015900",
+              "dTimeFS": {
+                "styleX": 3
+              },
+              "dTimeFC": {
+                "styleX": 4
+              },
+              "type": "N"
+            },
+            "subscr": "F",
+            "prodL": [
+              {
+                "prodX": 10,
+                "fLocX": 0,
+                "tLocX": 5,
+                "fIdx": 6,
+                "tIdx": 48
+              }
+            ],
+            "sumLDrawStyleX": 0,
+            "resLDrawStyleX": 1,
+            "trainStartDate": "20240210"
+          },
+          {
+            "jid": "1|32319|2|86|10022024",
+            "date": "20240210",
+            "prodX": 17,
+            "dirTxt": "S+U Jungfernheide",
+            "dirFlg": "1",
+            "status": "P",
+            "isRchbl": true,
+            "stbStop": {
+              "locX": 0,
+              "idx": 13,
+              "dProdX": 17,
+              "dTimeS": "01020600",
+              "dTimeFS": {
+                "styleX": 3
+              },
+              "dTimeFC": {
+                "styleX": 4
+              },
+              "dTrnCmpSX": {
+                "tcocX": [
+                  0
+                ]
+              },
+              "msgL": [
+                {
+                  "type": "REM",
+                  "remX": 0,
+                  "sty": "I",
+                  "tagL": [
+                    "RES_LOC_H3"
+                  ],
+                  "sort": 415760384
+                }
+              ],
+              "type": "N"
+            },
+            "subscr": "F",
+            "prodL": [
+              {
+                "prodX": 17,
+                "fLocX": 0,
+                "tLocX": 6,
+                "fIdx": 13,
+                "tIdx": 31
+              }
+            ],
+            "sumLDrawStyleX": 0,
+            "resLDrawStyleX": 1,
+            "trainStartDate": "20240210"
+          },
+          {
+            "jid": "1|46700|5|86|10022024",
+            "date": "20240210",
+            "prodX": 18,
+            "dirTxt": "Kurt-Schumacher-Platz",
+            "dirFlg": "2",
+            "status": "P",
+            "isRchbl": true,
+            "stbStop": {
+              "locX": 0,
+              "idx": 17,
+              "dProdX": 18,
+              "dPltfS": {
+                "type": "PL",
+                "txt": "2"
+              },
+              "dTimeS": "01020600",
+              "dTimeFS": {
+                "styleX": 3
+              },
+              "dTimeFC": {
+                "styleX": 4
+              },
+              "type": "N"
+            },
+            "msgL": [
+              {
+                "type": "REM",
+                "remX": 1,
+                "sty": "I",
+                "fLocX": 0,
+                "tLocX": 2,
+                "tagL": [
+                  "RES_JNY_DTL"
+                ],
+                "sort": 839385088
+              }
+            ],
+            "subscr": "F",
+            "prodL": [
+              {
+                "prodX": 18,
+                "fLocX": 0,
+                "tLocX": 2,
+                "fIdx": 17,
+                "tIdx": 23
+              }
+            ],
+            "sumLDrawStyleX": 2,
+            "resLDrawStyleX": 3,
+            "trainStartDate": "20240210"
+          },
+          {
+            "jid": "1|46614|5|86|10022024",
+            "date": "20240210",
+            "prodX": 19,
+            "dirTxt": "Alt-Mariendorf",
+            "dirFlg": "1",
+            "status": "P",
+            "isRchbl": true,
+            "stbStop": {
+              "locX": 0,
+              "idx": 6,
+              "dProdX": 19,
+              "dPltfS": {
+                "type": "PL",
+                "txt": "1"
+              },
+              "dTimeS": "01020700",
+              "dTimeFS": {
+                "styleX": 3
+              },
+              "dTimeFC": {
+                "styleX": 4
+              },
+              "type": "N"
+            },
+            "msgL": [
+              {
+                "type": "REM",
+                "remX": 1,
+                "sty": "I",
+                "fLocX": 0,
+                "tLocX": 3,
+                "tagL": [
+                  "RES_JNY_DTL"
+                ],
+                "sort": 839385088
+              }
+            ],
+            "subscr": "F",
+            "prodL": [
+              {
+                "prodX": 19,
+                "fLocX": 0,
+                "tLocX": 3,
+                "fIdx": 6,
+                "tIdx": 23
+              }
+            ],
+            "sumLDrawStyleX": 2,
+            "resLDrawStyleX": 3,
+            "trainStartDate": "20240210"
+          },
+          {
+            "jid": "1|32451|3|86|10022024",
+            "date": "20240210",
+            "prodX": 20,
+            "dirTxt": "S+U Pankow",
+            "dirFlg": "2",
+            "status": "P",
+            "isRchbl": true,
+            "stbStop": {
+              "locX": 0,
+              "idx": 15,
+              "dProdX": 20,
+              "dTimeS": "01021900",
+              "dTimeFS": {
+                "styleX": 3
+              },
+              "dTimeFC": {
+                "styleX": 4
+              },
+              "dTrnCmpSX": {
+                "tcocX": [
+                  1
+                ]
+              },
+              "msgL": [
+                {
+                  "type": "REM",
+                  "remX": 2,
+                  "sty": "I",
+                  "tagL": [
+                    "RES_LOC_H3"
+                  ],
+                  "sort": 415760384
+                }
+              ],
+              "type": "N"
+            },
+            "subscr": "F",
+            "prodL": [
+              {
+                "prodX": 20,
+                "fLocX": 0,
+                "tLocX": 1,
+                "fIdx": 15,
+                "tIdx": 28
+              }
+            ],
+            "sumLDrawStyleX": 0,
+            "resLDrawStyleX": 1,
+            "trainStartDate": "20240210"
+          },
+          {
+            "jid": "1|46700|6|86|10022024",
+            "date": "20240210",
+            "prodX": 21,
+            "dirTxt": "Kurt-Schumacher-Platz",
+            "dirFlg": "2",
+            "status": "P",
+            "isRchbl": true,
+            "stbStop": {
+              "locX": 0,
+              "idx": 17,
+              "dProdX": 21,
+              "dPltfS": {
+                "type": "PL",
+                "txt": "2"
+              },
+              "dTimeS": "01022100",
+              "dTimeFS": {
+                "styleX": 3
+              },
+              "dTimeFC": {
+                "styleX": 4
+              },
+              "type": "N"
+            },
+            "msgL": [
+              {
+                "type": "REM",
+                "remX": 1,
+                "sty": "I",
+                "fLocX": 0,
+                "tLocX": 2,
+                "tagL": [
+                  "RES_JNY_DTL"
+                ],
+                "sort": 839385088
+              }
+            ],
+            "subscr": "F",
+            "prodL": [
+              {
+                "prodX": 21,
+                "fLocX": 0,
+                "tLocX": 2,
+                "fIdx": 17,
+                "tIdx": 23
+              }
+            ],
+            "sumLDrawStyleX": 2,
+            "resLDrawStyleX": 3,
+            "trainStartDate": "20240210"
+          },
+          {
+            "jid": "1|46614|6|86|10022024",
+            "date": "20240210",
+            "prodX": 22,
+            "dirTxt": "Alt-Mariendorf",
+            "dirFlg": "1",
+            "status": "P",
+            "isRchbl": true,
+            "stbStop": {
+              "locX": 0,
+              "idx": 6,
+              "dProdX": 22,
+              "dPltfS": {
+                "type": "PL",
+                "txt": "1"
+              },
+              "dTimeS": "01022200",
+              "dTimeR": "01022200",
+              "dTimeFS": {
+                "styleX": 0
+              },
+              "dTimeFR": {
+                "styleX": 1,
+                "txtA": "02:22 on time"
+              },
+              "dTimeFC": {
+                "styleX": 2
+              },
+              "dProgType": "CALCULATED",
+              "type": "N"
+            },
+            "msgL": [
+              {
+                "type": "REM",
+                "remX": 1,
+                "sty": "I",
+                "fLocX": 0,
+                "tLocX": 3,
+                "tagL": [
+                  "RES_JNY_DTL"
+                ],
+                "sort": 839385088
+              }
+            ],
+            "subscr": "F",
+            "prodL": [
+              {
+                "prodX": 22,
+                "fLocX": 0,
+                "tLocX": 3,
+                "fIdx": 6,
+                "tIdx": 23
+              }
+            ],
+            "sumLDrawStyleX": 2,
+            "resLDrawStyleX": 3,
+            "trainStartDate": "20240210"
+          },
+          {
+            "jid": "1|36929|2|86|10022024",
+            "date": "20240210",
+            "prodX": 9,
+            "dirTxt": "S+U Hauptbahnhof",
+            "dirFlg": "1",
+            "status": "P",
+            "isRchbl": true,
+            "stbStop": {
+              "locX": 0,
+              "idx": 40,
+              "dProdX": 9,
+              "dTimeS": "01022800",
+              "dTimeFS": {
+                "styleX": 3
+              },
+              "dTimeFC": {
+                "styleX": 4
+              },
+              "type": "N"
+            },
+            "subscr": "F",
+            "prodL": [
+              {
+                "prodX": 9,
+                "fLocX": 0,
+                "tLocX": 4,
+                "fIdx": 40,
+                "tIdx": 45
+              }
+            ],
+            "sumLDrawStyleX": 0,
+            "resLDrawStyleX": 1,
+            "trainStartDate": "20240210"
+          },
+          {
+            "jid": "1|36936|3|86|10022024",
+            "date": "20240210",
+            "prodX": 10,
+            "dirTxt": "Frohnau, Hainbuchenstr.",
+            "dirFlg": "2",
+            "status": "P",
+            "isRchbl": true,
+            "stbStop": {
+              "locX": 0,
+              "idx": 6,
+              "dProdX": 10,
+              "dTimeS": "01022900",
+              "dTimeFS": {
+                "styleX": 3
+              },
+              "dTimeFC": {
+                "styleX": 4
+              },
+              "type": "N"
+            },
+            "subscr": "F",
+            "prodL": [
+              {
+                "prodX": 10,
+                "fLocX": 0,
+                "tLocX": 5,
+                "fIdx": 6,
+                "tIdx": 48
+              }
+            ],
+            "sumLDrawStyleX": 0,
+            "resLDrawStyleX": 1,
+            "trainStartDate": "20240210"
+          },
+          {
+            "jid": "1|32319|3|86|10022024",
+            "date": "20240210",
+            "prodX": 23,
+            "dirTxt": "S+U Jungfernheide",
+            "dirFlg": "1",
+            "status": "P",
+            "isRchbl": true,
+            "stbStop": {
+              "locX": 0,
+              "idx": 13,
+              "dProdX": 23,
+              "dTimeS": "01023600",
+              "dTimeFS": {
+                "styleX": 3
+              },
+              "dTimeFC": {
+                "styleX": 4
+              },
+              "dTrnCmpSX": {
+                "tcocX": [
+                  0
+                ]
+              },
+              "msgL": [
+                {
+                  "type": "REM",
+                  "remX": 0,
+                  "sty": "I",
+                  "tagL": [
+                    "RES_LOC_H3"
+                  ],
+                  "sort": 415760384
+                }
+              ],
+              "type": "N"
+            },
+            "subscr": "F",
+            "prodL": [
+              {
+                "prodX": 23,
+                "fLocX": 0,
+                "tLocX": 6,
+                "fIdx": 13,
+                "tIdx": 31
+              }
+            ],
+            "sumLDrawStyleX": 0,
+            "resLDrawStyleX": 1,
+            "trainStartDate": "20240210"
+          },
+          {
+            "jid": "1|46700|7|86|10022024",
+            "date": "20240210",
+            "prodX": 24,
+            "dirTxt": "Kurt-Schumacher-Platz",
+            "dirFlg": "2",
+            "status": "P",
+            "isRchbl": true,
+            "stbStop": {
+              "locX": 0,
+              "idx": 17,
+              "dProdX": 24,
+              "dPltfS": {
+                "type": "PL",
+                "txt": "2"
+              },
+              "dTimeS": "01023600",
+              "dTimeFS": {
+                "styleX": 3
+              },
+              "dTimeFC": {
+                "styleX": 4
+              },
+              "type": "N"
+            },
+            "msgL": [
+              {
+                "type": "REM",
+                "remX": 1,
+                "sty": "I",
+                "fLocX": 0,
+                "tLocX": 2,
+                "tagL": [
+                  "RES_JNY_DTL"
+                ],
+                "sort": 839385088
+              }
+            ],
+            "subscr": "F",
+            "prodL": [
+              {
+                "prodX": 24,
+                "fLocX": 0,
+                "tLocX": 2,
+                "fIdx": 17,
+                "tIdx": 23
+              }
+            ],
+            "sumLDrawStyleX": 2,
+            "resLDrawStyleX": 3,
+            "trainStartDate": "20240210"
+          },
+          {
+            "jid": "1|46614|7|86|10022024",
+            "date": "20240210",
+            "prodX": 25,
+            "dirTxt": "Alt-Mariendorf",
+            "dirFlg": "1",
+            "status": "P",
+            "isRchbl": true,
+            "stbStop": {
+              "locX": 0,
+              "idx": 6,
+              "dProdX": 25,
+              "dPltfS": {
+                "type": "PL",
+                "txt": "1"
+              },
+              "dTimeS": "01023700",
+              "dTimeFS": {
+                "styleX": 3
+              },
+              "dTimeFC": {
+                "styleX": 4
+              },
+              "type": "N"
+            },
+            "msgL": [
+              {
+                "type": "REM",
+                "remX": 1,
+                "sty": "I",
+                "fLocX": 0,
+                "tLocX": 3,
+                "tagL": [
+                  "RES_JNY_DTL"
+                ],
+                "sort": 839385088
+              }
+            ],
+            "subscr": "F",
+            "prodL": [
+              {
+                "prodX": 25,
+                "fLocX": 0,
+                "tLocX": 3,
+                "fIdx": 6,
+                "tIdx": 23
+              }
+            ],
+            "sumLDrawStyleX": 2,
+            "resLDrawStyleX": 3,
+            "trainStartDate": "20240210"
+          },
+          {
+            "jid": "1|32451|4|86|10022024",
+            "date": "20240210",
+            "prodX": 26,
+            "dirTxt": "S+U Pankow",
+            "dirFlg": "2",
+            "status": "P",
+            "isRchbl": true,
+            "stbStop": {
+              "locX": 0,
+              "idx": 15,
+              "dProdX": 26,
+              "dTimeS": "01024900",
+              "dTimeFS": {
+                "styleX": 3
+              },
+              "dTimeFC": {
+                "styleX": 4
+              },
+              "dTrnCmpSX": {
+                "tcocX": [
+                  1
+                ]
+              },
+              "msgL": [
+                {
+                  "type": "REM",
+                  "remX": 2,
+                  "sty": "I",
+                  "tagL": [
+                    "RES_LOC_H3"
+                  ],
+                  "sort": 415760384
+                }
+              ],
+              "type": "N"
+            },
+            "subscr": "F",
+            "prodL": [
+              {
+                "prodX": 26,
+                "fLocX": 0,
+                "tLocX": 1,
+                "fIdx": 15,
+                "tIdx": 28
+              }
+            ],
+            "sumLDrawStyleX": 0,
+            "resLDrawStyleX": 1,
+            "trainStartDate": "20240210"
+          },
+          {
+            "jid": "1|46700|8|86|10022024",
+            "date": "20240210",
+            "prodX": 27,
+            "dirTxt": "Kurt-Schumacher-Platz",
+            "dirFlg": "2",
+            "status": "P",
+            "isRchbl": true,
+            "stbStop": {
+              "locX": 0,
+              "idx": 17,
+              "dProdX": 27,
+              "dPltfS": {
+                "type": "PL",
+                "txt": "2"
+              },
+              "dTimeS": "01025100",
+              "dTimeFS": {
+                "styleX": 3
+              },
+              "dTimeFC": {
+                "styleX": 4
+              },
+              "type": "N"
+            },
+            "msgL": [
+              {
+                "type": "REM",
+                "remX": 1,
+                "sty": "I",
+                "fLocX": 0,
+                "tLocX": 2,
+                "tagL": [
+                  "RES_JNY_DTL"
+                ],
+                "sort": 839385088
+              }
+            ],
+            "subscr": "F",
+            "prodL": [
+              {
+                "prodX": 27,
+                "fLocX": 0,
+                "tLocX": 2,
+                "fIdx": 17,
+                "tIdx": 23
+              }
+            ],
+            "sumLDrawStyleX": 2,
+            "resLDrawStyleX": 3,
+            "trainStartDate": "20240210"
+          },
+          {
+            "jid": "1|46614|8|86|10022024",
+            "date": "20240210",
+            "prodX": 28,
+            "dirTxt": "Alt-Mariendorf",
+            "dirFlg": "1",
+            "status": "P",
+            "isRchbl": true,
+            "stbStop": {
+              "locX": 0,
+              "idx": 6,
+              "dProdX": 28,
+              "dPltfS": {
+                "type": "PL",
+                "txt": "1"
+              },
+              "dTimeS": "01025200",
+              "dTimeFS": {
+                "styleX": 3
+              },
+              "dTimeFC": {
+                "styleX": 4
+              },
+              "type": "N"
+            },
+            "msgL": [
+              {
+                "type": "REM",
+                "remX": 1,
+                "sty": "I",
+                "fLocX": 0,
+                "tLocX": 3,
+                "tagL": [
+                  "RES_JNY_DTL"
+                ],
+                "sort": 839385088
+              }
+            ],
+            "subscr": "F",
+            "prodL": [
+              {
+                "prodX": 28,
+                "fLocX": 0,
+                "tLocX": 3,
+                "fIdx": 6,
+                "tIdx": 23
+              }
+            ],
+            "sumLDrawStyleX": 2,
+            "resLDrawStyleX": 3,
+            "trainStartDate": "20240210"
+          },
+          {
+            "jid": "1|36929|3|86|10022024",
+            "date": "20240210",
+            "prodX": 9,
+            "dirTxt": "S+U Hauptbahnhof",
+            "dirFlg": "1",
+            "status": "P",
+            "isRchbl": true,
+            "stbStop": {
+              "locX": 0,
+              "idx": 40,
+              "dProdX": 9,
+              "dTimeS": "01025800",
+              "dTimeFS": {
+                "styleX": 3
+              },
+              "dTimeFC": {
+                "styleX": 4
+              },
+              "type": "N"
+            },
+            "subscr": "F",
+            "prodL": [
+              {
+                "prodX": 9,
+                "fLocX": 0,
+                "tLocX": 4,
+                "fIdx": 40,
+                "tIdx": 45
+              }
+            ],
+            "sumLDrawStyleX": 0,
+            "resLDrawStyleX": 1,
+            "trainStartDate": "20240210"
+          },
+          {
+            "jid": "1|36936|4|86|10022024",
+            "date": "20240210",
+            "prodX": 10,
+            "dirTxt": "Frohnau, Hainbuchenstr.",
+            "dirFlg": "2",
+            "status": "P",
+            "isRchbl": true,
+            "stbStop": {
+              "locX": 0,
+              "idx": 6,
+              "dProdX": 10,
+              "dTimeS": "01025900",
+              "dTimeFS": {
+                "styleX": 3
+              },
+              "dTimeFC": {
+                "styleX": 4
+              },
+              "type": "N"
+            },
+            "subscr": "F",
+            "prodL": [
+              {
+                "prodX": 10,
+                "fLocX": 0,
+                "tLocX": 5,
+                "fIdx": 6,
+                "tIdx": 48
+              }
+            ],
+            "sumLDrawStyleX": 0,
+            "resLDrawStyleX": 1,
+            "trainStartDate": "20240210"
+          },
+          {
+            "jid": "1|32319|4|86|10022024",
+            "date": "20240210",
+            "prodX": 29,
+            "dirTxt": "S+U Jungfernheide",
+            "dirFlg": "1",
+            "status": "P",
+            "isRchbl": true,
+            "stbStop": {
+              "locX": 0,
+              "idx": 13,
+              "dProdX": 29,
+              "dTimeS": "01030600",
+              "dTimeFS": {
+                "styleX": 3
+              },
+              "dTimeFC": {
+                "styleX": 4
+              },
+              "dTrnCmpSX": {
+                "tcocX": [
+                  1
+                ]
+              },
+              "msgL": [
+                {
+                  "type": "REM",
+                  "remX": 2,
+                  "sty": "I",
+                  "tagL": [
+                    "RES_LOC_H3"
+                  ],
+                  "sort": 415760384
+                }
+              ],
+              "type": "N"
+            },
+            "subscr": "F",
+            "prodL": [
+              {
+                "prodX": 29,
+                "fLocX": 0,
+                "tLocX": 6,
+                "fIdx": 13,
+                "tIdx": 31
+              }
+            ],
+            "sumLDrawStyleX": 0,
+            "resLDrawStyleX": 1,
+            "trainStartDate": "20240210"
+          },
+          {
+            "jid": "1|46700|9|86|10022024",
+            "date": "20240210",
+            "prodX": 30,
+            "dirTxt": "Kurt-Schumacher-Platz",
+            "dirFlg": "2",
+            "status": "P",
+            "isRchbl": true,
+            "stbStop": {
+              "locX": 0,
+              "idx": 17,
+              "dProdX": 30,
+              "dPltfS": {
+                "type": "PL",
+                "txt": "2"
+              },
+              "dTimeS": "01030600",
+              "dTimeFS": {
+                "styleX": 3
+              },
+              "dTimeFC": {
+                "styleX": 4
+              },
+              "type": "N"
+            },
+            "msgL": [
+              {
+                "type": "REM",
+                "remX": 1,
+                "sty": "I",
+                "fLocX": 0,
+                "tLocX": 2,
+                "tagL": [
+                  "RES_JNY_DTL"
+                ],
+                "sort": 839385088
+              }
+            ],
+            "subscr": "F",
+            "prodL": [
+              {
+                "prodX": 30,
+                "fLocX": 0,
+                "tLocX": 2,
+                "fIdx": 17,
+                "tIdx": 23
+              }
+            ],
+            "sumLDrawStyleX": 2,
+            "resLDrawStyleX": 3,
+            "trainStartDate": "20240210"
+          },
+          {
+            "jid": "1|46614|9|86|10022024",
+            "date": "20240210",
+            "prodX": 31,
+            "dirTxt": "Alt-Mariendorf",
+            "dirFlg": "1",
+            "status": "P",
+            "isRchbl": true,
+            "stbStop": {
+              "locX": 0,
+              "idx": 6,
+              "dProdX": 31,
+              "dPltfS": {
+                "type": "PL",
+                "txt": "1"
+              },
+              "dTimeS": "01030700",
+              "dTimeFS": {
+                "styleX": 3
+              },
+              "dTimeFC": {
+                "styleX": 4
+              },
+              "type": "N"
+            },
+            "msgL": [
+              {
+                "type": "REM",
+                "remX": 1,
+                "sty": "I",
+                "fLocX": 0,
+                "tLocX": 3,
+                "tagL": [
+                  "RES_JNY_DTL"
+                ],
+                "sort": 839385088
+              }
+            ],
+            "subscr": "F",
+            "prodL": [
+              {
+                "prodX": 31,
+                "fLocX": 0,
+                "tLocX": 3,
+                "fIdx": 6,
+                "tIdx": 23
+              }
+            ],
+            "sumLDrawStyleX": 2,
+            "resLDrawStyleX": 3,
+            "trainStartDate": "20240210"
+          },
+          {
+            "jid": "1|32451|5|86|10022024",
+            "date": "20240210",
+            "prodX": 32,
+            "dirTxt": "S+U Pankow",
+            "dirFlg": "2",
+            "status": "P",
+            "isRchbl": true,
+            "stbStop": {
+              "locX": 0,
+              "idx": 15,
+              "dProdX": 32,
+              "dTimeS": "01031900",
+              "dTimeFS": {
+                "styleX": 3
+              },
+              "dTimeFC": {
+                "styleX": 4
+              },
+              "dTrnCmpSX": {
+                "tcocX": [
+                  0
+                ]
+              },
+              "msgL": [
+                {
+                  "type": "REM",
+                  "remX": 0,
+                  "sty": "I",
+                  "tagL": [
+                    "RES_LOC_H3"
+                  ],
+                  "sort": 415760384
+                }
+              ],
+              "type": "N"
+            },
+            "subscr": "F",
+            "prodL": [
+              {
+                "prodX": 32,
+                "fLocX": 0,
+                "tLocX": 1,
+                "fIdx": 15,
+                "tIdx": 28
+              }
+            ],
+            "sumLDrawStyleX": 0,
+            "resLDrawStyleX": 1,
+            "trainStartDate": "20240210"
+          },
+          {
+            "jid": "1|46700|10|86|10022024",
+            "date": "20240210",
+            "prodX": 33,
+            "dirTxt": "Kurt-Schumacher-Platz",
+            "dirFlg": "2",
+            "status": "P",
+            "isRchbl": true,
+            "stbStop": {
+              "locX": 0,
+              "idx": 17,
+              "dProdX": 33,
+              "dPltfS": {
+                "type": "PL",
+                "txt": "2"
+              },
+              "dTimeS": "01032100",
+              "dTimeFS": {
+                "styleX": 3
+              },
+              "dTimeFC": {
+                "styleX": 4
+              },
+              "type": "N"
+            },
+            "msgL": [
+              {
+                "type": "REM",
+                "remX": 1,
+                "sty": "I",
+                "fLocX": 0,
+                "tLocX": 2,
+                "tagL": [
+                  "RES_JNY_DTL"
+                ],
+                "sort": 839385088
+              }
+            ],
+            "subscr": "F",
+            "prodL": [
+              {
+                "prodX": 33,
+                "fLocX": 0,
+                "tLocX": 2,
+                "fIdx": 17,
+                "tIdx": 23
+              }
+            ],
+            "sumLDrawStyleX": 2,
+            "resLDrawStyleX": 3,
+            "trainStartDate": "20240210"
+          },
+          {
+            "jid": "1|46612|0|86|11022024",
+            "date": "20240211",
+            "prodX": 34,
+            "dirTxt": "Alt-Mariendorf",
+            "dirFlg": "1",
+            "status": "P",
+            "isRchbl": true,
+            "stbStop": {
+              "locX": 0,
+              "idx": 6,
+              "dProdX": 34,
+              "dPltfS": {
+                "type": "PL",
+                "txt": "1"
+              },
+              "dTimeS": "032200",
+              "dTimeFS": {
+                "styleX": 3
+              },
+              "dTimeFC": {
+                "styleX": 4
+              },
+              "dTrnCmpSX": {
+                "tcocX": [
+                  1
+                ]
+              },
+              "msgL": [
+                {
+                  "type": "REM",
+                  "remX": 2,
+                  "sty": "I",
+                  "tagL": [
+                    "RES_LOC_H3"
+                  ],
+                  "sort": 415760384
+                }
+              ],
+              "type": "N"
+            },
+            "msgL": [
+              {
+                "type": "REM",
+                "remX": 1,
+                "sty": "I",
+                "fLocX": 0,
+                "tLocX": 3,
+                "tagL": [
+                  "RES_JNY_DTL"
+                ],
+                "sort": 839385088
+              }
+            ],
+            "subscr": "F",
+            "prodL": [
+              {
+                "prodX": 34,
+                "fLocX": 0,
+                "tLocX": 3,
+                "fIdx": 6,
+                "tIdx": 23
+              }
+            ],
+            "sumLDrawStyleX": 2,
+            "resLDrawStyleX": 3,
+            "trainStartDate": "20240211"
+          },
+          {
+            "jid": "1|36929|4|86|10022024",
+            "date": "20240210",
+            "prodX": 35,
+            "dirTxt": "S+U Hauptbahnhof",
+            "dirFlg": "1",
+            "status": "P",
+            "isRchbl": true,
+            "stbStop": {
+              "locX": 0,
+              "idx": 40,
+              "dProdX": 35,
+              "dTimeS": "01032800",
+              "dTimeFS": {
+                "styleX": 3
+              },
+              "dTimeFC": {
+                "styleX": 4
+              },
+              "type": "N"
+            },
+            "subscr": "F",
+            "prodL": [
+              {
+                "prodX": 35,
+                "fLocX": 0,
+                "tLocX": 4,
+                "fIdx": 40,
+                "tIdx": 45
+              }
+            ],
+            "sumLDrawStyleX": 0,
+            "resLDrawStyleX": 1,
+            "trainStartDate": "20240210"
+          },
+          {
+            "jid": "1|36935|0|86|11022024",
+            "date": "20240211",
+            "prodX": 36,
+            "dirTxt": "Frohnau, Hainbuchenstr.",
+            "dirFlg": "2",
+            "status": "P",
+            "isRchbl": true,
+            "stbStop": {
+              "locX": 0,
+              "idx": 6,
+              "dProdX": 36,
+              "dTimeS": "032900",
+              "dTimeFS": {
+                "styleX": 3
+              },
+              "dTimeFC": {
+                "styleX": 4
+              },
+              "dTrnCmpSX": {
+                "tcocX": [
+                  0
+                ]
+              },
+              "msgL": [
+                {
+                  "type": "REM",
+                  "remX": 0,
+                  "sty": "I",
+                  "tagL": [
+                    "RES_LOC_H3"
+                  ],
+                  "sort": 415760384
+                }
+              ],
+              "type": "N"
+            },
+            "subscr": "F",
+            "prodL": [
+              {
+                "prodX": 36,
+                "fLocX": 0,
+                "tLocX": 5,
+                "fIdx": 6,
+                "tIdx": 48
+              }
+            ],
+            "sumLDrawStyleX": 0,
+            "resLDrawStyleX": 1,
+            "trainStartDate": "20240211"
+          },
+          {
+            "jid": "1|32318|0|86|11022024",
+            "date": "20240211",
+            "prodX": 37,
+            "dirTxt": "S+U Jungfernheide",
+            "dirFlg": "1",
+            "status": "P",
+            "isRchbl": true,
+            "stbStop": {
+              "locX": 0,
+              "idx": 13,
+              "dProdX": 37,
+              "dTimeS": "033600",
+              "dTimeFS": {
+                "styleX": 3
+              },
+              "dTimeFC": {
+                "styleX": 4
+              },
+              "dTrnCmpSX": {
+                "tcocX": [
+                  1
+                ]
+              },
+              "msgL": [
+                {
+                  "type": "REM",
+                  "remX": 2,
+                  "sty": "I",
+                  "tagL": [
+                    "RES_LOC_H3"
+                  ],
+                  "sort": 415760384
+                }
+              ],
+              "type": "N"
+            },
+            "subscr": "F",
+            "prodL": [
+              {
+                "prodX": 37,
+                "fLocX": 0,
+                "tLocX": 6,
+                "fIdx": 13,
+                "tIdx": 31
+              }
+            ],
+            "sumLDrawStyleX": 0,
+            "resLDrawStyleX": 1,
+            "trainStartDate": "20240211"
+          },
+          {
+            "jid": "1|46698|0|86|11022024",
+            "date": "20240211",
+            "prodX": 38,
+            "dirTxt": "Kurt-Schumacher-Platz",
+            "dirFlg": "2",
+            "status": "P",
+            "isRchbl": true,
+            "stbStop": {
+              "locX": 0,
+              "idx": 17,
+              "dProdX": 38,
+              "dPltfS": {
+                "type": "PL",
+                "txt": "2"
+              },
+              "dTimeS": "033600",
+              "dTimeFS": {
+                "styleX": 3
+              },
+              "dTimeFC": {
+                "styleX": 4
+              },
+              "dTrnCmpSX": {
+                "tcocX": [
+                  1
+                ]
+              },
+              "msgL": [
+                {
+                  "type": "REM",
+                  "remX": 2,
+                  "sty": "I",
+                  "tagL": [
+                    "RES_LOC_H3"
+                  ],
+                  "sort": 415760384
+                }
+              ],
+              "type": "N"
+            },
+            "msgL": [
+              {
+                "type": "REM",
+                "remX": 1,
+                "sty": "I",
+                "fLocX": 0,
+                "tLocX": 2,
+                "tagL": [
+                  "RES_JNY_DTL"
+                ],
+                "sort": 839385088
+              }
+            ],
+            "subscr": "F",
+            "prodL": [
+              {
+                "prodX": 38,
+                "fLocX": 0,
+                "tLocX": 2,
+                "fIdx": 17,
+                "tIdx": 23
+              }
+            ],
+            "sumLDrawStyleX": 2,
+            "resLDrawStyleX": 3,
+            "trainStartDate": "20240211"
+          },
+          {
+            "jid": "1|46612|1|86|11022024",
+            "date": "20240211",
+            "prodX": 39,
+            "dirTxt": "Alt-Mariendorf",
+            "dirFlg": "1",
+            "status": "P",
+            "isRchbl": true,
+            "stbStop": {
+              "locX": 0,
+              "idx": 6,
+              "dProdX": 39,
+              "dPltfS": {
+                "type": "PL",
+                "txt": "1"
+              },
+              "dTimeS": "033700",
+              "dTimeFS": {
+                "styleX": 3
+              },
+              "dTimeFC": {
+                "styleX": 4
+              },
+              "dTrnCmpSX": {
+                "tcocX": [
+                  1
+                ]
+              },
+              "msgL": [
+                {
+                  "type": "REM",
+                  "remX": 2,
+                  "sty": "I",
+                  "tagL": [
+                    "RES_LOC_H3"
+                  ],
+                  "sort": 415760384
+                }
+              ],
+              "type": "N"
+            },
+            "msgL": [
+              {
+                "type": "REM",
+                "remX": 1,
+                "sty": "I",
+                "fLocX": 0,
+                "tLocX": 3,
+                "tagL": [
+                  "RES_JNY_DTL"
+                ],
+                "sort": 839385088
+              }
+            ],
+            "subscr": "F",
+            "prodL": [
+              {
+                "prodX": 39,
+                "fLocX": 0,
+                "tLocX": 3,
+                "fIdx": 6,
+                "tIdx": 23
+              }
+            ],
+            "sumLDrawStyleX": 2,
+            "resLDrawStyleX": 3,
+            "trainStartDate": "20240211"
+          },
+          {
+            "jid": "1|32396|0|86|11022024",
+            "date": "20240211",
+            "prodX": 40,
+            "dirTxt": "S+U Pankow",
+            "dirFlg": "2",
+            "status": "P",
+            "isRchbl": true,
+            "stbStop": {
+              "locX": 0,
+              "idx": 15,
+              "dProdX": 40,
+              "dTimeS": "034900",
+              "dTimeFS": {
+                "styleX": 3
+              },
+              "dTimeFC": {
+                "styleX": 4
+              },
+              "dTrnCmpSX": {
+                "tcocX": [
+                  0
+                ]
+              },
+              "msgL": [
+                {
+                  "type": "REM",
+                  "remX": 0,
+                  "sty": "I",
+                  "tagL": [
+                    "RES_LOC_H3"
+                  ],
+                  "sort": 415760384
+                }
+              ],
+              "type": "N"
+            },
+            "subscr": "F",
+            "prodL": [
+              {
+                "prodX": 40,
+                "fLocX": 0,
+                "tLocX": 1,
+                "fIdx": 15,
+                "tIdx": 28
+              }
+            ],
+            "sumLDrawStyleX": 0,
+            "resLDrawStyleX": 1,
+            "trainStartDate": "20240211"
+          },
+          {
+            "jid": "1|46698|1|86|11022024",
+            "date": "20240211",
+            "prodX": 41,
+            "dirTxt": "Kurt-Schumacher-Platz",
+            "dirFlg": "2",
+            "status": "P",
+            "isRchbl": true,
+            "stbStop": {
+              "locX": 0,
+              "idx": 17,
+              "dProdX": 41,
+              "dPltfS": {
+                "type": "PL",
+                "txt": "2"
+              },
+              "dTimeS": "035100",
+              "dTimeFS": {
+                "styleX": 3
+              },
+              "dTimeFC": {
+                "styleX": 4
+              },
+              "dTrnCmpSX": {
+                "tcocX": [
+                  1
+                ]
+              },
+              "msgL": [
+                {
+                  "type": "REM",
+                  "remX": 2,
+                  "sty": "I",
+                  "tagL": [
+                    "RES_LOC_H3"
+                  ],
+                  "sort": 415760384
+                }
+              ],
+              "type": "N"
+            },
+            "msgL": [
+              {
+                "type": "REM",
+                "remX": 1,
+                "sty": "I",
+                "fLocX": 0,
+                "tLocX": 2,
+                "tagL": [
+                  "RES_JNY_DTL"
+                ],
+                "sort": 839385088
+              }
+            ],
+            "subscr": "F",
+            "prodL": [
+              {
+                "prodX": 41,
+                "fLocX": 0,
+                "tLocX": 2,
+                "fIdx": 17,
+                "tIdx": 23
+              }
+            ],
+            "sumLDrawStyleX": 2,
+            "resLDrawStyleX": 3,
+            "trainStartDate": "20240211"
+          },
+          {
+            "jid": "1|46612|2|86|11022024",
+            "date": "20240211",
+            "prodX": 42,
+            "dirTxt": "Alt-Mariendorf",
+            "dirFlg": "1",
+            "status": "P",
+            "isRchbl": true,
+            "stbStop": {
+              "locX": 0,
+              "idx": 6,
+              "dProdX": 42,
+              "dPltfS": {
+                "type": "PL",
+                "txt": "1"
+              },
+              "dTimeS": "035200",
+              "dTimeFS": {
+                "styleX": 3
+              },
+              "dTimeFC": {
+                "styleX": 4
+              },
+              "dTrnCmpSX": {
+                "tcocX": [
+                  1
+                ]
+              },
+              "msgL": [
+                {
+                  "type": "REM",
+                  "remX": 2,
+                  "sty": "I",
+                  "tagL": [
+                    "RES_LOC_H3"
+                  ],
+                  "sort": 415760384
+                }
+              ],
+              "type": "N"
+            },
+            "msgL": [
+              {
+                "type": "REM",
+                "remX": 1,
+                "sty": "I",
+                "fLocX": 0,
+                "tLocX": 3,
+                "tagL": [
+                  "RES_JNY_DTL"
+                ],
+                "sort": 839385088
+              }
+            ],
+            "subscr": "F",
+            "prodL": [
+              {
+                "prodX": 42,
+                "fLocX": 0,
+                "tLocX": 3,
+                "fIdx": 6,
+                "tIdx": 23
+              }
+            ],
+            "sumLDrawStyleX": 2,
+            "resLDrawStyleX": 3,
+            "trainStartDate": "20240211"
+          },
+          {
+            "jid": "1|36928|0|86|11022024",
+            "date": "20240211",
+            "prodX": 43,
+            "dirTxt": "S+U Hauptbahnhof",
+            "dirFlg": "1",
+            "status": "P",
+            "isRchbl": true,
+            "stbStop": {
+              "locX": 0,
+              "idx": 40,
+              "dProdX": 43,
+              "dTimeS": "035800",
+              "dTimeFS": {
+                "styleX": 3
+              },
+              "dTimeFC": {
+                "styleX": 4
+              },
+              "dTrnCmpSX": {
+                "tcocX": [
+                  1
+                ]
+              },
+              "msgL": [
+                {
+                  "type": "REM",
+                  "remX": 2,
+                  "sty": "I",
+                  "tagL": [
+                    "RES_LOC_H3"
+                  ],
+                  "sort": 415760384
+                }
+              ],
+              "type": "N"
+            },
+            "subscr": "F",
+            "prodL": [
+              {
+                "prodX": 43,
+                "fLocX": 0,
+                "tLocX": 4,
+                "fIdx": 40,
+                "tIdx": 45
+              }
+            ],
+            "sumLDrawStyleX": 0,
+            "resLDrawStyleX": 1,
+            "trainStartDate": "20240211"
+          },
+          {
+            "jid": "1|36935|1|86|11022024",
+            "date": "20240211",
+            "prodX": 44,
+            "dirTxt": "Frohnau, Hainbuchenstr.",
+            "dirFlg": "2",
+            "status": "P",
+            "isRchbl": true,
+            "stbStop": {
+              "locX": 0,
+              "idx": 6,
+              "dProdX": 44,
+              "dTimeS": "035900",
+              "dTimeFS": {
+                "styleX": 3
+              },
+              "dTimeFC": {
+                "styleX": 4
+              },
+              "dTrnCmpSX": {
+                "tcocX": [
+                  0
+                ]
+              },
+              "msgL": [
+                {
+                  "type": "REM",
+                  "remX": 0,
+                  "sty": "I",
+                  "tagL": [
+                    "RES_LOC_H3"
+                  ],
+                  "sort": 415760384
+                }
+              ],
+              "type": "N"
+            },
+            "subscr": "F",
+            "prodL": [
+              {
+                "prodX": 44,
+                "fLocX": 0,
+                "tLocX": 5,
+                "fIdx": 6,
+                "tIdx": 48
+              }
+            ],
+            "sumLDrawStyleX": 0,
+            "resLDrawStyleX": 1,
+            "trainStartDate": "20240211"
+          },
+          {
+            "jid": "1|32318|1|86|11022024",
+            "date": "20240211",
+            "prodX": 45,
+            "dirTxt": "S+U Jungfernheide",
+            "dirFlg": "1",
+            "status": "P",
+            "isRchbl": true,
+            "stbStop": {
+              "locX": 0,
+              "idx": 13,
+              "dProdX": 45,
+              "dTimeS": "040600",
+              "dTimeFS": {
+                "styleX": 3
+              },
+              "dTimeFC": {
+                "styleX": 4
+              },
+              "dTrnCmpSX": {
+                "tcocX": [
+                  1
+                ]
+              },
+              "msgL": [
+                {
+                  "type": "REM",
+                  "remX": 2,
+                  "sty": "I",
+                  "tagL": [
+                    "RES_LOC_H3"
+                  ],
+                  "sort": 415760384
+                }
+              ],
+              "type": "N"
+            },
+            "subscr": "F",
+            "prodL": [
+              {
+                "prodX": 45,
+                "fLocX": 0,
+                "tLocX": 6,
+                "fIdx": 13,
+                "tIdx": 31
+              }
+            ],
+            "sumLDrawStyleX": 0,
+            "resLDrawStyleX": 1,
+            "trainStartDate": "20240211"
+          },
+          {
+            "jid": "1|46698|2|86|11022024",
+            "date": "20240211",
+            "prodX": 46,
+            "dirTxt": "Kurt-Schumacher-Platz",
+            "dirFlg": "2",
+            "status": "P",
+            "isRchbl": true,
+            "stbStop": {
+              "locX": 0,
+              "idx": 17,
+              "dProdX": 46,
+              "dPltfS": {
+                "type": "PL",
+                "txt": "2"
+              },
+              "dTimeS": "040600",
+              "dTimeFS": {
+                "styleX": 3
+              },
+              "dTimeFC": {
+                "styleX": 4
+              },
+              "dTrnCmpSX": {
+                "tcocX": [
+                  1
+                ]
+              },
+              "msgL": [
+                {
+                  "type": "REM",
+                  "remX": 2,
+                  "sty": "I",
+                  "tagL": [
+                    "RES_LOC_H3"
+                  ],
+                  "sort": 415760384
+                }
+              ],
+              "type": "N"
+            },
+            "msgL": [
+              {
+                "type": "REM",
+                "remX": 1,
+                "sty": "I",
+                "fLocX": 0,
+                "tLocX": 2,
+                "tagL": [
+                  "RES_JNY_DTL"
+                ],
+                "sort": 839385088
+              }
+            ],
+            "subscr": "F",
+            "prodL": [
+              {
+                "prodX": 46,
+                "fLocX": 0,
+                "tLocX": 2,
+                "fIdx": 17,
+                "tIdx": 23
+              }
+            ],
+            "sumLDrawStyleX": 2,
+            "resLDrawStyleX": 3,
+            "trainStartDate": "20240211"
+          },
+          {
+            "jid": "1|46612|3|86|11022024",
+            "date": "20240211",
+            "prodX": 47,
+            "dirTxt": "Alt-Mariendorf",
+            "dirFlg": "1",
+            "status": "P",
+            "isRchbl": true,
+            "stbStop": {
+              "locX": 0,
+              "idx": 6,
+              "dProdX": 47,
+              "dPltfS": {
+                "type": "PL",
+                "txt": "1"
+              },
+              "dTimeS": "040700",
+              "dTimeFS": {
+                "styleX": 3
+              },
+              "dTimeFC": {
+                "styleX": 4
+              },
+              "dTrnCmpSX": {
+                "tcocX": [
+                  1
+                ]
+              },
+              "msgL": [
+                {
+                  "type": "REM",
+                  "remX": 2,
+                  "sty": "I",
+                  "tagL": [
+                    "RES_LOC_H3"
+                  ],
+                  "sort": 415760384
+                }
+              ],
+              "type": "N"
+            },
+            "msgL": [
+              {
+                "type": "REM",
+                "remX": 1,
+                "sty": "I",
+                "fLocX": 0,
+                "tLocX": 3,
+                "tagL": [
+                  "RES_JNY_DTL"
+                ],
+                "sort": 839385088
+              }
+            ],
+            "subscr": "F",
+            "prodL": [
+              {
+                "prodX": 47,
+                "fLocX": 0,
+                "tLocX": 3,
+                "fIdx": 6,
+                "tIdx": 23
+              }
+            ],
+            "sumLDrawStyleX": 2,
+            "resLDrawStyleX": 3,
+            "trainStartDate": "20240211"
+          },
+          {
+            "jid": "1|32396|1|86|11022024",
+            "date": "20240211",
+            "prodX": 48,
+            "dirTxt": "S+U Pankow",
+            "dirFlg": "2",
+            "status": "P",
+            "isRchbl": true,
+            "stbStop": {
+              "locX": 0,
+              "idx": 15,
+              "dProdX": 48,
+              "dTimeS": "041900",
+              "dTimeFS": {
+                "styleX": 3
+              },
+              "dTimeFC": {
+                "styleX": 4
+              },
+              "dTrnCmpSX": {
+                "tcocX": [
+                  1
+                ]
+              },
+              "msgL": [
+                {
+                  "type": "REM",
+                  "remX": 2,
+                  "sty": "I",
+                  "tagL": [
+                    "RES_LOC_H3"
+                  ],
+                  "sort": 415760384
+                }
+              ],
+              "type": "N"
+            },
+            "subscr": "F",
+            "prodL": [
+              {
+                "prodX": 48,
+                "fLocX": 0,
+                "tLocX": 1,
+                "fIdx": 15,
+                "tIdx": 28
+              }
+            ],
+            "sumLDrawStyleX": 0,
+            "resLDrawStyleX": 1,
+            "trainStartDate": "20240211"
+          },
+          {
+            "jid": "1|46698|3|86|11022024",
+            "date": "20240211",
+            "prodX": 49,
+            "dirTxt": "Kurt-Schumacher-Platz",
+            "dirFlg": "2",
+            "status": "P",
+            "isRchbl": true,
+            "stbStop": {
+              "locX": 0,
+              "idx": 17,
+              "dProdX": 49,
+              "dPltfS": {
+                "type": "PL",
+                "txt": "2"
+              },
+              "dTimeS": "042100",
+              "dTimeFS": {
+                "styleX": 3
+              },
+              "dTimeFC": {
+                "styleX": 4
+              },
+              "dTrnCmpSX": {
+                "tcocX": [
+                  1
+                ]
+              },
+              "msgL": [
+                {
+                  "type": "REM",
+                  "remX": 2,
+                  "sty": "I",
+                  "tagL": [
+                    "RES_LOC_H3"
+                  ],
+                  "sort": 415760384
+                }
+              ],
+              "type": "N"
+            },
+            "msgL": [
+              {
+                "type": "REM",
+                "remX": 1,
+                "sty": "I",
+                "fLocX": 0,
+                "tLocX": 2,
+                "tagL": [
+                  "RES_JNY_DTL"
+                ],
+                "sort": 839385088
+              }
+            ],
+            "subscr": "F",
+            "prodL": [
+              {
+                "prodX": 49,
+                "fLocX": 0,
+                "tLocX": 2,
+                "fIdx": 17,
+                "tIdx": 23
+              }
+            ],
+            "sumLDrawStyleX": 2,
+            "resLDrawStyleX": 3,
+            "trainStartDate": "20240211"
           }
         ],
-        "fpB": "20240121",
+        "fpB": "20240204",
         "fpE": "20241214",
-        "planrtTS": "1706363408",
-        "sD": "20240127",
-        "sT": "145026",
+        "planrtTS": "1707610387",
+        "sD": "20240211",
+        "sT": "011316",
         "locRefL": [
           0
         ]

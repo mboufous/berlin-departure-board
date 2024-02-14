@@ -22,8 +22,13 @@ type SvcResData struct {
 
 type CommonData struct {
 	LocL  []Location   `json:"locL"`
-	ProdL []Product    `json:"prodL"`
+	ProdL []ProductReq `json:"prodL"`
 	HimL  []HimMessage `json:"himL,omitempty"`
+	RemL  []RemMessage `json:"remL,omitempty"`
+}
+
+type RemMessage struct {
+	TxtN string `json:"txtN"`
 }
 
 type Location struct {
@@ -44,20 +49,13 @@ type Journey struct {
 	ProdX   int    `json:"prodX"` // index of the product in prodL
 	DirTxt  string `json:"dirTxt"`
 	StbStop struct {
-		LocX   int `json:"locX"`
-		Idx    int `json:"idx"` // index of the stop in locL
-		DProdX int `json:"dProdX"`
-		DPltfS struct {
-			Type string `json:"type"`
-			Txt  string `json:"txt"`
-		} `json:"dPltfS"`
-		DTimeS  string `json:"dTimeS"`           // Planned Departure time
-		DTimeR  string `json:"dTimeR,omitempty"` // Prognosed Departure time delay = DTimeR - DTimeS
-		DTimeFR struct {
-			TxtA string // "txtA": "3 minutes late"
-		} `json:"dTimeFR,omitempty"`
-		Type string `json:"type"`
+		LocX   int    `json:"locX"`
+		Idx    int    `json:"idx"` // index of the stop in locL
+		DProdX int    `json:"dProdX"`
+		DTimeS string `json:"dTimeS"`           // Planned Departure time
+		DTimeR string `json:"dTimeR,omitempty"` // Prognosed Departure time delay = DTimeR - DTimeS
 	} `json:"stbStop"`
+	MsgL  []MsgList `json:"msgL,omitempty"`
 	ProdL []struct {
 		ProdX int `json:"prodX"`
 		FLocX int `json:"fLocX"`
@@ -68,7 +66,12 @@ type Journey struct {
 	TrainStartDate string `json:"trainStartDate"`
 }
 
-type Product struct {
+type MsgList struct {
+	RemX int    `json:"remX"`
+	Type string `json:"type"`
+}
+
+type ProductReq struct {
 	Pid     string     `json:"pid"`
 	Name    string     `json:"name"`
 	NameS   string     `json:"nameS"`

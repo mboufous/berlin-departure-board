@@ -1,50 +1,64 @@
 package bvg
 
 import (
+	"github.com/mboufous/berlin-departure-board/hafas"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )
 
 func TestParseDepartureResponse_ValidResponse(t *testing.T) {
-	bvgProvider := &Provider{}
+	bvgProvider := &APIProvider{}
 
-	body := loadMockedBVGResponse(t, "valid_departure_response.json")
+	body, _ := loadMockedBVGResponse("valid_departure_response.json")
 	defer body.Close()
 
-	departureBoard, err := bvgProvider.ParseDepartureResponse(body, true)
-
+	departureBoard, err := bvgProvider.ParseDepartureResponse(body)
 	assert.NoError(t, err, "Expected no error for valid JSON response")
-	assert.NotEmpty(t, departureBoard, "Departure board should not be empty for valid JSON")
-	assert.NotEmpty(t, departureBoard.Departures, "Departures should not be empty for valid JSON")
-	assert.NotEmpty(t, departureBoard.Remarks, "Remarks should not be empty for valid JSON when enabled")
+	assert.NotEmpty(t, departureBoard.Lines, "Expected a full list of lines")
+	assert.Len(t, departureBoard.Lines, 3)
 
-	assert.Len(t, departureBoard.Departures, 7, "Unexpected number of departures")
-	assert.Len(t, departureBoard.Remarks, 1, "Unexpected number of remarks")
+	var firstLine hafas.Line
+	for _, line := range departureBoard.Lines {
+		if line.Product.Name == "U6" {
+			firstLine = line
+		}
+	}
 
-	testDeparture := departureBoard.Departures[0]
-	assert.Equal(t, "U Reinickendorfer Str. (Berlin)", testDeparture.Stop.Name)
-	assert.Equal(t, "900008102", testDeparture.Stop.ID)
-	assert.Equal(t, "Märkisches Viertel, Wilhelmsruher Damm", testDeparture.Direction)
-	assert.Equal(t, "120", testDeparture.Line.Name)
-	assert.Equal(t, "210500", testDeparture.When.Format(timeLayout))
-	assert.Equal(t, 4, testDeparture.Delay)
+	assert.Len(t, firstLine.Directions, 2)
 
-	testDepartureWithDayOffset := departureBoard.Departures[1]
-	assert.Equal(t, "010300", testDepartureWithDayOffset.When.Format(timeLayout))
-	assert.Equal(t, "20240124", testDepartureWithDayOffset.When.Format(dateLayout))
+	var firstDirection hafas.Direction
+	for _, direction := range firstLine.Directions {
+		if direction.Name == "Alt-Mariendorf" {
+			firstDirection = direction
+		}
+	}
+	assert.Len(t, firstDirection.Departures, 12)
+}
 
-	testRemark := departureBoard.Remarks[0]
-	assert.Equal(t, "Rail strike until Monday, 29 January, 6 p.m.", testRemark.Header)
+// BenchmarkConvertLines-10    	  172573	      6850 ns/op	    8704 B/op	     185 allocs/op
+func BenchmarkConvertLines(b *testing.B) {
+	bvgProvider := &APIProvider{}
 
+	body, _ := loadMockedBVGResponse("valid_departure_response.json")
+	defer body.Close()
+	apiResult, _ := bvgProvider.ParseBaseResponse(body)
+
+	b.ResetTimer()
+
+	for i := 0; i < b.N; i++ {
+		_ = bvgProvider.convertLines(apiResult.Res)
+	}
+
+	b.ReportAllocs()
 }
 
 func TestParseDepartureResponse_InvalidResponse(t *testing.T) {
-	bvgProvider := &Provider{}
+	bvgProvider := &APIProvider{}
 
-	body := loadMockedBVGResponse(t, "invalid_departure_response.json")
+	body, _ := loadMockedBVGResponse("invalid_departure_response.json")
 	defer body.Close()
 
-	departureBoard, err := bvgProvider.ParseDepartureResponse(body, true)
+	departureBoard, err := bvgProvider.ParseDepartureResponse(body)
 
 	assert.Error(t, err, "Expected an error for invalid JSON response")
 	assert.Empty(t, departureBoard, "Departure board should be empty for invalid JSON")

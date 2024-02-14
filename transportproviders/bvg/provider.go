@@ -16,10 +16,10 @@ const (
 	fullDateLayout = dateLayout + timeLayout
 )
 
-type Provider struct {
+type APIProvider struct {
 }
 
-func (p *Provider) newRequest(payload any) (*http.Request, error) {
+func (p *APIProvider) newRequest(payload any) (*http.Request, error) {
 	jsonPayload, err := json.Marshal(payload)
 	if err != nil {
 		return nil, fmt.Errorf("payload marshal failed: %w", err)
@@ -35,7 +35,7 @@ func (p *Provider) newRequest(payload any) (*http.Request, error) {
 	return req, nil
 }
 
-func (p *Provider) ParseBaseResponse(responseBody io.ReadCloser) (*SvcRes, error) {
+func (p *APIProvider) ParseBaseResponse(responseBody io.ReadCloser) (*SvcRes, error) {
 	bvgResponse := &ApiResponse{}
 	err := json.NewDecoder(responseBody).Decode(bvgResponse)
 	if err != nil {

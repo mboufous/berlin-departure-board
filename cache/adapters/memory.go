@@ -1,4 +1,4 @@
-package stores
+package adapters
 
 import (
 	"context"
@@ -7,17 +7,17 @@ import (
 	"time"
 )
 
-type MemoryStore[T any] struct {
+type MemoryAdapter[T any] struct {
 	provider *gocache.Cache
 }
 
-func NewMemoryStore[T any](defaultExpiration, cleanupInterval time.Duration) *MemoryStore[T] {
-	return &MemoryStore[T]{
+func NewMemoryAdapter[T any](defaultExpiration, cleanupInterval time.Duration) *MemoryAdapter[T] {
+	return &MemoryAdapter[T]{
 		provider: gocache.New(defaultExpiration, cleanupInterval),
 	}
 }
 
-func (s *MemoryStore[T]) Get(_ context.Context, key string) (T, error) {
+func (s *MemoryAdapter[T]) Get(_ context.Context, key string) (T, error) {
 	if v, ok := s.provider.Get(key); ok {
 		return v.(T), nil
 	}
@@ -25,7 +25,7 @@ func (s *MemoryStore[T]) Get(_ context.Context, key string) (T, error) {
 	return emptyObj, cache.ErrObjectNotFound
 }
 
-func (s *MemoryStore[T]) GetWithTTL(_ context.Context, key string) (T, time.Duration, error) {
+func (s *MemoryAdapter[T]) GetWithTTL(_ context.Context, key string) (T, time.Duration, error) {
 	if v, ttl, ok := s.provider.GetWithExpiration(key); ok {
 		return v.(T), time.Until(ttl), nil
 	}
@@ -33,17 +33,17 @@ func (s *MemoryStore[T]) GetWithTTL(_ context.Context, key string) (T, time.Dura
 	return emptyObj, 0, cache.ErrObjectNotFound
 }
 
-func (s *MemoryStore[T]) Put(_ context.Context, key string, object T, ttl time.Duration) error {
+func (s *MemoryAdapter[T]) Put(_ context.Context, key string, object T, ttl time.Duration) error {
 	s.provider.Set(key, object, ttl)
 	return nil
 }
 
-func (s *MemoryStore[T]) Delete(_ context.Context, key string) error {
+func (s *MemoryAdapter[T]) Delete(_ context.Context, key string) error {
 	s.provider.Delete(key)
 	return nil
 }
 
-func (s *MemoryStore[T]) Clear(_ context.Context) error {
+func (s *MemoryAdapter[T]) Clear(_ context.Context) error {
 	s.provider.Flush()
 	return nil
 }

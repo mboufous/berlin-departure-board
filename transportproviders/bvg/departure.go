@@ -11,20 +11,18 @@ import (
 	"time"
 )
 
-func (p *Provider) NewDepartureRequest(params *hafas.DepartureParams) (*http.Request, error) {
+func (p *APIProvider) NewDepartureRequest(params *hafas.DepartureParams) (*http.Request, error) {
 	payload := CreateDepartureRequestPayload(DepartureRequestPayloadParams{
-		stationID:      params.Station,
-		duration:       params.DurationMinutes,
-		productsFilter: params.ProductsFilter,
+		stationID: params.Station,
+		duration:  params.MaxDeparturesDurationMinutes,
 	})
 	return p.newRequest(payload)
 }
 
 // TODO: process canceled departures
-func (p *Provider) ParseDepartureResponse(body io.ReadCloser, showRemarks bool) (*hafas.DepartureBoard, error) {
+func (p *APIProvider) ParseDepartureResponse(body io.ReadCloser) (*hafas.DepartureBoard, error) {
 	defer body.Close()
 
-	d := &hafas.DepartureBoard{}
 	apiResult, err := p.ParseBaseResponse(body)
 	if err != nil {
 		return nil, err
@@ -34,15 +32,81 @@ func (p *Provider) ParseDepartureResponse(body io.ReadCloser, showRemarks bool) 
 		return nil, errors.New("wrong api call for departures")
 	}
 
-	if showRemarks {
-		d.Remarks = p.convertRemarks(apiResult.Res.Common.HimL)
-	}
-	d.Departures = p.convertDeparture(apiResult.Res)
-
-	return d, nil
+	return &hafas.DepartureBoard{
+		Lines:   p.convertLines(apiResult.Res),
+		Remarks: p.convertStationRemarks(apiResult.Res.Common.HimL),
+	}, nil
 }
 
-func (p *Provider) convertRemarks(source []HimMessage) []hafas.Remark {
+func (p *APIProvider) convertDirectionRemarks(assignedRemarks []MsgList, remarks []RemMessage) []hafas.Remark {
+	if len(assignedRemarks) == 0 || len(remarks) == 0 {
+		return nil
+	}
+	var directionRemarks []hafas.Remark
+	for i, remark := range assignedRemarks {
+		if remark.Type == "REM" {
+			directionRemarks = append(directionRemarks, hafas.Remark{
+				Header: fmt.Sprintf("Remark%d", i),
+				Body:   remarks[remark.RemX].TxtN,
+			})
+		}
+	}
+	return directionRemarks
+}
+
+func (p *APIProvider) convertLines(source *SvcResData) []hafas.Line {
+	var lines []hafas.Line
+	processedLines := make(map[string]int)
+	lastLineIndex := -1
+
+	for _, journey := range source.JnyL {
+		product := source.Common.ProdL[journey.StbStop.DProdX].ProdCtx
+		when, _, err := p.populateDepartureTime(&journey)
+		if err != nil {
+			slog.Error("error populating departure time", slog.String("Error", err.Error()))
+			continue
+		}
+
+		lineID := product.Line
+		lineIndex, exist := processedLines[lineID]
+		if !exist {
+			lastLineIndex++
+			processedLines[lineID] = lastLineIndex
+			lines = append(lines, hafas.Line{
+				Product: hafas.Product{
+					Name: product.Line,
+					Type: product.CatOutS,
+				},
+				Directions: []hafas.Direction{},
+			})
+			lineIndex = lastLineIndex
+		}
+
+		directionIndex := -1
+		for i, direction := range lines[lineIndex].Directions {
+			if journey.DirTxt == direction.Name {
+				directionIndex = i
+				break
+			}
+		}
+		if directionIndex == -1 {
+			directionIndex = len(lines[lineIndex].Directions)
+			lines[lineIndex].Directions = append(lines[lineIndex].Directions, hafas.Direction{
+				Name:    journey.DirTxt,
+				Remarks: p.convertDirectionRemarks(journey.MsgL, source.Common.RemL),
+				Departures: []hafas.Departure{
+					{When: when},
+				},
+			})
+		} else {
+			lines[lineIndex].Directions[directionIndex].Departures = append(lines[lineIndex].Directions[directionIndex].Departures, hafas.Departure{When: when})
+		}
+	}
+
+	return lines
+}
+
+func (p *APIProvider) convertStationRemarks(source []HimMessage) []hafas.Remark {
 	var remarks []hafas.Remark
 	for _, remark := range source {
 		remarks = append(remarks, hafas.Remark{
@@ -53,34 +117,8 @@ func (p *Provider) convertRemarks(source []HimMessage) []hafas.Remark {
 	return remarks
 }
 
-func (p *Provider) convertDeparture(source *SvcResData) []hafas.Departure {
-	var departures []hafas.Departure
-	for _, journey := range source.JnyL {
-		stop := source.Common.LocL[journey.StbStop.LocX]
-		line := source.Common.ProdL[journey.StbStop.DProdX].ProdCtx.Line
-		when, delay, err := p.populateDepartureTime(journey)
-
-		if err != nil {
-			slog.Warn("departure time couldn't be converted.", slog.Any("Err", err))
-			continue
-		}
-
-		departures = append(departures, hafas.Departure{
-			Stop: hafas.Station{
-				ID:   stop.ExtId,
-				Name: stop.Name,
-			},
-			Direction: journey.DirTxt,
-			When:      when,
-			Delay:     delay,
-			Line:      line,
-		})
-	}
-	return departures
-}
-
 // TODO: ignore invalid date times (negatives)
-func (p *Provider) populateDepartureTime(journey Journey) (time.Time, int, error) {
+func (p *APIProvider) populateDepartureTime(journey *Journey) (time.Time, int, error) {
 	plannedDepartureTimeRaw := journey.StbStop.DTimeS
 	newDepartureTimeRaw := journey.StbStop.DTimeR
 	departureDate := journey.Date
@@ -105,7 +143,7 @@ func (p *Provider) populateDepartureTime(journey Journey) (time.Time, int, error
 	return departureTime, delay, nil
 }
 
-func (p *Provider) parseDepartureTime(timeStr, dateStr string) (time.Time, error) {
+func (p *APIProvider) parseDepartureTime(timeStr, dateStr string) (time.Time, error) {
 	// Load the Germany time zone
 	location, err := time.LoadLocation("Europe/Berlin")
 	if err != nil {
@@ -130,10 +168,10 @@ func (p *Provider) parseDepartureTime(timeStr, dateStr string) (time.Time, error
 	return baseDate.Add(offsetDays * 24), nil
 }
 
-func (p *Provider) isDayOffsetPresent(timeStr string) bool {
+func (p *APIProvider) isDayOffsetPresent(timeStr string) bool {
 	return len(timeStr) > len(timeLayout)
 }
 
-func (p *Provider) departureDelayed(journey Journey) bool {
+func (p *APIProvider) departureDelayed(journey *Journey) bool {
 	return journey.StbStop.DTimeR != "" && journey.StbStop.DTimeS != journey.StbStop.DTimeR
 }

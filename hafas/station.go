@@ -14,6 +14,11 @@ import (
 
 type StationService Service
 
+type Product struct {
+	Name string
+	Type string
+}
+
 type Station struct {
 	ID       string
 	Name     string
@@ -59,7 +64,7 @@ func (s *StationService) getStation(ctx context.Context, params *StationParams) 
 	}
 
 	if s.client.cache != nil {
-		if err := s.cacheStation(ctx, params.StationID, station); err != nil {
+		if err := s.cacheStation(ctx, params.StationID, station); err != nil { //TODO: Cache async in go routine
 			slog.Warn("Failed to cache station", "station_id", params.StationID, "error", err)
 		}
 	}
@@ -80,7 +85,7 @@ func (s *StationService) cacheStation(ctx context.Context, stationID string, sta
 }
 
 func (s *StationService) getCacheKey(id string) string {
-	return "station:" + id
+	return fmt.Sprintf("station:%s", id)
 }
 
 func (s *StationService) getStationFromSource(ctx context.Context, params *StationParams) (*Station, error) {

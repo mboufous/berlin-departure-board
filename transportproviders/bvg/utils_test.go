@@ -2,18 +2,17 @@ package bvg
 
 import (
 	"bytes"
+	"fmt"
 	"io"
 	"os"
 	"path/filepath"
-	"testing"
 )
 
-func loadMockedBVGResponse(t *testing.T, filename string) io.ReadCloser {
-	t.Helper()
+func loadMockedBVGResponse(filename string) (io.ReadCloser, error) {
 	path := filepath.Join("testdata", filename)
 	content, err := os.ReadFile(path)
 	if err != nil {
-		t.Fatalf("Failed to read %s: %v", path, err)
+		return nil, fmt.Errorf("failed to read %s: %v", path, err)
 	}
-	return io.NopCloser(bytes.NewReader(content))
+	return io.NopCloser(bytes.NewReader(content)), nil
 }

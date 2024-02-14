@@ -63,9 +63,8 @@ type JnyFltr struct {
 }
 
 type DepartureRequestPayloadParams struct {
-	stationID      string
-	productsFilter uint8
-	duration       int
+	stationID string
+	duration  int
 }
 
 func CreateStationRequestPayload(id string) StationRequestPayload {
@@ -129,7 +128,7 @@ func CreateDepartureRequestPayload(params DepartureRequestPayloadParams) Departu
 						{
 							Type:  "PROD",
 							Mode:  "INC",
-							Value: params.productsFilter,
+							Value: 127, // All products
 						},
 					},
 					Dur: params.duration,

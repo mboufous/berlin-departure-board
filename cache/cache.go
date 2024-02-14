@@ -8,10 +8,10 @@ import (
 )
 
 var (
-	ErrObjectNotFound = errors.New("object not found in cache store")
+	ErrObjectNotFound = errors.New("object not found in cache adapter")
 )
 
-type Store[T any] interface {
+type Adapter[T any] interface {
 	Get(ctx context.Context, key string) (T, error)
 	GetWithTTL(ctx context.Context, key string) (T, time.Duration, error)
 	Put(ctx context.Context, key string, object T, ttl time.Duration) error
@@ -24,19 +24,19 @@ type Encoder interface {
 }
 
 type Cache struct {
-	store   Store[[]byte]
+	adapter Adapter[[]byte]
 	encoder Encoder
 }
 
-func NewCache(store Store[[]byte], encoder Encoder) *Cache {
+func NewCache(store Adapter[[]byte], encoder Encoder) *Cache {
 	return &Cache{
-		store:   store,
+		adapter: store,
 		encoder: encoder,
 	}
 }
 
 func (c *Cache) Get(ctx context.Context, key string, returnObject any) error {
-	rawCachedObject, err := c.store.Get(ctx, key)
+	rawCachedObject, err := c.adapter.Get(ctx, key)
 	if err != nil {
 		return err
 	}
@@ -54,7 +54,7 @@ func (c *Cache) Put(ctx context.Context, key string, object any, ttl time.Durati
 		return fmt.Errorf("couldn't encode station: %w", err)
 	}
 
-	return c.store.Put(ctx, key, encodedObject, ttl)
+	return c.adapter.Put(ctx, key, encodedObject, ttl)
 }
 
 //func (c *Cache) GetWithTTL(ctx context.Context, key string) (T, time.Duration, error) {

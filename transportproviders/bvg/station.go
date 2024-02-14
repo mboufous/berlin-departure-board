@@ -7,12 +7,12 @@ import (
 	"net/http"
 )
 
-func (p *Provider) NewStationRequest(params *hafas.StationParams) (*http.Request, error) {
+func (p *APIProvider) NewStationRequest(params *hafas.StationParams) (*http.Request, error) {
 	payload := CreateStationRequestPayload(params.StationID)
 	return p.newRequest(payload)
 }
 
-func (p *Provider) ParseStationResponse(body io.ReadCloser) (*hafas.Station, error) {
+func (p *APIProvider) ParseStationResponse(body io.ReadCloser) (*hafas.Station, error) {
 	defer body.Close()
 	apiResult, err := p.ParseBaseResponse(body)
 	if err != nil {
@@ -28,7 +28,7 @@ func (p *Provider) ParseStationResponse(body io.ReadCloser) (*hafas.Station, err
 	return station, nil
 }
 
-func (p *Provider) convertStation(source *SvcResData) *hafas.Station {
+func (p *APIProvider) convertStation(source *SvcResData) *hafas.Station {
 	stationData := &hafas.Station{
 		ID:       source.LocL[0].ExtId,
 		Name:     source.LocL[0].Name,
@@ -37,12 +37,12 @@ func (p *Provider) convertStation(source *SvcResData) *hafas.Station {
 	return stationData
 }
 
-func (p *Provider) populateProducts(products []Product) []hafas.Product {
+func (p *APIProvider) populateProducts(products []ProductReq) []hafas.Product {
 	var hafasProducts []hafas.Product
 
 	for _, product := range products {
 		hafasProducts = append(hafasProducts, hafas.Product{
-			ID:   product.ProdCtx.CatOutS,
+			Type: product.ProdCtx.CatOutS,
 			Name: product.NameS,
 		})
 	}
