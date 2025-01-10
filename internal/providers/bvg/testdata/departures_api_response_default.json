@@ -1,0 +1,3385 @@
+{
+	"graph": {
+		"id": "standard",
+		"index": 0
+	},
+	"subGraph": {
+		"id": "global",
+		"index": 0
+	},
+	"svcResL": [
+		{
+			"meth": "StationBoard",
+			"res": {
+				"common": {
+					"himL": [
+						{
+							"catRefL": [
+								0
+							],
+							"pubChL": [
+								{
+									"fDate": "20250103",
+									"fTime": "160400",
+									"name": "TIMETABLE",
+									"tDate": "20250112",
+									"tTime": "235900"
+								}
+							],
+							"act": true,
+							"comp": "ODEG",
+							"eDaily": "235900",
+							"eDate": "20250127",
+							"eTime": "235900",
+							"fLocX": 0,
+							"head": "Bauvorankündigung",
+							"hid": "256027",
+							"icoX": 15,
+							"lModDate": "20250103",
+							"lModTime": "160454",
+							"prio": 100,
+							"prod": 64,
+							"sDaily": "000000",
+							"sDate": "20250106",
+							"sTime": "000000",
+							"src": 50,
+							"tLocX": 9,
+							"text": "Bauvorankündigung: Vom 06.01. - 27.01.2025 verkehren die Züge der Linie RE8 aufgrund von Bauarbeiten der DB InfraGO AG nur von/bis Berlin Friedrichstraße. Die Halte Flughafen BER, Berlin Ostkreuz, Berlin Ostbahnhof und Berlin Alexanderplatz entfallen. Bitte weichen Sie auf alternative Verbindungen aus."
+						},
+						{
+							"catRefL": [
+								0
+							],
+							"pubChL": [
+								{
+									"fDate": "20250108",
+									"fTime": "103200",
+									"name": "TIMETABLE",
+									"tDate": "20250113",
+									"tTime": "020000"
+								}
+							],
+							"act": true,
+							"comp": "VBB",
+							"eDaily": "235900",
+							"eDate": "20250113",
+							"eTime": "020000",
+							"fLocX": 10,
+							"head": "Attention: Construction work with journey cancellations for RE1, RE2, RE7, RE8, RB23",
+							"hid": "258108",
+							"icoX": 15,
+							"lModDate": "20250108",
+							"lModTime": "103311",
+							"prio": 100,
+							"prod": 64,
+							"sDaily": "000000",
+							"sDate": "20250108",
+							"sTime": "000000",
+							"src": 50,
+							"tLocX": 8,
+							"text": "Due to construction work on the railway line in Berlin, regional trains in Berlin are running differently. RE1 does not run between Erkner and Ostkreuz, RE2 does not run between Friedrichstraße and Königs Wusterhausen, RE7 does not run between Berlin Zoo and Königs Wusterhausen (repeaters do not run Wannsee - Lübbenau - Cottbus), RE8 does not run between Friedrichstraße and BER Airport and RB23 does not run at all. The construction timetables are included in the timetable information.<br>"
+						},
+						{
+							"catRefL": [
+								0
+							],
+							"pubChL": [
+								{
+									"fDate": "20250108",
+									"fTime": "103200",
+									"name": "TIMETABLE",
+									"tDate": "20250113",
+									"tTime": "020000"
+								}
+							],
+							"act": true,
+							"comp": "VBB",
+							"eDaily": "235900",
+							"eDate": "20250113",
+							"eTime": "020000",
+							"fLocX": 20,
+							"head": "Attention: Construction work with journey cancellations for RE1, RE2, RE7, RE8, RB23",
+							"hid": "258108",
+							"icoX": 15,
+							"lModDate": "20250108",
+							"lModTime": "103311",
+							"prio": 100,
+							"prod": 64,
+							"sDaily": "000000",
+							"sDate": "20250108",
+							"sTime": "000000",
+							"src": 50,
+							"tLocX": 9,
+							"text": "Due to construction work on the railway line in Berlin, regional trains in Berlin are running differently. RE1 does not run between Erkner and Ostkreuz, RE2 does not run between Friedrichstraße and Königs Wusterhausen, RE7 does not run between Berlin Zoo and Königs Wusterhausen (repeaters do not run Wannsee - Lübbenau - Cottbus), RE8 does not run between Friedrichstraße and BER Airport and RB23 does not run at all. The construction timetables are included in the timetable information.<br>"
+						},
+						{
+							"catRefL": [
+								0
+							],
+							"pubChL": [
+								{
+									"fDate": "20250108",
+									"fTime": "103200",
+									"name": "TIMETABLE",
+									"tDate": "20250113",
+									"tTime": "020000"
+								}
+							],
+							"act": true,
+							"comp": "VBB",
+							"eDaily": "235900",
+							"eDate": "20250113",
+							"eTime": "020000",
+							"fLocX": 29,
+							"head": "Attention: Construction work with journey cancellations for RE1, RE2, RE7, RE8, RB23",
+							"hid": "258108",
+							"icoX": 15,
+							"lModDate": "20250108",
+							"lModTime": "103311",
+							"prio": 100,
+							"prod": 64,
+							"sDaily": "000000",
+							"sDate": "20250108",
+							"sTime": "000000",
+							"src": 50,
+							"tLocX": 28,
+							"text": "Due to construction work on the railway line in Berlin, regional trains in Berlin are running differently. RE1 does not run between Erkner and Ostkreuz, RE2 does not run between Friedrichstraße and Königs Wusterhausen, RE7 does not run between Berlin Zoo and Königs Wusterhausen (repeaters do not run Wannsee - Lübbenau - Cottbus), RE8 does not run between Friedrichstraße and BER Airport and RB23 does not run at all. The construction timetables are included in the timetable information.<br>"
+						}
+					],
+					"himMsgCatL": [
+						{
+							"id": 1
+						}
+					],
+					"icoL": [
+						{
+							"bg": {
+								"b": 74,
+								"g": 135,
+								"r": 55
+							},
+							"fg": {
+								"b": 255,
+								"g": 255,
+								"r": 255
+							},
+							"res": "prod_comm_t"
+						},
+						{
+							"bg": {
+								"b": 153,
+								"g": 51,
+								"r": 0
+							},
+							"fg": {
+								"b": 255,
+								"g": 255,
+								"r": 255
+							},
+							"res": "prod_sub_t"
+						},
+						{
+							"bg": {
+								"b": 0,
+								"g": 0,
+								"r": 204
+							},
+							"fg": {
+								"b": 255,
+								"g": 255,
+								"r": 255
+							},
+							"res": "prod_tram_t"
+						},
+						{
+							"bg": {
+								"b": 153,
+								"g": 51,
+								"r": 153
+							},
+							"fg": {
+								"b": 255,
+								"g": 255,
+								"r": 255
+							},
+							"res": "prod_bus_t"
+						},
+						{
+							"bg": {
+								"b": 25,
+								"g": 0,
+								"r": 226
+							},
+							"fg": {
+								"b": 255,
+								"g": 255,
+								"r": 255
+							},
+							"res": "prod_reg"
+						},
+						{
+							"res": "DBS",
+							"txt": "S-Bahn Berlin GmbH"
+						},
+						{
+							"res": "rt_cnf"
+						},
+						{
+							"res": "attr_info"
+						},
+						{
+							"res": "rt_ont",
+							"txtA": "on time"
+						},
+						{
+							"res": "BVG",
+							"txt": "Berliner Verkehrsbetriebe"
+						},
+						{
+							"res": "occup_fig_low"
+						},
+						{
+							"res": "occup_fig_mid"
+						},
+						{
+							"res": "ODE",
+							"txt": "ODEG Ostdeutsche Eisenbahn GmbH"
+						},
+						{
+							"res": "rt_scancel"
+						},
+						{
+							"bg": {
+								"b": 133,
+								"g": 129,
+								"r": 125
+							},
+							"fg": {
+								"b": 255,
+								"g": 255,
+								"r": 255
+							},
+							"res": "prod_ic"
+						},
+						{
+							"res": "HIM1"
+						},
+						{
+							"res": "rt_cancel"
+						},
+						{
+							"res": "rt_critical"
+						},
+						{
+							"res": "DB",
+							"txt": "DB Regio AG"
+						}
+					],
+					"lDrawStyleL": [
+						{
+							"bg": {
+								"b": 74,
+								"g": 135,
+								"r": 55
+							},
+							"sIcoX": 0,
+							"type": "SOLID"
+						},
+						{
+							"bg": {
+								"b": 74,
+								"g": 135,
+								"r": 55
+							},
+							"type": "SOLID"
+						},
+						{
+							"bg": {
+								"b": 153,
+								"g": 51,
+								"r": 153
+							},
+							"sIcoX": 3,
+							"type": "SOLID"
+						},
+						{
+							"bg": {
+								"b": 153,
+								"g": 51,
+								"r": 153
+							},
+							"type": "SOLID"
+						},
+						{
+							"bg": {
+								"b": 153,
+								"g": 51,
+								"r": 0
+							},
+							"sIcoX": 1,
+							"type": "SOLID"
+						},
+						{
+							"bg": {
+								"b": 153,
+								"g": 51,
+								"r": 0
+							},
+							"type": "SOLID"
+						},
+						{
+							"bg": {
+								"b": 25,
+								"g": 0,
+								"r": 226
+							},
+							"sIcoX": 4,
+							"type": "SOLID"
+						},
+						{
+							"bg": {
+								"b": 25,
+								"g": 0,
+								"r": 226
+							},
+							"type": "SOLID"
+						},
+						{
+							"bg": {
+								"b": 0,
+								"g": 0,
+								"r": 204
+							},
+							"sIcoX": 2,
+							"type": "SOLID"
+						},
+						{
+							"bg": {
+								"b": 0,
+								"g": 0,
+								"r": 204
+							},
+							"type": "SOLID"
+						}
+					],
+					"locL": [
+						{
+							"countryCodeL": [
+								"de"
+							],
+							"crd": {
+								"floor": 0,
+								"x": 13386448,
+								"y": 52520519
+							},
+							"globalIdL": [
+								{
+									"id": "de:11000:900100001",
+									"type": "A"
+								}
+							],
+							"pRefL": [
+								0,
+								1,
+								2,
+								3,
+								4,
+								5,
+								6,
+								7,
+								8,
+								9,
+								10,
+								11,
+								12,
+								13,
+								14,
+								15,
+								16,
+								17,
+								18,
+								19,
+								20,
+								21,
+								22,
+								23,
+								24,
+								25
+							],
+							"chgTime": "001000",
+							"extId": "900100001",
+							"icoX": 0,
+							"lid": "A=1@O=S+U Friedrichstr. Bhf (Berlin)@X=13386448@Y=52520519@U=86@L=900100001@",
+							"name": "S+U Friedrichstr. Bhf (Berlin)",
+							"pCls": 79,
+							"state": "F",
+							"type": "S"
+						},
+						{
+							"countryCodeL": [
+								"de"
+							],
+							"crd": {
+								"floor": 0,
+								"x": 13388372,
+								"y": 52548638
+							},
+							"globalIdL": [
+								{
+									"id": "de:11000:900007102",
+									"type": "A"
+								}
+							],
+							"chgTime": "001000",
+							"extId": "900007102",
+							"icoX": 0,
+							"lid": "A=1@O=S+U Gesundbrunnen Bhf (Berlin)@X=13388372@Y=52548638@U=86@L=900007102@",
+							"name": "S+U Gesundbrunnen Bhf (Berlin)",
+							"pCls": 107,
+							"state": "F",
+							"type": "S"
+						},
+						{
+							"countryCodeL": [
+								"de"
+							],
+							"crd": {
+								"floor": 0,
+								"x": 13536874,
+								"y": 52526147
+							},
+							"globalIdL": [
+								{
+									"id": "de:11000:900171003",
+									"type": "A"
+								}
+							],
+							"chgTime": "000300",
+							"extId": "900171003",
+							"icoX": 0,
+							"lid": "A=1@O=S Springpfuhl (Berlin)@X=13536874@Y=52526147@U=86@L=900171003@",
+							"name": "S Springpfuhl (Berlin)",
+							"pCls": 13,
+							"state": "F",
+							"type": "S"
+						},
+						{
+							"countryCodeL": [
+								"de"
+							],
+							"crd": {
+								"floor": 0,
+								"x": 13276025,
+								"y": 52397178
+							},
+							"globalIdL": [
+								{
+									"id": "de:12069:900220114",
+									"type": "A"
+								}
+							],
+							"chgTime": "000300",
+							"extId": "900220114",
+							"icoX": 0,
+							"lid": "A=1@O=S Teltow Stadt@X=13276025@Y=52397178@U=86@L=900220114@",
+							"name": "S Teltow Stadt",
+							"pCls": 9,
+							"state": "F",
+							"type": "S"
+						},
+						{
+							"countryCodeL": [
+								"de"
+							],
+							"crd": {
+								"floor": 0,
+								"x": 13611233,
+								"y": 52512114
+							},
+							"globalIdL": [
+								{
+									"id": "de:11000:900176001",
+									"type": "A"
+								}
+							],
+							"chgTime": "000300",
+							"extId": "900176001",
+							"icoX": 0,
+							"lid": "A=1@O=S Mahlsdorf Bhf (Berlin)@X=13610693@Y=52512043@U=86@L=900176001@",
+							"name": "S Mahlsdorf Bhf (Berlin)",
+							"pCls": 65,
+							"state": "F",
+							"type": "S"
+						},
+						{
+							"countryCodeL": [
+								"de"
+							],
+							"crd": {
+								"floor": 0,
+								"x": 13332612,
+								"y": 52509229
+							},
+							"globalIdL": [
+								{
+									"id": "de:11000:900004181",
+									"type": "A"
+								}
+							],
+							"chgTime": "000300",
+							"extId": "900004181",
+							"icoX": 3,
+							"lid": "A=1@O=Hertzallee (Berlin)@X=13332612@Y=52509229@U=86@L=900004181@",
+							"name": "Hertzallee (Berlin)",
+							"pCls": 8,
+							"state": "F",
+							"type": "S"
+						},
+						{
+							"countryCodeL": [
+								"de"
+							],
+							"crd": {
+								"floor": 0,
+								"x": 13067160,
+								"y": 52391443
+							},
+							"globalIdL": [
+								{
+									"id": "de:12054:900230999",
+									"type": "A"
+								}
+							],
+							"chgTime": "001000",
+							"extId": "900230999",
+							"icoX": 0,
+							"lid": "A=1@O=S Potsdam Hauptbahnhof@X=13067160@Y=52391443@U=86@L=900230999@",
+							"name": "S Potsdam Hauptbahnhof",
+							"pCls": 109,
+							"state": "F",
+							"type": "S"
+						},
+						{
+							"countryCodeL": [
+								"de"
+							],
+							"crd": {
+								"floor": 0,
+								"x": 13387922,
+								"y": 52438610
+							},
+							"globalIdL": [
+								{
+									"id": "de:11000:900070301",
+									"type": "A"
+								}
+							],
+							"chgTime": "000300",
+							"extId": "900070301",
+							"icoX": 1,
+							"lid": "A=1@O=U Alt-Mariendorf (Berlin)@X=13387922@Y=52438610@U=86@L=900070301@",
+							"name": "U Alt-Mariendorf (Berlin)",
+							"pCls": 2,
+							"state": "F",
+							"type": "S"
+						},
+						{
+							"countryCodeL": [
+								"de"
+							],
+							"crd": {
+								"floor": 0,
+								"x": 13509870,
+								"y": 52364610
+							},
+							"globalIdL": [
+								{
+									"id": "de:12061:900260009",
+									"type": "A"
+								}
+							],
+							"chgTime": "000800",
+							"extId": "900260009",
+							"icoX": 0,
+							"lid": "A=1@O=Flughafen BER@X=13509870@Y=52364610@U=86@L=900260009@",
+							"name": "Flughafen BER",
+							"pCls": 105,
+							"state": "F",
+							"type": "S"
+						},
+						{
+							"countryCodeL": [
+								"de"
+							],
+							"crd": {
+								"floor": 0,
+								"x": 13435089,
+								"y": 52510335
+							},
+							"globalIdL": [
+								{
+									"id": "de:11000:900120005",
+									"type": "A"
+								}
+							],
+							"pRefL": [
+								2,
+								3,
+								34,
+								4,
+								5,
+								8,
+								35,
+								36,
+								37,
+								12,
+								38,
+								39,
+								40,
+								41,
+								42,
+								43,
+								17,
+								18,
+								21,
+								22,
+								23,
+								24,
+								25
+							],
+							"chgTime": "000700",
+							"extId": "900120005",
+							"icoX": 0,
+							"lid": "A=1@O=S Ostbahnhof (Berlin)@X=13435089@Y=52510335@U=86@L=900120005@",
+							"name": "S Ostbahnhof (Berlin)",
+							"pCls": 105,
+							"state": "F",
+							"type": "S"
+						},
+						{
+							"countryCodeL": [
+								"de"
+							],
+							"crd": {
+								"floor": 0,
+								"x": 12713273,
+								"y": 52675664
+							},
+							"globalIdL": [
+								{
+									"id": "de:12063:900210423",
+									"type": "A"
+								}
+							],
+							"pRefL": [
+								44,
+								25
+							],
+							"chgTime": "000300",
+							"extId": "900210423",
+							"icoX": 3,
+							"lid": "A=1@O=Paulinenaue, Bahnhof@X=12713273@Y=52675664@U=86@L=900210423@",
+							"name": "Paulinenaue, Bahnhof",
+							"pCls": 72,
+							"state": "F",
+							"type": "S"
+						},
+						{
+							"countryCodeL": [
+								"de"
+							],
+							"crd": {
+								"floor": 0,
+								"x": 13327326,
+								"y": 52563479
+							},
+							"globalIdL": [
+								{
+									"id": "de:11000:900086102",
+									"type": "A"
+								}
+							],
+							"chgTime": "000300",
+							"extId": "900086102",
+							"icoX": 1,
+							"lid": "A=1@O=U Kurt-Schumacher-Platz (Berlin)@X=13327326@Y=52563479@U=86@L=900086102@",
+							"name": "U Kurt-Schumacher-Platz (Berlin)",
+							"pCls": 10,
+							"state": "F",
+							"type": "S"
+						},
+						{
+							"countryCodeL": [
+								"de"
+							],
+							"crd": {
+								"floor": 0,
+								"x": 13261948,
+								"y": 52488680
+							},
+							"globalIdL": [
+								{
+									"id": "de:11000:900048101",
+									"type": "A"
+								}
+							],
+							"chgTime": "000300",
+							"extId": "900048101",
+							"icoX": 0,
+							"lid": "A=1@O=S Grunewald (Berlin)@X=13261948@Y=52488680@U=86@L=900048101@",
+							"name": "S Grunewald (Berlin)",
+							"pCls": 9,
+							"state": "F",
+							"type": "S"
+						},
+						{
+							"countryCodeL": [
+								"de"
+							],
+							"crd": {
+								"floor": 0,
+								"x": 13359391,
+								"y": 52546489
+							},
+							"globalIdL": [
+								{
+									"id": "de:11000:900009102",
+									"type": "A"
+								}
+							],
+							"chgTime": "000300",
+							"extId": "900009102",
+							"icoX": 1,
+							"lid": "A=1@O=U Leopoldplatz (Berlin)@X=13359391@Y=52546489@U=86@L=900009102@",
+							"name": "U Leopoldplatz (Berlin)",
+							"pCls": 10,
+							"state": "F",
+							"type": "S"
+						},
+						{
+							"countryCodeL": [
+								"de"
+							],
+							"crd": {
+								"floor": 0,
+								"x": 13372236,
+								"y": 52599130
+							},
+							"globalIdL": [
+								{
+									"id": "de:11000:900132014",
+									"type": "A"
+								}
+							],
+							"chgTime": "000300",
+							"extId": "900132014",
+							"icoX": 2,
+							"lid": "A=1@O=Rosenthal Nord (Berlin)@X=13372236@Y=52599130@U=86@L=900132014@",
+							"name": "Rosenthal Nord (Berlin)",
+							"pCls": 12,
+							"state": "F",
+							"type": "S"
+						},
+						{
+							"countryCodeL": [
+								"de"
+							],
+							"crd": {
+								"floor": 0,
+								"x": 13395393,
+								"y": 52519414
+							},
+							"globalIdL": [
+								{
+									"id": "de:11000:900100038",
+									"type": "A"
+								}
+							],
+							"chgTime": "000300",
+							"extId": "900100038",
+							"icoX": 2,
+							"lid": "A=1@O=Am Kupfergraben (Berlin)@X=13395393@Y=52519414@U=86@L=900100038@",
+							"name": "Am Kupfergraben (Berlin)",
+							"pCls": 4,
+							"state": "F",
+							"type": "S"
+						},
+						{
+							"countryCodeL": [
+								"de"
+							],
+							"crd": {
+								"floor": 0,
+								"x": 13248311,
+								"y": 52754491
+							},
+							"globalIdL": [
+								{
+									"id": "de:12065:900200005",
+									"type": "A"
+								}
+							],
+							"chgTime": "000300",
+							"extId": "900200005",
+							"icoX": 0,
+							"lid": "A=1@O=S Oranienburg Bhf@X=13248311@Y=52754491@U=86@L=900200005@",
+							"name": "S Oranienburg Bhf",
+							"pCls": 105,
+							"state": "F",
+							"type": "S"
+						},
+						{
+							"countryCodeL": [
+								"de"
+							],
+							"crd": {
+								"floor": 0,
+								"x": 13408768,
+								"y": 52512007
+							},
+							"globalIdL": [
+								{
+									"id": "de:11000:900100014",
+									"type": "A"
+								}
+							],
+							"chgTime": "000300",
+							"extId": "900100014",
+							"icoX": 1,
+							"lid": "A=1@O=U Märkisches Museum (Berlin)@X=13408768@Y=52512007@U=86@L=900100014@",
+							"name": "U Märkisches Museum (Berlin)",
+							"pCls": 10,
+							"state": "F",
+							"type": "S"
+						},
+						{
+							"countryCodeL": [
+								"de"
+							],
+							"crd": {
+								"floor": 0,
+								"x": 13283036,
+								"y": 52501148
+							},
+							"globalIdL": [
+								{
+									"id": "de:11000:900024102",
+									"type": "A"
+								}
+							],
+							"chgTime": "000300",
+							"extId": "900024102",
+							"icoX": 0,
+							"lid": "A=1@O=S Westkreuz (Berlin)@X=13283036@Y=52501148@U=86@L=900024102@",
+							"name": "S Westkreuz (Berlin)",
+							"pCls": 9,
+							"state": "F",
+							"type": "S"
+						},
+						{
+							"countryCodeL": [
+								"de"
+							],
+							"crd": {
+								"floor": 0,
+								"x": 13205873,
+								"y": 52637865
+							},
+							"globalIdL": [
+								{
+									"id": "de:12065:900200000",
+									"type": "A"
+								}
+							],
+							"chgTime": "000300",
+							"extId": "900200000",
+							"icoX": 0,
+							"lid": "A=1@O=S Hennigsdorf Bhf@X=13205873@Y=52637865@U=86@L=900200000@",
+							"name": "S Hennigsdorf Bhf",
+							"pCls": 73,
+							"state": "F",
+							"type": "S"
+						},
+						{
+							"countryCodeL": [
+								"de"
+							],
+							"crd": {
+								"floor": 0,
+								"x": 12885156,
+								"y": 52612335
+							},
+							"globalIdL": [
+								{
+									"id": "de:12063:900210005",
+									"type": "A"
+								}
+							],
+							"pRefL": [
+								58,
+								59,
+								60,
+								61,
+								62,
+								63,
+								64,
+								65,
+								66,
+								67,
+								68,
+								69,
+								70,
+								71,
+								72,
+								73,
+								23,
+								25
+							],
+							"chgTime": "000300",
+							"extId": "900210005",
+							"icoX": 3,
+							"lid": "A=1@O=Nauen, Bahnhof@X=12885156@Y=52612335@U=86@L=900210005@",
+							"name": "Nauen, Bahnhof",
+							"pCls": 72,
+							"state": "F",
+							"type": "S"
+						},
+						{
+							"countryCodeL": [
+								"de"
+							],
+							"crd": {
+								"floor": 0,
+								"x": 13460115,
+								"y": 52559775
+							},
+							"globalIdL": [
+								{
+									"id": "de:11000:900140002",
+									"type": "A"
+								}
+							],
+							"chgTime": "000300",
+							"extId": "900140002",
+							"icoX": 2,
+							"lid": "A=1@O=Pasedagplatz (Berlin)@X=13460115@Y=52559775@U=86@L=900140002@",
+							"name": "Pasedagplatz (Berlin)",
+							"pCls": 12,
+							"state": "F",
+							"type": "S"
+						},
+						{
+							"countryCodeL": [
+								"de"
+							],
+							"crd": {
+								"floor": 0,
+								"x": 13178932,
+								"y": 52421728
+							},
+							"globalIdL": [
+								{
+									"id": "de:11000:900053301",
+									"type": "A"
+								}
+							],
+							"chgTime": "001000",
+							"extId": "900053301",
+							"icoX": 0,
+							"lid": "A=1@O=S Wannsee Bhf (Berlin)@X=13178932@Y=52421728@U=86@L=900053301@",
+							"name": "S Wannsee Bhf (Berlin)",
+							"pCls": 105,
+							"state": "F",
+							"type": "S"
+						},
+						{
+							"countryCodeL": [
+								"de"
+							],
+							"crd": {
+								"floor": 0,
+								"x": 13197477,
+								"y": 52534794
+							},
+							"globalIdL": [
+								{
+									"id": "de:11000:900029101",
+									"type": "A"
+								}
+							],
+							"chgTime": "001000",
+							"extId": "900029101",
+							"icoX": 0,
+							"lid": "A=1@O=S Spandau Bhf (Berlin)@X=13197477@Y=52534794@U=86@L=900029101@",
+							"name": "S Spandau Bhf (Berlin)",
+							"pCls": 105,
+							"state": "F",
+							"type": "S"
+						},
+						{
+							"countryCodeL": [
+								"de"
+							],
+							"crd": {
+								"floor": 0,
+								"x": 13410881,
+								"y": 52592136
+							},
+							"globalIdL": [
+								{
+									"id": "de:11000:900131001",
+									"type": "A"
+								}
+							],
+							"chgTime": "000300",
+							"extId": "900131001",
+							"icoX": 2,
+							"lid": "A=1@O=Schillerstr. (Berlin)@X=13410881@Y=52592136@U=86@L=900131001@",
+							"name": "Schillerstr. (Berlin)",
+							"pCls": 4,
+							"state": "F",
+							"type": "S"
+						},
+						{
+							"countryCodeL": [
+								"de"
+							],
+							"crd": {
+								"floor": 0,
+								"x": 13592697,
+								"y": 52675691
+							},
+							"globalIdL": [
+								{
+									"id": "de:12060:900350160",
+									"type": "A"
+								}
+							],
+							"chgTime": "001000",
+							"extId": "900350160",
+							"icoX": 0,
+							"lid": "A=1@O=S Bernau Bhf@X=13592697@Y=52675691@U=86@L=900350160@",
+							"name": "S Bernau Bhf",
+							"pCls": 105,
+							"state": "F",
+							"type": "S"
+						},
+						{
+							"countryCodeL": [
+								"de"
+							],
+							"crd": {
+								"floor": 0,
+								"x": 13415906,
+								"y": 52337625
+							},
+							"globalIdL": [
+								{
+									"id": "de:12072:900245027",
+									"type": "A"
+								}
+							],
+							"chgTime": "000300",
+							"extId": "900245027",
+							"icoX": 0,
+							"lid": "A=1@O=S Blankenfelde (TF) Bhf@X=13415906@Y=52337625@U=86@L=900245027@",
+							"name": "S Blankenfelde (TF) Bhf",
+							"pCls": 73,
+							"state": "F",
+							"type": "S"
+						},
+						{
+							"countryCodeL": [
+								"de"
+							],
+							"crd": {
+								"floor": 0,
+								"x": 13752660,
+								"y": 52426960
+							},
+							"globalIdL": [
+								{
+									"id": "de:12067:900310004",
+									"type": "A"
+								}
+							],
+							"chgTime": "000300",
+							"extId": "900310004",
+							"icoX": 0,
+							"lid": "A=1@O=S Erkner Bhf@X=13752660@Y=52426960@U=86@L=900310004@",
+							"name": "S Erkner Bhf",
+							"pCls": 65,
+							"state": "F",
+							"type": "S"
+						},
+						{
+							"countryCodeL": [
+								"de"
+							],
+							"crd": {
+								"floor": 0,
+								"x": 13469221,
+								"y": 52503116
+							},
+							"globalIdL": [
+								{
+									"id": "de:11000:900120003",
+									"type": "A"
+								}
+							],
+							"chgTime": "000300",
+							"extId": "900120003",
+							"icoX": 0,
+							"lid": "A=1@O=S Ostkreuz Bhf (Berlin)@X=13469221@Y=52503116@U=86@L=900120003@",
+							"name": "S Ostkreuz Bhf (Berlin)",
+							"pCls": 105,
+							"state": "F",
+							"type": "S"
+						},
+						{
+							"countryCodeL": [
+								"de"
+							],
+							"crd": {
+								"floor": 0,
+								"x": 12727143,
+								"y": 52411040
+							},
+							"globalIdL": [
+								{
+									"id": "de:12069:900220182",
+									"type": "A"
+								}
+							],
+							"pRefL": [
+								86,
+								87,
+								88,
+								42,
+								22
+							],
+							"chgTime": "000300",
+							"extId": "900220182",
+							"icoX": 3,
+							"lid": "A=1@O=Götz, Bahnhof@X=12727143@Y=52411040@U=86@L=900220182@",
+							"name": "Götz, Bahnhof",
+							"pCls": 72,
+							"state": "F",
+							"type": "S"
+						},
+						{
+							"countryCodeL": [
+								"de"
+							],
+							"crd": {
+								"floor": 0,
+								"x": 13908892,
+								"y": 52590698
+							},
+							"globalIdL": [
+								{
+									"id": "de:12064:900320001",
+									"type": "A"
+								}
+							],
+							"chgTime": "000300",
+							"extId": "900320001",
+							"icoX": 0,
+							"lid": "A=1@O=S Strausberg Nord@X=13908892@Y=52590698@U=86@L=900320001@",
+							"name": "S Strausberg Nord",
+							"pCls": 9,
+							"state": "F",
+							"type": "S"
+						},
+						{
+							"countryCodeL": [
+								"de"
+							],
+							"crd": {
+								"floor": 0,
+								"x": 13467980,
+								"y": 52556989
+							},
+							"globalIdL": [
+								{
+									"id": "de:11000:900140713",
+									"type": "A"
+								}
+							],
+							"chgTime": "000300",
+							"extId": "900140713",
+							"icoX": 2,
+							"lid": "A=1@O=Betriebshof Weißensee (Berlin)@X=13467980@Y=52556989@U=86@L=900140713@",
+							"name": "Betriebshof Weißensee (Berlin)",
+							"pCls": 4,
+							"state": "F",
+							"type": "S"
+						}
+					],
+					"opL": [
+						{
+							"icoX": 5,
+							"id": "1",
+							"matchId": "S-Bahn Berlin GmbH",
+							"name": "S-Bahn Berlin GmbH",
+							"url": "https://sbahn.berlin/"
+						},
+						{
+							"icoX": 9,
+							"id": "796",
+							"matchId": "Berliner Verkehrsbetriebe",
+							"name": "Berliner Verkehrsbetriebe",
+							"url": "https://www.bvg.de/"
+						},
+						{
+							"icoX": 12,
+							"id": "731",
+							"matchId": "ODEG Ostdeutsche Eisenbahn GmbH",
+							"name": "ODEG Ostdeutsche Eisenbahn GmbH",
+							"url": "https://www.odeg.de/"
+						},
+						{
+							"icoX": 18,
+							"id": "108",
+							"matchId": "DB Regio AG",
+							"name": "DB Regio AG",
+							"url": "https://www.bahn.de/brandenburg"
+						}
+					],
+					"prodL": [
+						{
+							"prodCtx": {
+								"catOut": "S       ",
+								"catOutL": "S       ",
+								"catOutS": "S-6",
+								"line": "S1",
+								"lineId": "de:VBB:11000000|S-Bahn|S1:",
+								"name": "S1"
+							},
+							"cls": 1,
+							"icoX": 0,
+							"name": "S1",
+							"nameS": "S1"
+						},
+						{
+							"prodCtx": {
+								"catOut": "S       ",
+								"catOutL": "S       ",
+								"catOutS": "S-7",
+								"line": "S2",
+								"lineId": "de:VBB:11000000|S-Bahn|S2:",
+								"name": "S2"
+							},
+							"cls": 1,
+							"icoX": 0,
+							"name": "S2",
+							"nameS": "S2"
+						},
+						{
+							"prodCtx": {
+								"catOut": "S       ",
+								"catOutL": "S       ",
+								"catOutS": "S-4",
+								"line": "S3",
+								"lineId": "de:VBB:11000000|S-Bahn|S3:",
+								"name": "S3"
+							},
+							"cls": 1,
+							"icoX": 0,
+							"name": "S3",
+							"nameS": "S3"
+						},
+						{
+							"prodCtx": {
+								"catOut": "S       ",
+								"catOutL": "S       ",
+								"catOutS": "S-7",
+								"line": "S5",
+								"lineId": "de:VBB:11000000|S-Bahn|S5:",
+								"name": "S5"
+							},
+							"cls": 1,
+							"icoX": 0,
+							"name": "S5",
+							"nameS": "S5"
+						},
+						{
+							"prodCtx": {
+								"catOut": "S       ",
+								"catOutL": "S       ",
+								"catOutS": "S-7",
+								"line": "S7",
+								"lineId": "de:VBB:11000000|S-Bahn|S7:",
+								"name": "S7"
+							},
+							"cls": 1,
+							"icoX": 0,
+							"name": "S7",
+							"nameS": "S7"
+						},
+						{
+							"prodCtx": {
+								"catOut": "S       ",
+								"catOutL": "S       ",
+								"catOutS": "S-7",
+								"line": "S9",
+								"lineId": "de:VBB:11000000|S-Bahn|S9:",
+								"name": "S9"
+							},
+							"cls": 1,
+							"icoX": 0,
+							"name": "S9",
+							"nameS": "S9"
+						},
+						{
+							"prodCtx": {
+								"catOut": "S       ",
+								"catOutL": "S       ",
+								"catOutS": "S-6",
+								"line": "S25",
+								"lineId": "de:VBB:11000000|S-Bahn|S25:",
+								"name": "S25"
+							},
+							"cls": 1,
+							"icoX": 0,
+							"name": "S25",
+							"nameS": "S25"
+						},
+						{
+							"prodCtx": {
+								"catOut": "S       ",
+								"catOutL": "S       ",
+								"catOutS": "S-6",
+								"line": "S26",
+								"lineId": "de:VBB:11000000|S-Bahn|S26:",
+								"name": "S26"
+							},
+							"cls": 1,
+							"icoX": 0,
+							"name": "S26",
+							"nameS": "S26"
+						},
+						{
+							"prodCtx": {
+								"catOut": "S       ",
+								"catOutL": "S       ",
+								"catOutS": "S-6",
+								"line": "S45",
+								"lineId": "de:VBB:11000000|S-Bahn|S45:",
+								"name": "S45"
+							},
+							"cls": 1,
+							"icoX": 0,
+							"name": "S45",
+							"nameS": "S45"
+						},
+						{
+							"prodCtx": {
+								"catOut": "U       ",
+								"catOutL": "U       ",
+								"catOutS": "U",
+								"line": "U6",
+								"lineId": "de:VBB:11000000|U-Bahn|U6:",
+								"name": "U6"
+							},
+							"cls": 2,
+							"icoX": 1,
+							"name": "U6",
+							"nameS": "U6"
+						},
+						{
+							"prodCtx": {
+								"catOut": "Tram    ",
+								"catOutL": "Tram    ",
+								"catOutS": "T",
+								"line": "12",
+								"lineId": "de:VBB:11000000|Tram|12:",
+								"name": "12"
+							},
+							"cls": 4,
+							"icoX": 2,
+							"name": "12",
+							"nameS": "12"
+						},
+						{
+							"prodCtx": {
+								"catOut": "Tram    ",
+								"catOutL": "Tram    ",
+								"catOutS": "T",
+								"line": "M1",
+								"lineId": "de:VBB:11000000|Tram|M1:",
+								"name": "M1"
+							},
+							"cls": 4,
+							"icoX": 2,
+							"name": "M1",
+							"nameS": "M1"
+						},
+						{
+							"prodCtx": {
+								"catOut": "Bus     ",
+								"catOutL": "Bus     ",
+								"catOutS": "B",
+								"line": "147",
+								"lineId": "de:VBB:11000000|Bus|147:",
+								"name": "147"
+							},
+							"cls": 8,
+							"icoX": 3,
+							"name": "147",
+							"nameS": "147"
+						},
+						{
+							"prodCtx": {
+								"catOut": "Bus     ",
+								"catOutL": "Bus     ",
+								"catOutS": "B",
+								"line": "245",
+								"lineId": "de:VBB:11000000|Bus|245:",
+								"name": "245"
+							},
+							"cls": 8,
+							"icoX": 3,
+							"name": "245",
+							"nameS": "245"
+						},
+						{
+							"prodCtx": {
+								"catOut": "Bus     ",
+								"catOutL": "Bus     ",
+								"catOutS": "B",
+								"line": "N6",
+								"lineId": "de:VBB:11000000|Bus|N6:",
+								"name": "N6"
+							},
+							"cls": 8,
+							"icoX": 3,
+							"name": "N6",
+							"nameS": "N6"
+						},
+						{
+							"prodCtx": {
+								"catOut": "Bus     ",
+								"catOutL": "Bus     ",
+								"catOutS": "Bus",
+								"line": "S1A",
+								"lineId": "SEV---_S1A",
+								"name": "S1A"
+							},
+							"cls": 8,
+							"icoX": 3,
+							"name": "S1A",
+							"nameS": "S1A"
+						},
+						{
+							"prodCtx": {
+								"catOut": "Bus     ",
+								"catOutL": "Bus     ",
+								"catOutS": "Bus",
+								"line": "S1B",
+								"lineId": "SEV---_S1B",
+								"name": "S1B"
+							},
+							"cls": 8,
+							"icoX": 3,
+							"name": "S1B",
+							"nameS": "S1B"
+						},
+						{
+							"prodCtx": {
+								"catOut": "FEX     ",
+								"catOutL": "-",
+								"catOutS": "FEX",
+								"line": "FEX",
+								"lineId": "800165_FEX",
+								"name": "FEX"
+							},
+							"cls": 64,
+							"icoX": 4,
+							"name": "FEX",
+							"nameS": "FEX"
+						},
+						{
+							"prodCtx": {
+								"catOut": "DPN     ",
+								"catOutL": "-",
+								"catOutS": "DPM",
+								"line": "HBX",
+								"lineId": "RSMD___HBX",
+								"name": "HBX"
+							},
+							"cls": 64,
+							"icoX": 4,
+							"name": "HBX",
+							"nameS": "HBX"
+						},
+						{
+							"prodCtx": {
+								"catOut": "RB      ",
+								"catOutL": "RB      ",
+								"catOutS": "RB",
+								"line": "RB20",
+								"lineId": "800165_RB20",
+								"name": "RB20"
+							},
+							"cls": 64,
+							"icoX": 4,
+							"name": "RB20",
+							"nameS": "RB20"
+						},
+						{
+							"prodCtx": {
+								"catOut": "RB      ",
+								"catOutL": "RB      ",
+								"catOutS": "RB",
+								"line": "RB22",
+								"lineId": "800165_RB22",
+								"name": "RB22"
+							},
+							"cls": 64,
+							"icoX": 4,
+							"name": "RB22",
+							"nameS": "RB22"
+						},
+						{
+							"prodCtx": {
+								"catOut": "RB      ",
+								"catOutL": "RB      ",
+								"catOutS": "RB",
+								"line": "RB23",
+								"lineId": "800165_RB23",
+								"name": "RB23"
+							},
+							"cls": 64,
+							"icoX": 4,
+							"name": "RB23",
+							"nameS": "RB23"
+						},
+						{
+							"prodCtx": {
+								"catOut": "RE      ",
+								"catOutL": "RE      ",
+								"catOutS": "RE",
+								"line": "RE1",
+								"lineId": "ODRE1__RE1",
+								"name": "RE1"
+							},
+							"cls": 64,
+							"icoX": 4,
+							"name": "RE1",
+							"nameS": "RE1"
+						},
+						{
+							"prodCtx": {
+								"catOut": "RE      ",
+								"catOutL": "RE      ",
+								"catOutS": "RE",
+								"line": "RE2",
+								"lineId": "800165_RE2",
+								"name": "RE2"
+							},
+							"cls": 64,
+							"icoX": 4,
+							"name": "RE2",
+							"nameS": "RE2"
+						},
+						{
+							"prodCtx": {
+								"catOut": "RE      ",
+								"catOutL": "RE      ",
+								"catOutS": "RE",
+								"line": "RE7",
+								"lineId": "800165_RE7",
+								"name": "RE7"
+							},
+							"cls": 64,
+							"icoX": 4,
+							"name": "RE7",
+							"nameS": "RE7"
+						},
+						{
+							"prodCtx": {
+								"catOut": "RE      ",
+								"catOutL": "RE      ",
+								"catOutS": "RE",
+								"line": "RE8",
+								"lineId": "ODRE8__RE8",
+								"name": "RE8"
+							},
+							"cls": 64,
+							"icoX": 4,
+							"name": "RE8",
+							"nameS": "RE8"
+						},
+						{
+							"himIdL": [
+								"HIM_FREETEXT_251943",
+								"HIM_FREETEXT_251950",
+								"HIM_FREETEXT_251951",
+								"HIM_FREETEXT_251952",
+								"HIM_FREETEXT_251954",
+								"HIM_FREETEXT_251955",
+								"HIM_FREETEXT_256095"
+							],
+							"prodCtx": {
+								"admin": "DBS---",
+								"catCode": "0",
+								"catIn": "S-7",
+								"catOut": "S       ",
+								"catOutL": "S       ",
+								"catOutS": "S-7",
+								"line": "S1",
+								"lineId": "de:VBB:11000000|S-Bahn|S1:",
+								"matchId": "1640",
+								"name": "      S1",
+								"num": "13778"
+							},
+							"cls": 1,
+							"icoX": 0,
+							"name": "S1",
+							"nameS": "S1",
+							"number": "S1",
+							"oprX": 0,
+							"pid": "L::0::S::B1090519025::de:VBB:11000000|S-Bahn|S1:::*"
+						},
+						{
+							"himIdL": [
+								"HIM_FREETEXT_251939",
+								"HIM_FREETEXT_251965",
+								"HIM_FREETEXT_252209",
+								"HIM_FREETEXT_253190",
+								"HIM_FREETEXT_253192"
+							],
+							"prodCtx": {
+								"admin": "DBS---",
+								"catCode": "0",
+								"catIn": "S-7",
+								"catOut": "S       ",
+								"catOutL": "S       ",
+								"catOutS": "S-7",
+								"line": "S7",
+								"lineId": "de:VBB:11000000|S-Bahn|S7:",
+								"matchId": "7157",
+								"name": "      S7",
+								"num": "21495"
+							},
+							"cls": 1,
+							"icoX": 0,
+							"name": "S7",
+							"nameS": "S7",
+							"number": "S7",
+							"oprX": 0,
+							"pid": "L::0::S::B1090519025::de:VBB:11000000|S-Bahn|S7:::*"
+						},
+						{
+							"himIdL": [
+								"HIM_FREETEXT_251948",
+								"HIM_FREETEXT_251950",
+								"HIM_FREETEXT_251952",
+								"HIM_FREETEXT_251955",
+								"HIM_FREETEXT_252237",
+								"HIM_FREETEXT_252239",
+								"HIM_FREETEXT_253058"
+							],
+							"prodCtx": {
+								"admin": "DBS---",
+								"catCode": "0",
+								"catIn": "S-6",
+								"catOut": "S       ",
+								"catOutL": "S       ",
+								"catOutS": "S-6",
+								"line": "S25",
+								"lineId": "de:VBB:11000000|S-Bahn|S25:",
+								"matchId": "25145",
+								"name": "     S25",
+								"num": "15553"
+							},
+							"cls": 1,
+							"icoX": 0,
+							"name": "S25",
+							"nameS": "S25",
+							"number": "S25",
+							"oprX": 0,
+							"pid": "L::0::S::B1090519025::de:VBB:11000000|S-Bahn|S25:::*"
+						},
+						{
+							"himIdL": [
+								"HIM_FREETEXT_251965"
+							],
+							"prodCtx": {
+								"admin": "DBS---",
+								"catCode": "0",
+								"catIn": "S-7",
+								"catOut": "S       ",
+								"catOutL": "S       ",
+								"catOutS": "S-7",
+								"line": "S5",
+								"lineId": "de:VBB:11000000|S-Bahn|S5:",
+								"matchId": "5145",
+								"name": "      S5",
+								"num": "19796"
+							},
+							"cls": 1,
+							"icoX": 0,
+							"name": "S5",
+							"nameS": "S5",
+							"number": "S5",
+							"oprX": 0,
+							"pid": "L::0::S::B1090519025::de:VBB:11000000|S-Bahn|S5:::*"
+						},
+						{
+							"himIdL": [
+								"HIM_FREETEXT_222665",
+								"HIM_FREETEXT_254054"
+							],
+							"prodCtx": {
+								"admin": "BVB---",
+								"catCode": "3",
+								"catIn": "B",
+								"catOut": "Bus     ",
+								"catOutL": "Bus     ",
+								"catOutS": "B",
+								"line": "245",
+								"lineId": "de:VBB:11000000|Bus|245:",
+								"matchId": "245",
+								"name": "     245",
+								"num": "110673"
+							},
+							"cls": 8,
+							"icoX": 3,
+							"name": "245",
+							"nameS": "245",
+							"number": "245",
+							"oprX": 1,
+							"pid": "L::3::Bus::B3041857784::de:VBB:11000000|Bus|245:::*"
+						},
+						{
+							"himIdL": [
+								"HIM_FREETEXT_251939",
+								"HIM_FREETEXT_251965",
+								"HIM_FREETEXT_252209",
+								"HIM_FREETEXT_253190",
+								"HIM_FREETEXT_253192"
+							],
+							"prodCtx": {
+								"admin": "DBS---",
+								"catCode": "0",
+								"catIn": "S-7",
+								"catOut": "S       ",
+								"catOutL": "S       ",
+								"catOutS": "S-7",
+								"line": "S7",
+								"lineId": "de:VBB:11000000|S-Bahn|S7:",
+								"matchId": "7156",
+								"name": "      S7",
+								"num": "117"
+							},
+							"cls": 1,
+							"icoX": 0,
+							"name": "S7",
+							"nameS": "S7",
+							"number": "S7",
+							"oprX": 0,
+							"pid": "L::0::S::B1090519025::de:VBB:11000000|S-Bahn|S7:::*"
+						},
+						{
+							"himIdL": [
+								"HIM_FREETEXT_258304"
+							],
+							"prodCtx": {
+								"admin": "BVU---",
+								"catCode": "1",
+								"catIn": "U",
+								"catOut": "U       ",
+								"catOutL": "U       ",
+								"catOutS": "U",
+								"line": "U6",
+								"lineId": "de:VBB:11000000|U-Bahn|U6:",
+								"matchId": "U6",
+								"name": "      U6",
+								"num": "16876"
+							},
+							"cls": 2,
+							"icoX": 1,
+							"name": "U6",
+							"nameS": "U6",
+							"number": "U6",
+							"oprX": 1,
+							"pid": "L::1::U::B3041857784::de:VBB:11000000|U-Bahn|U6:::*"
+						},
+						{
+							"himIdL": [
+								"HIM_FREETEXT_252084",
+								"HIM_FREETEXT_253744",
+								"HIM_FREETEXT_255004",
+								"HIM_FREETEXT_256027",
+								"HIM_FREETEXT_256774",
+								"HIM_FREETEXT_256821",
+								"HIM_FREETEXT_258108",
+								"HIM_FREETEXT_258332"
+							],
+							"prodCtx": {
+								"admin": "ODRE8_",
+								"catCode": "6",
+								"catIn": "RE",
+								"catOut": "RE      ",
+								"catOutL": "RE      ",
+								"catOutS": "RE",
+								"line": "RE8",
+								"lineId": "ODRE8__RE8",
+								"matchId": "62036",
+								"name": "     RE8",
+								"num": "62036"
+							},
+							"cls": 64,
+							"icoX": 4,
+							"name": "RE8",
+							"nameS": "RE8",
+							"number": "RE8",
+							"oprX": 2,
+							"pid": "L::6::RE::B3113392179::ODRE8__RE8::*"
+						},
+						{
+							"prodCtx": {
+								"catOut": "S       ",
+								"catOutL": "S       ",
+								"catOutS": "S-5",
+								"line": "S5",
+								"lineId": "DBS---_S5",
+								"name": "S5"
+							},
+							"cls": 1,
+							"icoX": 0,
+							"name": "S5",
+							"nameS": "S5"
+						},
+						{
+							"prodCtx": {
+								"catOut": "S       ",
+								"catOutL": "S       ",
+								"catOutS": "S-5",
+								"line": "S75",
+								"lineId": "de:VBB:11000000|S-Bahn|S75:",
+								"name": "S75"
+							},
+							"cls": 1,
+							"icoX": 0,
+							"name": "S75",
+							"nameS": "S75"
+						},
+						{
+							"prodCtx": {
+								"catOut": "Bus     ",
+								"catOutL": "Bus     ",
+								"catOutS": "B",
+								"line": "140",
+								"lineId": "de:VBB:11000000|Bus|140:",
+								"name": "140"
+							},
+							"cls": 8,
+							"icoX": 3,
+							"name": "140",
+							"nameS": "140"
+						},
+						{
+							"prodCtx": {
+								"catOut": "Bus     ",
+								"catOutL": "Bus     ",
+								"catOutS": "B",
+								"line": "142",
+								"lineId": "de:VBB:11000000|Bus|142:",
+								"name": "142"
+							},
+							"cls": 8,
+							"icoX": 3,
+							"name": "142",
+							"nameS": "142"
+						},
+						{
+							"prodCtx": {
+								"catOut": "Bus     ",
+								"catOutL": "Bus     ",
+								"catOutS": "B",
+								"line": "240",
+								"lineId": "de:VBB:11000000|Bus|240:",
+								"name": "240"
+							},
+							"cls": 8,
+							"icoX": 3,
+							"name": "240",
+							"nameS": "240"
+						},
+						{
+							"prodCtx": {
+								"catOut": "Bus     ",
+								"catOutL": "Bus     ",
+								"catOutS": "B",
+								"line": "300",
+								"lineId": "de:VBB:11000000|Bus|300:",
+								"name": "300"
+							},
+							"cls": 8,
+							"icoX": 3,
+							"name": "300",
+							"nameS": "300"
+						},
+						{
+							"prodCtx": {
+								"catOut": "Bus     ",
+								"catOutL": "Bus     ",
+								"catOutS": "B",
+								"line": "347",
+								"lineId": "de:VBB:11000000|Bus|347:",
+								"name": "347"
+							},
+							"cls": 8,
+							"icoX": 3,
+							"name": "347",
+							"nameS": "347"
+						},
+						{
+							"prodCtx": {
+								"catOut": "Bus     ",
+								"catOutL": "Bus     ",
+								"catOutS": "B",
+								"line": "N40",
+								"lineId": "de:VBB:11000000|Bus|N40:",
+								"name": "N40"
+							},
+							"cls": 8,
+							"icoX": 3,
+							"name": "N40",
+							"nameS": "N40"
+						},
+						{
+							"prodCtx": {
+								"catOut": "Bus     ",
+								"catOutL": "Bus     ",
+								"catOutS": "BUO",
+								"line": "RE1",
+								"lineId": "ODBUS__RE1",
+								"name": "RE1"
+							},
+							"cls": 8,
+							"icoX": 3,
+							"name": "RE1",
+							"nameS": "RE1"
+						},
+						{
+							"prodCtx": {
+								"name": ""
+							},
+							"cls": 32,
+							"icoX": 14,
+							"name": ""
+						},
+						{
+							"prodCtx": {
+								"catOut": "Bus     ",
+								"catOutL": "Bus     ",
+								"catOutS": "Bus",
+								"line": "669",
+								"lineId": "de:VBB:12063208|Bus|669:",
+								"name": "669"
+							},
+							"cls": 8,
+							"icoX": 3,
+							"name": "669",
+							"nameS": "669"
+						},
+						{
+							"himIdL": [
+								"HIM_FREETEXT_258304"
+							],
+							"prodCtx": {
+								"admin": "BVU---",
+								"catCode": "1",
+								"catIn": "U",
+								"catOut": "U       ",
+								"catOutL": "U       ",
+								"catOutS": "U",
+								"line": "U6",
+								"lineId": "de:VBB:11000000|U-Bahn|U6:",
+								"matchId": "U6",
+								"name": "      U6",
+								"num": "16495"
+							},
+							"cls": 2,
+							"icoX": 1,
+							"name": "U6",
+							"nameS": "U6",
+							"number": "U6",
+							"oprX": 1,
+							"pid": "L::1::U::B3041857784::de:VBB:11000000|U-Bahn|U6:::*"
+						},
+						{
+							"himIdL": [
+								"HIM_FREETEXT_251965",
+								"HIM_FREETEXT_252021"
+							],
+							"prodCtx": {
+								"admin": "DBS---",
+								"catCode": "0",
+								"catIn": "S-4",
+								"catOut": "S       ",
+								"catOutL": "S       ",
+								"catOutS": "S-4",
+								"line": "S3",
+								"lineId": "de:VBB:11000000|S-Bahn|S3:",
+								"matchId": "3162",
+								"name": "      S3",
+								"num": "17007"
+							},
+							"cls": 1,
+							"icoX": 0,
+							"name": "S3",
+							"nameS": "S3",
+							"number": "S3",
+							"oprX": 0,
+							"pid": "L::0::S::B1090519025::de:VBB:11000000|S-Bahn|S3:::*"
+						},
+						{
+							"himIdL": [
+								"HIM_FREETEXT_222451",
+								"HIM_FREETEXT_248518"
+							],
+							"prodCtx": {
+								"admin": "BVB---",
+								"catCode": "3",
+								"catIn": "B",
+								"catOut": "Bus     ",
+								"catOutL": "Bus     ",
+								"catOutS": "B",
+								"line": "147",
+								"lineId": "de:VBB:11000000|Bus|147:",
+								"matchId": "147",
+								"name": "     147",
+								"num": "100163"
+							},
+							"cls": 8,
+							"icoX": 3,
+							"name": "147",
+							"nameS": "147",
+							"number": "147",
+							"oprX": 1,
+							"pid": "L::3::Bus::B3041857784::de:VBB:11000000|Bus|147:::*"
+						},
+						{
+							"prodCtx": {
+								"admin": "BVT---",
+								"catCode": "2",
+								"catIn": "T",
+								"catOut": "Tram    ",
+								"catOutL": "Tram    ",
+								"catOutS": "T",
+								"line": "M1",
+								"lineId": "de:VBB:11000000|Tram|M1:",
+								"matchId": "M1",
+								"name": "      M1",
+								"num": "24912"
+							},
+							"cls": 4,
+							"icoX": 2,
+							"name": "M1",
+							"nameS": "M1",
+							"number": "M1",
+							"oprX": 1,
+							"pid": "L::2::Tram::B3041857784::de:VBB:11000000|Tram|M1:::*"
+						},
+						{
+							"himIdL": [
+								"HIM_FREETEXT_251965"
+							],
+							"prodCtx": {
+								"admin": "DBS---",
+								"catCode": "0",
+								"catIn": "S-7",
+								"catOut": "S       ",
+								"catOutL": "S       ",
+								"catOutS": "S-7",
+								"line": "S9",
+								"lineId": "de:VBB:11000000|S-Bahn|S9:",
+								"matchId": "9147",
+								"name": "      S9",
+								"num": "23553"
+							},
+							"cls": 1,
+							"icoX": 0,
+							"name": "S9",
+							"nameS": "S9",
+							"number": "S9",
+							"oprX": 0,
+							"pid": "L::0::S::B1090519025::de:VBB:11000000|S-Bahn|S9:::*"
+						},
+						{
+							"prodCtx": {
+								"admin": "BVT---",
+								"catCode": "2",
+								"catIn": "T",
+								"catOut": "Tram    ",
+								"catOutL": "Tram    ",
+								"catOutS": "T",
+								"line": "M1",
+								"lineId": "de:VBB:11000000|Tram|M1:",
+								"matchId": "M1",
+								"name": "      M1",
+								"num": "25531"
+							},
+							"cls": 4,
+							"icoX": 2,
+							"name": "M1",
+							"nameS": "M1",
+							"number": "M1",
+							"oprX": 1,
+							"pid": "L::2::Tram::B3041857784::de:VBB:11000000|Tram|M1:::*"
+						},
+						{
+							"himIdL": [
+								"HIM_FREETEXT_251943",
+								"HIM_FREETEXT_251950",
+								"HIM_FREETEXT_251951",
+								"HIM_FREETEXT_251952",
+								"HIM_FREETEXT_251954",
+								"HIM_FREETEXT_251955",
+								"HIM_FREETEXT_256095"
+							],
+							"prodCtx": {
+								"admin": "DBS---",
+								"catCode": "0",
+								"catIn": "S-5",
+								"catOut": "S       ",
+								"catOutL": "S       ",
+								"catOutS": "S-5",
+								"line": "S1",
+								"lineId": "de:VBB:11000000|S-Bahn|S1:",
+								"matchId": "1164",
+								"name": "      S1",
+								"num": "13304"
+							},
+							"cls": 1,
+							"icoX": 0,
+							"name": "S1",
+							"nameS": "S1",
+							"number": "S1",
+							"oprX": 0,
+							"pid": "L::0::S::B1090519025::de:VBB:11000000|S-Bahn|S1:::*"
+						},
+						{
+							"himIdL": [
+								"HIM_FREETEXT_222451",
+								"HIM_FREETEXT_248518"
+							],
+							"prodCtx": {
+								"admin": "BVB---",
+								"catCode": "3",
+								"catIn": "B",
+								"catOut": "Bus     ",
+								"catOutL": "Bus     ",
+								"catOutS": "B",
+								"line": "147",
+								"lineId": "de:VBB:11000000|Bus|147:",
+								"matchId": "147",
+								"name": "     147",
+								"num": "99908"
+							},
+							"cls": 8,
+							"icoX": 3,
+							"name": "147",
+							"nameS": "147",
+							"number": "147",
+							"oprX": 1,
+							"pid": "L::3::Bus::B3041857784::de:VBB:11000000|Bus|147:::*"
+						},
+						{
+							"himIdL": [
+								"HIM_FREETEXT_251965"
+							],
+							"prodCtx": {
+								"admin": "DBS---",
+								"catCode": "0",
+								"catIn": "S-7",
+								"catOut": "S       ",
+								"catOutL": "S       ",
+								"catOutS": "S-7",
+								"line": "S5",
+								"lineId": "de:VBB:11000000|S-Bahn|S5:",
+								"matchId": "5140",
+								"name": "      S5",
+								"num": "20105"
+							},
+							"cls": 1,
+							"icoX": 0,
+							"name": "S5",
+							"nameS": "S5",
+							"number": "S5",
+							"oprX": 0,
+							"pid": "L::0::S::B1090519025::de:VBB:11000000|S-Bahn|S5:::*"
+						},
+						{
+							"himIdL": [
+								"HIM_FREETEXT_251948",
+								"HIM_FREETEXT_251950",
+								"HIM_FREETEXT_251952",
+								"HIM_FREETEXT_251955",
+								"HIM_FREETEXT_252237",
+								"HIM_FREETEXT_252239",
+								"HIM_FREETEXT_253058"
+							],
+							"prodCtx": {
+								"admin": "DBS---",
+								"catCode": "0",
+								"catIn": "S-6",
+								"catOut": "S       ",
+								"catOutL": "S       ",
+								"catOutS": "S-6",
+								"line": "S25",
+								"lineId": "de:VBB:11000000|S-Bahn|S25:",
+								"matchId": "25146",
+								"name": "     S25",
+								"num": "15838"
+							},
+							"cls": 1,
+							"icoX": 0,
+							"name": "S25",
+							"nameS": "S25",
+							"number": "S25",
+							"oprX": 0,
+							"pid": "L::0::S::B1090519025::de:VBB:11000000|S-Bahn|S25:::*"
+						},
+						{
+							"prodCtx": {
+								"admin": "BVT---",
+								"catCode": "2",
+								"catIn": "T",
+								"catOut": "Tram    ",
+								"catOutL": "Tram    ",
+								"catOutS": "T",
+								"line": "12",
+								"lineId": "de:VBB:11000000|Tram|12:",
+								"matchId": "12",
+								"name": "      12",
+								"num": "21284"
+							},
+							"cls": 4,
+							"icoX": 2,
+							"name": "12",
+							"nameS": "12",
+							"number": "12",
+							"oprX": 1,
+							"pid": "L::2::Tram::B3041857784::de:VBB:11000000|Tram|12:::*"
+						},
+						{
+							"himIdL": [
+								"HIM_FREETEXT_258304"
+							],
+							"prodCtx": {
+								"admin": "BVU---",
+								"catCode": "1",
+								"catIn": "U",
+								"catOut": "U       ",
+								"catOutL": "U       ",
+								"catOutS": "U",
+								"line": "U6",
+								"lineId": "de:VBB:11000000|U-Bahn|U6:",
+								"matchId": "U6",
+								"name": "      U6",
+								"num": "16877"
+							},
+							"cls": 2,
+							"icoX": 1,
+							"name": "U6",
+							"nameS": "U6",
+							"number": "U6",
+							"oprX": 1,
+							"pid": "L::1::U::B3041857784::de:VBB:11000000|U-Bahn|U6:::*"
+						},
+						{
+							"himIdL": [
+								"HIM_FREETEXT_258108"
+							],
+							"prodCtx": {
+								"admin": "800165",
+								"catCode": "6",
+								"catIn": "RE",
+								"catOut": "RE      ",
+								"catOutL": "RE      ",
+								"catOutS": "RE",
+								"line": "RE2",
+								"lineId": "800165_RE2",
+								"matchId": "3138",
+								"name": "     RE2",
+								"num": "1548"
+							},
+							"cls": 64,
+							"icoX": 4,
+							"name": "RE2",
+							"nameS": "RE2",
+							"number": "RE2",
+							"oprX": 3,
+							"pid": "L::6::RE::B0002373722::800165_RE2::*"
+						},
+						{
+							"prodCtx": {
+								"catOut": "Bus     ",
+								"catOutL": "Bus     ",
+								"catOutS": "HVN",
+								"line": "650",
+								"lineId": "de:VBB:12063208|Bus|650:",
+								"name": "650"
+							},
+							"cls": 8,
+							"icoX": 3,
+							"name": "650",
+							"nameS": "650"
+						},
+						{
+							"prodCtx": {
+								"catOut": "Bus     ",
+								"catOutL": "Bus     ",
+								"catOutS": "Bus",
+								"line": "658",
+								"lineId": "de:VBB:12063208|Bus|658:",
+								"name": "658"
+							},
+							"cls": 8,
+							"icoX": 3,
+							"name": "658",
+							"nameS": "658"
+						},
+						{
+							"prodCtx": {
+								"catOut": "Bus     ",
+								"catOutL": "Bus     ",
+								"catOutS": "Bus",
+								"line": "659",
+								"lineId": "de:VBB:12063208|Bus|659:",
+								"name": "659"
+							},
+							"cls": 8,
+							"icoX": 3,
+							"name": "659",
+							"nameS": "659"
+						},
+						{
+							"prodCtx": {
+								"catOut": "Bus     ",
+								"catOutL": "Bus     ",
+								"catOutS": "HVN",
+								"line": "660",
+								"lineId": "de:VBB:12063208|Bus|660:",
+								"name": "660"
+							},
+							"cls": 8,
+							"icoX": 3,
+							"name": "660",
+							"nameS": "660"
+						},
+						{
+							"prodCtx": {
+								"catOut": "Bus     ",
+								"catOutL": "Bus     ",
+								"catOutS": "HVN",
+								"line": "661",
+								"lineId": "de:VBB:12063208|Bus|661:",
+								"name": "661"
+							},
+							"cls": 8,
+							"icoX": 3,
+							"name": "661",
+							"nameS": "661"
+						},
+						{
+							"prodCtx": {
+								"catOut": "Bus     ",
+								"catOutL": "Bus     ",
+								"catOutS": "HVN",
+								"line": "663",
+								"lineId": "de:VBB:12063208|Bus|663:",
+								"name": "663"
+							},
+							"cls": 8,
+							"icoX": 3,
+							"name": "663",
+							"nameS": "663"
+						},
+						{
+							"prodCtx": {
+								"catOut": "Bus     ",
+								"catOutL": "Bus     ",
+								"catOutS": "HVN",
+								"line": "664",
+								"lineId": "de:VBB:12063208|Bus|664:",
+								"name": "664"
+							},
+							"cls": 8,
+							"icoX": 3,
+							"name": "664",
+							"nameS": "664"
+						},
+						{
+							"prodCtx": {
+								"catOut": "Bus     ",
+								"catOutL": "Bus     ",
+								"catOutS": "Bus",
+								"line": "666",
+								"lineId": "de:VBB:12063208|Bus|666:",
+								"name": "666"
+							},
+							"cls": 8,
+							"icoX": 3,
+							"name": "666",
+							"nameS": "666"
+						},
+						{
+							"prodCtx": {
+								"catOut": "Bus     ",
+								"catOutL": "Bus     ",
+								"catOutS": "Bus",
+								"line": "667",
+								"lineId": "de:VBB:12063208|Bus|667:",
+								"name": "667"
+							},
+							"cls": 8,
+							"icoX": 3,
+							"name": "667",
+							"nameS": "667"
+						},
+						{
+							"prodCtx": {
+								"catOut": "Bus     ",
+								"catOutL": "Bus     ",
+								"catOutS": "HVN",
+								"line": "669",
+								"lineId": "de:VBB:12063208|Bus|669:",
+								"name": "669"
+							},
+							"cls": 8,
+							"icoX": 3,
+							"name": "669",
+							"nameS": "669"
+						},
+						{
+							"prodCtx": {
+								"catOut": "Bus     ",
+								"catOutL": "Bus     ",
+								"catOutS": "Bus",
+								"line": "680",
+								"lineId": "de:VBB:12063252|Bus|680:",
+								"name": "680"
+							},
+							"cls": 8,
+							"icoX": 3,
+							"name": "680",
+							"nameS": "680"
+						},
+						{
+							"prodCtx": {
+								"catOut": "Bus     ",
+								"catOutL": "Bus     ",
+								"catOutS": "Bus",
+								"line": "758",
+								"lineId": "de:VBB:12068117|Bus|758:",
+								"name": "758"
+							},
+							"cls": 8,
+							"icoX": 3,
+							"name": "758",
+							"nameS": "758"
+						},
+						{
+							"prodCtx": {
+								"catOut": "Bus     ",
+								"catOutL": "Bus     ",
+								"catOutS": "DBB",
+								"line": "RE2",
+								"lineId": "NBB---_RE2",
+								"name": "RE2"
+							},
+							"cls": 8,
+							"icoX": 3,
+							"name": "RE2",
+							"nameS": "RE2"
+						},
+						{
+							"prodCtx": {
+								"catOut": "Bus     ",
+								"catOutL": "Bus     ",
+								"catOutS": "BUO",
+								"line": "RE8",
+								"lineId": "ODBUS__RE8",
+								"name": "RE8"
+							},
+							"cls": 8,
+							"icoX": 3,
+							"name": "RE8",
+							"nameS": "RE8"
+						},
+						{
+							"prodCtx": {
+								"catOut": "RB      ",
+								"catOutL": "RB      ",
+								"catOutS": "RB",
+								"line": "RB10",
+								"lineId": "800165_RB10",
+								"name": "RB10"
+							},
+							"cls": 64,
+							"icoX": 4,
+							"name": "RB10",
+							"nameS": "RB10"
+						},
+						{
+							"prodCtx": {
+								"catOut": "RB      ",
+								"catOutL": "RB      ",
+								"catOutS": "RB",
+								"line": "RB14",
+								"lineId": "800165_RB14",
+								"name": "RB14"
+							},
+							"cls": 64,
+							"icoX": 4,
+							"name": "RB14",
+							"nameS": "RB14"
+						},
+						{
+							"prodCtx": {
+								"admin": "BVT---",
+								"catCode": "2",
+								"catIn": "T",
+								"catOut": "Tram    ",
+								"catOutL": "Tram    ",
+								"catOutS": "T",
+								"line": "12",
+								"lineId": "de:VBB:11000000|Tram|12:",
+								"matchId": "12",
+								"name": "      12",
+								"num": "21106"
+							},
+							"cls": 4,
+							"icoX": 2,
+							"name": "12",
+							"nameS": "12",
+							"number": "12",
+							"oprX": 1,
+							"pid": "L::2::Tram::B3041857784::de:VBB:11000000|Tram|12:::*"
+						},
+						{
+							"himIdL": [
+								"HIM_FREETEXT_258304"
+							],
+							"prodCtx": {
+								"admin": "BVU---",
+								"catCode": "1",
+								"catIn": "U",
+								"catOut": "U       ",
+								"catOutL": "U       ",
+								"catOutS": "U",
+								"line": "U6",
+								"lineId": "de:VBB:11000000|U-Bahn|U6:",
+								"matchId": "U6",
+								"name": "      U6",
+								"num": "16496"
+							},
+							"cls": 2,
+							"icoX": 1,
+							"name": "U6",
+							"nameS": "U6",
+							"number": "U6",
+							"oprX": 1,
+							"pid": "L::1::U::B3041857784::de:VBB:11000000|U-Bahn|U6:::*"
+						},
+						{
+							"himIdL": [
+								"HIM_FREETEXT_251943",
+								"HIM_FREETEXT_251950",
+								"HIM_FREETEXT_251951",
+								"HIM_FREETEXT_251952",
+								"HIM_FREETEXT_251954",
+								"HIM_FREETEXT_251955",
+								"HIM_FREETEXT_256095"
+							],
+							"prodCtx": {
+								"admin": "DBS---",
+								"catCode": "0",
+								"catIn": "S-5",
+								"catOut": "S       ",
+								"catOutL": "S       ",
+								"catOutS": "S-5",
+								"line": "S1",
+								"lineId": "de:VBB:11000000|S-Bahn|S1:",
+								"matchId": "1165",
+								"name": "      S1",
+								"num": "130"
+							},
+							"cls": 1,
+							"icoX": 0,
+							"name": "S1",
+							"nameS": "S1",
+							"number": "S1",
+							"oprX": 0,
+							"pid": "L::0::S::B1090519025::de:VBB:11000000|S-Bahn|S1:::*"
+						},
+						{
+							"himIdL": [
+								"HIM_FREETEXT_251965"
+							],
+							"prodCtx": {
+								"admin": "DBS---",
+								"catCode": "0",
+								"catIn": "S-7",
+								"catOut": "S       ",
+								"catOutL": "S       ",
+								"catOutS": "S-7",
+								"line": "S9",
+								"lineId": "de:VBB:11000000|S-Bahn|S9:",
+								"matchId": "9146",
+								"name": "      S9",
+								"num": "23902"
+							},
+							"cls": 1,
+							"icoX": 0,
+							"name": "S9",
+							"nameS": "S9",
+							"number": "S9",
+							"oprX": 0,
+							"pid": "L::0::S::B1090519025::de:VBB:11000000|S-Bahn|S9:::*"
+						},
+						{
+							"prodCtx": {
+								"admin": "BVT---",
+								"catCode": "2",
+								"catIn": "T",
+								"catOut": "Tram    ",
+								"catOutL": "Tram    ",
+								"catOutS": "T",
+								"line": "M1",
+								"lineId": "de:VBB:11000000|Tram|M1:",
+								"matchId": "M1",
+								"name": "      M1",
+								"num": "25080"
+							},
+							"cls": 4,
+							"icoX": 2,
+							"name": "M1",
+							"nameS": "M1",
+							"number": "M1",
+							"oprX": 1,
+							"pid": "L::2::Tram::B3041857784::de:VBB:11000000|Tram|M1:::*"
+						},
+						{
+							"himIdL": [
+								"HIM_FREETEXT_251948",
+								"HIM_FREETEXT_251950",
+								"HIM_FREETEXT_251952",
+								"HIM_FREETEXT_251955",
+								"HIM_FREETEXT_252211",
+								"HIM_FREETEXT_252213",
+								"HIM_FREETEXT_252215",
+								"HIM_FREETEXT_252217",
+								"HIM_FREETEXT_257940"
+							],
+							"prodCtx": {
+								"admin": "DBS---",
+								"catCode": "0",
+								"catIn": "S-7",
+								"catOut": "S       ",
+								"catOutL": "S       ",
+								"catOutS": "S-7",
+								"line": "S2",
+								"lineId": "de:VBB:11000000|S-Bahn|S2:",
+								"matchId": "2130",
+								"name": "      S2",
+								"num": "14539"
+							},
+							"cls": 1,
+							"icoX": 0,
+							"name": "S2",
+							"nameS": "S2",
+							"number": "S2",
+							"oprX": 0,
+							"pid": "L::0::S::B1090519025::de:VBB:11000000|S-Bahn|S2:::*"
+						},
+						{
+							"himIdL": [
+								"HIM_FREETEXT_251948",
+								"HIM_FREETEXT_251950",
+								"HIM_FREETEXT_251952",
+								"HIM_FREETEXT_251955",
+								"HIM_FREETEXT_252211",
+								"HIM_FREETEXT_252213",
+								"HIM_FREETEXT_252215",
+								"HIM_FREETEXT_252217",
+								"HIM_FREETEXT_257940"
+							],
+							"prodCtx": {
+								"admin": "DBS---",
+								"catCode": "0",
+								"catIn": "S-7",
+								"catOut": "S       ",
+								"catOutL": "S       ",
+								"catOutS": "S-7",
+								"line": "S2",
+								"lineId": "de:VBB:11000000|S-Bahn|S2:",
+								"matchId": "2131",
+								"name": "      S2",
+								"num": "14337"
+							},
+							"cls": 1,
+							"icoX": 0,
+							"name": "S2",
+							"nameS": "S2",
+							"number": "S2",
+							"oprX": 0,
+							"pid": "L::0::S::B1090519025::de:VBB:11000000|S-Bahn|S2:::*"
+						},
+						{
+							"himIdL": [
+								"HIM_FREETEXT_251965",
+								"HIM_FREETEXT_252021"
+							],
+							"prodCtx": {
+								"admin": "DBS---",
+								"catCode": "0",
+								"catIn": "S-4",
+								"catOut": "S       ",
+								"catOutL": "S       ",
+								"catOutS": "S-4",
+								"line": "S3",
+								"lineId": "de:VBB:11000000|S-Bahn|S3:",
+								"matchId": "3165",
+								"name": "      S3",
+								"num": "16668"
+							},
+							"cls": 1,
+							"icoX": 0,
+							"name": "S3",
+							"nameS": "S3",
+							"number": "S3",
+							"oprX": 0,
+							"pid": "L::0::S::B1090519025::de:VBB:11000000|S-Bahn|S3:::*"
+						},
+						{
+							"prodCtx": {
+								"admin": "BVT---",
+								"catCode": "2",
+								"catIn": "T",
+								"catOut": "Tram    ",
+								"catOutL": "Tram    ",
+								"catOutS": "T",
+								"line": "M1",
+								"lineId": "de:VBB:11000000|Tram|M1:",
+								"matchId": "M1",
+								"name": "      M1",
+								"num": "25333"
+							},
+							"cls": 4,
+							"icoX": 2,
+							"name": "M1",
+							"nameS": "M1",
+							"number": "M1",
+							"oprX": 1,
+							"pid": "L::2::Tram::B3041857784::de:VBB:11000000|Tram|M1:::*"
+						},
+						{
+							"himIdL": [
+								"HIM_FREETEXT_222665",
+								"HIM_FREETEXT_254054"
+							],
+							"prodCtx": {
+								"admin": "BVB---",
+								"catCode": "3",
+								"catIn": "B",
+								"catOut": "Bus     ",
+								"catOutL": "Bus     ",
+								"catOutS": "B",
+								"line": "245",
+								"lineId": "de:VBB:11000000|Bus|245:",
+								"matchId": "245",
+								"name": "     245",
+								"num": "110674"
+							},
+							"cls": 8,
+							"icoX": 3,
+							"name": "245",
+							"nameS": "245",
+							"number": "245",
+							"oprX": 1,
+							"pid": "L::3::Bus::B3041857784::de:VBB:11000000|Bus|245:::*"
+						},
+						{
+							"himIdL": [
+								"HIM_FREETEXT_251939",
+								"HIM_FREETEXT_251965",
+								"HIM_FREETEXT_252209",
+								"HIM_FREETEXT_253190",
+								"HIM_FREETEXT_253192"
+							],
+							"prodCtx": {
+								"admin": "DBS---",
+								"catCode": "0",
+								"catIn": "S-7",
+								"catOut": "S       ",
+								"catOutL": "S       ",
+								"catOutS": "S-7",
+								"line": "S7",
+								"lineId": "de:VBB:11000000|S-Bahn|S7:",
+								"matchId": "7159",
+								"name": "      S7",
+								"num": "21492"
+							},
+							"cls": 1,
+							"icoX": 0,
+							"name": "S7",
+							"nameS": "S7",
+							"number": "S7",
+							"oprX": 0,
+							"pid": "L::0::S::B1090519025::de:VBB:11000000|S-Bahn|S7:::*"
+						},
+						{
+							"himIdL": [
+								"HIM_FREETEXT_256821",
+								"HIM_FREETEXT_256822",
+								"HIM_FREETEXT_258108",
+								"HIM_FREETEXT_258332",
+								"HIM_FREETEXT_258349",
+								"HIM_FREETEXT_258380"
+							],
+							"prodCtx": {
+								"admin": "ODRE1_",
+								"catCode": "6",
+								"catIn": "RE",
+								"catOut": "RE      ",
+								"catOutL": "RE      ",
+								"catOutS": "RE",
+								"line": "RE1",
+								"lineId": "ODRE1__RE1",
+								"matchId": "73750",
+								"name": "     RE1",
+								"num": "73750"
+							},
+							"cls": 64,
+							"icoX": 4,
+							"name": "RE1",
+							"nameS": "RE1",
+							"number": "RE1",
+							"oprX": 2,
+							"pid": "L::6::RE::B3113392179::ODRE1__RE1::*"
+						},
+						{
+							"prodCtx": {
+								"catOut": "Bus     ",
+								"catOutL": "Bus     ",
+								"catOutS": "BPM",
+								"line": "554",
+								"lineId": "de:VBB:12069306|Bus|554:",
+								"name": "554"
+							},
+							"cls": 8,
+							"icoX": 3,
+							"name": "554",
+							"nameS": "554"
+						},
+						{
+							"prodCtx": {
+								"catOut": "Bus     ",
+								"catOutL": "Bus     ",
+								"catOutS": "BPM",
+								"line": "556",
+								"lineId": "de:VBB:12069249|Bus|556:",
+								"name": "556"
+							},
+							"cls": 8,
+							"icoX": 3,
+							"name": "556",
+							"nameS": "556"
+						},
+						{
+							"prodCtx": {
+								"catOut": "Bus     ",
+								"catOutL": "Bus     ",
+								"catOutS": "BPM",
+								"line": "568",
+								"lineId": "de:VBB:12069249|Bus|568:",
+								"name": "568"
+							},
+							"cls": 8,
+							"icoX": 3,
+							"name": "568",
+							"nameS": "568"
+						},
+						{
+							"himIdL": [
+								"HIM_FREETEXT_251948",
+								"HIM_FREETEXT_251950",
+								"HIM_FREETEXT_251952",
+								"HIM_FREETEXT_251955",
+								"HIM_FREETEXT_252237",
+								"HIM_FREETEXT_252239",
+								"HIM_FREETEXT_253058"
+							],
+							"prodCtx": {
+								"admin": "DBS---",
+								"catCode": "0",
+								"catIn": "S-6",
+								"catOut": "S       ",
+								"catOutL": "S       ",
+								"catOutS": "S-6",
+								"line": "S25",
+								"lineId": "de:VBB:11000000|S-Bahn|S25:",
+								"matchId": "25147",
+								"name": "     S25",
+								"num": "15585"
+							},
+							"cls": 1,
+							"icoX": 0,
+							"name": "S25",
+							"nameS": "S25",
+							"number": "S25",
+							"oprX": 0,
+							"pid": "L::0::S::B1090519025::de:VBB:11000000|S-Bahn|S25:::*"
+						},
+						{
+							"himIdL": [
+								"HIM_FREETEXT_251965"
+							],
+							"prodCtx": {
+								"admin": "DBS---",
+								"catCode": "0",
+								"catIn": "S-7",
+								"catOut": "S       ",
+								"catOutL": "S       ",
+								"catOutS": "S-7",
+								"line": "S5",
+								"lineId": "de:VBB:11000000|S-Bahn|S5:",
+								"matchId": "5147",
+								"name": "      S5",
+								"num": "20095"
+							},
+							"cls": 1,
+							"icoX": 0,
+							"name": "S5",
+							"nameS": "S5",
+							"number": "S5",
+							"oprX": 0,
+							"pid": "L::0::S::B1090519025::de:VBB:11000000|S-Bahn|S5:::*"
+						},
+						{
+							"himIdL": [
+								"HIM_FREETEXT_251939",
+								"HIM_FREETEXT_251965",
+								"HIM_FREETEXT_252209",
+								"HIM_FREETEXT_253190",
+								"HIM_FREETEXT_253192"
+							],
+							"prodCtx": {
+								"admin": "DBS---",
+								"catCode": "0",
+								"catIn": "S-7",
+								"catOut": "S       ",
+								"catOutL": "S       ",
+								"catOutS": "S-7",
+								"line": "S7",
+								"lineId": "de:VBB:11000000|S-Bahn|S7:",
+								"matchId": "7158",
+								"name": "      S7",
+								"num": "131"
+							},
+							"cls": 1,
+							"icoX": 0,
+							"name": "S7",
+							"nameS": "S7",
+							"number": "S7",
+							"oprX": 0,
+							"pid": "L::0::S::B1090519025::de:VBB:11000000|S-Bahn|S7:::*"
+						},
+						{
+							"himIdL": [
+								"HIM_FREETEXT_258304"
+							],
+							"prodCtx": {
+								"admin": "BVU---",
+								"catCode": "1",
+								"catIn": "U",
+								"catOut": "U       ",
+								"catOutL": "U       ",
+								"catOutS": "U",
+								"line": "U6",
+								"lineId": "de:VBB:11000000|U-Bahn|U6:",
+								"matchId": "U6",
+								"name": "      U6",
+								"num": "16878"
+							},
+							"cls": 2,
+							"icoX": 1,
+							"name": "U6",
+							"nameS": "U6",
+							"number": "U6",
+							"oprX": 1,
+							"pid": "L::1::U::B3041857784::de:VBB:11000000|U-Bahn|U6:::*"
+						},
+						{
+							"himIdL": [
+								"HIM_FREETEXT_258304"
+							],
+							"prodCtx": {
+								"admin": "BVU---",
+								"catCode": "1",
+								"catIn": "U",
+								"catOut": "U       ",
+								"catOutL": "U       ",
+								"catOutS": "U",
+								"line": "U6",
+								"lineId": "de:VBB:11000000|U-Bahn|U6:",
+								"matchId": "U6",
+								"name": "      U6",
+								"num": "16497"
+							},
+							"cls": 2,
+							"icoX": 1,
+							"name": "U6",
+							"nameS": "U6",
+							"number": "U6",
+							"oprX": 1,
+							"pid": "L::1::U::B3041857784::de:VBB:11000000|U-Bahn|U6:::*"
+						},
+						{
+							"himIdL": [
+								"HIM_FREETEXT_251965",
+								"HIM_FREETEXT_252021"
+							],
+							"prodCtx": {
+								"admin": "DBS---",
+								"catCode": "0",
+								"catIn": "S-4",
+								"catOut": "S       ",
+								"catOutL": "S       ",
+								"catOutS": "S-4",
+								"line": "S3",
+								"lineId": "de:VBB:11000000|S-Bahn|S3:",
+								"matchId": "3164",
+								"name": "      S3",
+								"num": "17201"
+							},
+							"cls": 1,
+							"icoX": 0,
+							"name": "S3",
+							"nameS": "S3",
+							"number": "S3",
+							"oprX": 0,
+							"pid": "L::0::S::B1090519025::de:VBB:11000000|S-Bahn|S3:::*"
+						},
+						{
+							"himIdL": [
+								"HIM_FREETEXT_222451",
+								"HIM_FREETEXT_248518"
+							],
+							"prodCtx": {
+								"admin": "BVB---",
+								"catCode": "3",
+								"catIn": "B",
+								"catOut": "Bus     ",
+								"catOutL": "Bus     ",
+								"catOutS": "B",
+								"line": "147",
+								"lineId": "de:VBB:11000000|Bus|147:",
+								"matchId": "147",
+								"name": "     147",
+								"num": "100162"
+							},
+							"cls": 8,
+							"icoX": 3,
+							"name": "147",
+							"nameS": "147",
+							"number": "147",
+							"oprX": 1,
+							"pid": "L::3::Bus::B3041857784::de:VBB:11000000|Bus|147:::*"
+						},
+						{
+							"prodCtx": {
+								"admin": "BVT---",
+								"catCode": "2",
+								"catIn": "T",
+								"catOut": "Tram    ",
+								"catOutL": "Tram    ",
+								"catOutS": "T",
+								"line": "M1",
+								"lineId": "de:VBB:11000000|Tram|M1:",
+								"matchId": "M1",
+								"name": "      M1",
+								"num": "24882"
+							},
+							"cls": 4,
+							"icoX": 2,
+							"name": "M1",
+							"nameS": "M1",
+							"number": "M1",
+							"oprX": 1,
+							"pid": "L::2::Tram::B3041857784::de:VBB:11000000|Tram|M1:::*"
+						}
+					],
+					"remL": [
+						{
+							"code": "text.occup.loc.max.11",
+							"icoX": 10,
+							"txtN": "low occupancy expected",
+							"type": "A"
+						},
+						{
+							"code": "FK",
+							"icoX": 7,
+							"prio": 260,
+							"txtN": "Bicycle conveyance",
+							"type": "A"
+						},
+						{
+							"code": "text.occup.loc.max.12",
+							"icoX": 11,
+							"txtN": "medium occupancy expected",
+							"type": "A"
+						},
+						{
+							"code": "text.realtime.stop.cancelled",
+							"icoX": 13,
+							"txtN": "Stop cancelled",
+							"type": "R"
+						},
+						{
+							"code": "hq",
+							"icoX": 7,
+							"prio": 350,
+							"txtN": "Fahrradmitnahme leicht gemacht: www.vbb.de/radimregio",
+							"type": "A"
+						},
+						{
+							"code": "text.realtime.journey.cancelled",
+							"icoX": 16,
+							"txtN": "RE8 has been cancelled",
+							"type": "R"
+						},
+						{
+							"code": "text.realtime.journey.partially.cancelled.between",
+							"icoX": 17,
+							"txtN": "RE8: Journey is cancelled between S+U Friedrichstr. Bhf (Berlin) and S Ostbahnhof (Berlin). Please use another trip.",
+							"type": "R"
+						},
+						{
+							"code": "ha",
+							"icoX": 7,
+							"prio": 560,
+							"txtN": "Fahrzeuggebundene Einstiegshilfe vorhanden",
+							"type": "A"
+						},
+						{
+							"code": "WV",
+							"icoX": 7,
+							"prio": 710,
+							"txtN": "WLAN verfügbar",
+							"type": "A"
+						}
+					],
+					"reqLocL": [
+						{
+							"loc": {
+								"countryCodeL": [
+									"de"
+								],
+								"crd": {
+									"floor": 0,
+									"x": 13386448,
+									"y": 52520519
+								},
+								"globalIdL": [
+									{
+										"id": "de:11000:900100001",
+										"type": "A"
+									}
+								],
+								"pRefL": [
+									0,
+									1,
+									2,
+									3,
+									4,
+									5,
+									6,
+									7,
+									8,
+									9,
+									10,
+									11,
+									12,
+									13,
+									14,
+									15,
+									16,
+									17,
+									18,
+									19,
+									20,
+									21,
+									22,
+									23,
+									24,
+									25
+								],
+								"chgTime": "001000",
+								"extId": "900100001",
+								"icoX": 0,
+								"isFavrbl": true,
+								"isHstrbl": true,
+								"lid": "A=1@O=S+U Friedrichstr. Bhf (Berlin)@X=13386448@Y=52520519@U=86@L=900100001@",
+								"name": "S+U Friedrichstr. Bhf (Berlin)",
+								"pCls": 79,
+								"state": "F",
+								"type": "S"
+							},
+							"eteId": "sq|S|S+U Friedrichstr. Bhf (Berlin)|900100001|13386448|52520519",
+							"state": "VA"
+						}
+					],
+					"rtSrcL": [
+						{
+							"freeTextIdCount": 910,
+							"heartbeatTS": "1736462400",
+							"name": "",
+							"type": "HIM"
+						}
+					],
+					"tcocL": [
+						{
+							"c": "SECOND",
+							"r": 11,
+							"s": "L"
+						},
+						{
+							"c": "SECOND",
+							"r": 12,
+							"s": "M"
+						}
+					],
+					"timeStyleL": [
+						{
+							"mode": "ABS"
+						},
+						{
+							"fg": {
+								"b": 66,
+								"g": 12,
+								"r": 212
+							},
+							"mode": "DLT"
+						},
+						{
+							"icoX": 6,
+							"mode": "CNT"
+						},
+						{
+							"mode": "HIDE"
+						},
+						{
+							"icoX": 8,
+							"mode": "ABS"
+						},
+						{
+							"fg": {
+								"b": 66,
+								"g": 12,
+								"r": 212
+							},
+							"mode": "ABS",
+							"strikeOut": true
+						},
+						{
+							"mode": "CNT"
+						}
+					]
+				},
+				"jnyL": [
+					{
+						"msgL": [
+							{
+								"tagL": [
+									"RES_JNY_DTL"
+								],
+								"fLocX": 0,
+								"remX": 0,
+								"sort": 839385088,
+								"sty": "I",
+								"tLocX": 1,
+								"type": "REM"
+							}
+						],
+						"pos": {
+							"x": 13386556,
+							"y": 52520618
+						},
+						"prodL": [
+							{
+								"fIdx": 13,
+								"fLocX": 0,
+								"prodX": 26,
+								"tIdx": 17,
+								"tLocX": 1
+							}
+						],
+						"stbStop": {
+							"dPltfS": {
+								"txt": "12",
+								"type": "PL"
+							},
+							"dTimeFC": {
+								"styleX": 2
+							},
+							"dTimeFR": {
+								"styleX": 1,
+								"txtA": "1 minutes late"
+							},
+							"dTimeFS": {
+								"styleX": 0
+							},
+							"dProdX": 26,
+							"dProgType": "PROGNOSED",
+							"dTimeR": "234100",
+							"dTimeS": "234000",
+							"idx": 13,
+							"locX": 0,
+							"type": "N"
+						},
+						"date": "20250109",
+						"dirFlg": "1",
+						"dirTxt": "S+U Gesundbrunnen Bhf (Berlin)",
+						"isRchbl": true,
+						"jid": "1|301|0|86|9012025",
+						"prodX": 26,
+						"resLDrawStyleX": 1,
+						"status": "P",
+						"subscr": "F",
+						"sumLDrawStyleX": 0,
+						"trainStartDate": "20250109"
+					}
+				],
+				"locRefL": [
+					0
+				],
+				"fpB": "20250105",
+				"fpE": "20251213",
+				"planrtTS": "1736462444",
+				"sD": "20250109",
+				"sT": "234102",
+				"type": "DEP"
+			},
+			"err": "OK",
+			"id": "1|48|"
+		}
+	],
+	"view": {
+		"id": "standard",
+		"index": 0,
+		"type": "WGS84"
+	},
+	"err": "OK",
+	"id": "ibig7zxs42ndp48g",
+	"lang": "eng",
+	"ver": "1.72"
+}
